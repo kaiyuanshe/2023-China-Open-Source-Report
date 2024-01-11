@@ -2,13 +2,15 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "2023 China Open Source Report",
-  description: "2023 China Open Source Report",
+  lang: 'zh-Hans',
+  title: "2023 中国开源年度报告",
+  description: "2023 中国开源年度报告",
   themeConfig: {
+    logo: '/image/China-Open-Source-Report.png',
     // https://vitepress.dev/reference/default-theme-config
     nav: [
-      { text: 'Home', link: '/' },
-      { text: 'Examples', link: '/markdown-examples' }
+      { text: '首页', link: '/' },
+      { text: '往年年报', link: 'https://kaiyuanshe.feishu.cn/wiki/U2S7wudEUisLdnkqUadczo1SnSc', target: '_blank' }
     ],
 
     sidebar: [
@@ -23,6 +25,10 @@ export default defineConfig({
 
     socialLinks: [
       { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
-    ]
+    ],
+
+    search: {
+      provider: 'local'
+    }
   }
 })
