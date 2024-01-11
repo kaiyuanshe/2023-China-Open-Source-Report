@@ -6,6 +6,7 @@ export default defineConfig({
   title: "2023 中国开源年度报告",
   description: "2023 中国开源年度报告",
   lastUpdated: true,
+  base: '/2023-China-Open-Source-Report/',
 
   themeConfig: {
     logo: '/image/China-Open-Source-Report.png',
