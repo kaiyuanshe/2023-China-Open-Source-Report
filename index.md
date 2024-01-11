@@ -9,14 +9,14 @@ hero:
   actions:
     - theme: brand
       text: 立即阅读 2023 年度报告
-      link: /markdown-examples
+      link: /卷首语
     - theme: alt
       text: 往年报告
-      link: https://kaiyuanshe.feishu.cn/wiki/U2S7wudEUisLdnkqUadczo1SnSc
+      link: https://kaiyuanshe.feishu.cn/wiki/wikcnUDeVll6PNzw900yPV71Sxd
 
 features:
   - icon:
-      src: '/image/home/KaiYuanShe-logo.png'
+      src: "/image/home/KaiYuanShe-logo.png"
       width: 40
       height: 40
     title: 开源社
@@ -24,7 +24,7 @@ features:
     link: https://kaiyuanshe.cn/
     linkText: 官网
   - icon:
-      src: '/image/home/yunqi_partnets_logo.jpg'
+      src: "/image/home/yunqi_partnets_logo.jpg"
       width: 138
       height: 40
     title: 云启资本
@@ -32,3 +32,120 @@ features:
     link: https://www.yunqi.vc/
     linkText: 官网
 ---
+
+<script setup>
+import {
+  VPTeamPage,
+  VPTeamPageTitle,
+  VPTeamMembers,
+  VPTeamPageSection
+} from 'vitepress/theme'
+
+// 召集人
+const convener = [
+  {
+    avatar: 'https://github.com/wj23027.png',
+    name: '王婕',
+    title: '召集人',
+    links: [
+      { icon: 'github', link: 'https://github.com/wj23027' }
+    ]
+  },
+]
+
+// 大事记篇
+const memorabiliaMembers = [
+  {
+    avatar: 'https://github.com/zhuangbiaowei.png',
+    name: '庄表伟',
+    title: '开源社执行长',
+    links: [
+      { icon: 'github', link: 'https://github.com/zhuangbiaowei' }
+    ]
+  },
+]
+
+// 数据篇
+const dataPieceMembers = [
+  {
+    avatar: 'https://github.com/will-ww.png',
+    name: '王伟',
+    title: '开源社理事',
+    links: [
+      { icon: 'github', link: 'https://github.com/will-ww' }
+    ]
+  },
+]
+
+// 商业篇
+// const commercializationMembers = []；
+
+// 问卷设计
+// const questionnaireDesignMembers = []；
+
+// 整体报告汇总/编辑
+// const copyreaders = []
+
+// 设计/排版
+// const artWorkers = []
+
+</script>
+
+<VPTeamPage>
+  <VPTeamPageTitle>
+    <template #title>感谢协作开源社区/单位</template>
+  </VPTeamPageTitle>
+
+  <VPTeamPageTitle>
+    <template #title>特别感谢开源社——顾问委员会的点评和参与</template>
+    <template #lead>
+      （按姓氏字⺟顺序列名）
+    </template>
+  </VPTeamPageTitle>
+
+  <VPTeamPageTitle>
+    <template #title>参与志愿者</template>
+  </VPTeamPageTitle>
+  <VPTeamPageSection v-if="convener">
+    <template #title>召集人</template>
+    <template #members>
+      <VPTeamMembers size="small" :members="convener" />
+    </template>
+  </VPTeamPageSection>
+  <VPTeamPageSection v-if="memorabiliaMembers">
+    <template #title>开源大事记</template>
+    <template #members>
+      <VPTeamMembers size="small" :members="memorabiliaMembers" />
+    </template>
+  </VPTeamPageSection>
+  <VPTeamPageSection v-if="dataPieceMembers">
+    <template #title>数据篇</template>
+    <template #members>
+      <VPTeamMembers size="small" :members="dataPieceMembers" />
+    </template>
+  </VPTeamPageSection>
+  <VPTeamPageSection v-if="commercializationMembers">
+    <template #title>商业化篇</template>
+    <template #members>
+      <VPTeamMembers size="small" :members="commercializationMembers" />
+    </template>
+  </VPTeamPageSection>
+  <VPTeamPageSection v-if="questionnaireDesignMembers">
+    <template #title>问卷设计</template>
+    <template #members>
+      <VPTeamMembers size="small" :members="questionnaireDesignMembers" />
+    </template>
+  </VPTeamPageSection>
+  <VPTeamPageSection v-if="copyreaders">
+    <template #title>整体报告汇总/编辑</template>
+    <template #members>
+      <VPTeamMembers size="small" :members="copyreaders" />
+    </template>
+  </VPTeamPageSection>
+  <VPTeamPageSection v-if="artWorkers">
+    <template #title>设计/排版</template>
+    <template #members>
+      <VPTeamMembers size="small" :members="artWorkers" />
+    </template>
+  </VPTeamPageSection>
+</VPTeamPage>
