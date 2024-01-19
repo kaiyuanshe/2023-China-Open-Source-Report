@@ -9,7 +9,7 @@ hero:
   actions:
     - theme: brand
       text: 立即阅读 2023 年度报告
-      link: /卷首语
+      link: /preface
     - theme: alt
       text: 往年报告
       link: https://kaiyuanshe.feishu.cn/wiki/wikcnUDeVll6PNzw900yPV71Sxd
