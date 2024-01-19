@@ -36,10 +36,6 @@ export const zh = defineConfig({
 
     lastUpdated: {
       text: '更新于',
-      formatOptions: {
-        dateStyle: 'full',
-        timeStyle: 'medium'
-      }
     },
 
     docFooter: {

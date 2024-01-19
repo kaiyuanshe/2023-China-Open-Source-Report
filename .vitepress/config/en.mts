@@ -33,12 +33,5 @@ export const en = defineConfig({
       pattern: 'https://github.com/kaiyuanshe/2023-China-Open-Source-Report/:path',
       text: 'Edit this page on GitHub'
     },
-
-    lastUpdated: {
-      formatOptions: {
-        dateStyle: 'full',
-        timeStyle: 'medium'
-      }
-    },
   },
 })
