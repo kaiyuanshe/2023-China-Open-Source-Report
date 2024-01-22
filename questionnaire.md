@@ -1,1 +1,254 @@
+---
+outline: deep
+---
+
 # 问卷篇
+
+## 一. 报告背景
+
+延续自 2016 年初发布的《 2015 年中国开源社区参与调查报告》以来的传统，2023 年末，我们再次启动了中国开源社区的年度参与调查，致力于通过持续的开发者调查报告，以多维度方式呈现中国开源发展的整体状况。借助数据分析手段和调查报告等工具，我们成功绘制了一份关于 2023 年中国开源世界的地图。
+
+本问卷篇对受访者的多个角色进行提问，旨在从各个维度深入了解社区的发展趋势。本问卷根据开源社区参与程度将受访者分为使用者、参与者、贡献者、维护者、生态运营几个角色。形成洋葱模型，层层递进。对于四个角色层级的定义如下：
+
+- 使用者：使用过某一款或某几款开源产品的用户
+- 参与者：与开源社区有互动行为的用户（例如与开源社区交流沟通、参与开源社区组织的活动等）
+- 贡献者：对开源社区有实质性的贡献的用户（包括代码贡献和非代码贡献）
+- 维护者：主要负责对开源社区日常运营的用户（包含项目 maintainer、PMC 成员等）
+
+另外，生态运营为主要负责对开源社区日常运营的用户， 层级在参与者之上，与维护者统称为运营者。本问卷除了对所有受访者提出基础问题以外，还针对使用者、贡献者、运营者几个角色分别进行了提问。
+
+本次调查问卷的基本信息如下：
+
+- 调查对象 ：覆盖开发者、社区成员、贡献者、学生、政府企业管理人员
+- 调查内容 ：主要涵盖个人信息、工作状况、开源社区以及开发者技术等
+- 调查方法 ：以在线问卷方式搜集样本和数据，交叉对比法分析数据
+- 分发渠道 ：开源社、KubeCon + CloudNativeCon + Open Source Summit China、2023 第八届中国开源年会、2023 开放原子开发者大会、2023 开源产业生态大会
+- 问题类型 ：单选、多选、开放性
+- 问题数量 ：43
+- 样本量 ：875
+
+## 二. 问卷结果预览
+
+**受访者特征**
+
+- 受访者年龄分布均匀，受教育程度普遍在本科以上，性别、地区分布符合中国开发者地理分布；涵盖了多种计算机行业职业身份。
+
+**开源参与情况**
+
+- **开源社区的活跃情**况是受访者尤其关注的方面；**人工智能**成为了大多数受访者关注的技术领域。
+
+**开源贡献情况**
+
+- 受访的开源社区贡献者更多在**技术基础类型**的仓库贡献；受访者贡献开源社区的动机多为**社区 / 荣誉激励**，对物质激励的要求较低。
+
+**社区运营调查**
+
+- 受访运营者所在开源社区的**用户规模**呈两极化趋势。大多数受访社区**有专人负责社区运营**。近半数受访者所在企业注重**开源软件的使用规范和管理**。
+
+**国内开源发展调查**
+
+- 受访者对国内开源未来发展持**乐观态度**。关于人工智能在开源生态的发展态势，开发者普遍看好其在**提高效率、自动化测试和数据分析**方面的应用前景，认为**数据安全、透明度、伦理问题**等是主要面临挑战。
+
+## 三. 问卷分析
+
+### 3.1. 受访者特征
+
+首先，我们从年龄、性别、学历、常驻城市、所处行业、职业身份，角度进行调查，通过这些问题可以了解参与者的基本信息，从而分析开源社区的受众群体特征。
+
+#### 3.1.1 年龄、性别、学历、城市
+
+|                                年龄                                |                                性别                                |
+|:----------------------------------------------------------------:|:----------------------------------------------------------------:|
+| <img src="https://raw.githubusercontent.com/wj23027/2023-China-Open-Source-Report/add_questionnaire/public/image/questionnaire/3.1-1.png" width="700"> | <img src="https://raw.githubusercontent.com/wj23027/2023-China-Open-Source-Report/add_questionnaire/public/image/questionnaire/3.1-2.png" width="700"> |
+
+
+本次问卷受访者主要集中在 21-50 岁年龄段，年龄分布较为均衡。性别方面，男性受访者占比较高，达 73.37%，女性占 25.83%，符合当前开发者男女比例不协调的现状。
+
+|                                学历                                |                                地区                                |
+|:----------------------------------------------------------------:|:----------------------------------------------------------------:|
+| <img src="https://raw.githubusercontent.com/wj23027/2023-China-Open-Source-Report/add_questionnaire/public/image/questionnaire/3.1-3.png" width="700"> | <img src="https://raw.githubusercontent.com/wj23027/2023-China-Open-Source-Report/add_questionnaire/public/image/questionnaire/3.1-4.png" width="700"> |
+
+
+受访者受教育程度普遍在本科及以上；在城市分布上，来自江苏、四川、上海的受访者占大多数，有一部分原因是我们线下收集问卷的渠道在这些城市。另外北京市、广东省等地也有较多的受访者，整体分布和数据篇中的开发者分布较为一致。
+
+#### 3.1.2 所处行业、职业
+
+|                                行业                                |                               职业身份                               |
+|:----------------------------------------------------------------:|:----------------------------------------------------------------:|
+| <img src="https://raw.githubusercontent.com/wj23027/2023-China-Open-Source-Report/add_questionnaire/public/image/questionnaire/3.1-5.png"> | <img src="https://raw.githubusercontent.com/wj23027/2023-China-Open-Source-Report/add_questionnaire/public/image/questionnaire/3.1-6.png" width="700"> |
+
+受访者主要分布在互联网 / IT / 电子 / 通信行业，占比达 72.23%，表明调查对象主要涵盖了科技领域。
+
+在职业身份方面，最多的是在校学生，占 43.20%，其次是后端开发者、架构师和学术研究员。整体而言，调查对象以技术从业人员和学生居多，且涵盖了多个计算机行业职业身份。
+
+### 3.2 开源参与情况
+
+#### 3.2.1 开源社区的参与程度
+
+|                                                               开源社区的角色                                                               |                                                                     接触开源的时长                                                                     |
+|:------------------------------------------------------------------------------------------------------------------------------------------:|:------------------------------------------------------------------------------------------------------------------------------------------------------:|
+| <img src="https://raw.githubusercontent.com/wj23027/2023-China-Open-Source-Report/add_questionnaire/public/image/questionnaire/3.1-7.png"> | <img src="https://raw.githubusercontent.com/wj23027/2023-China-Open-Source-Report/add_questionnaire/public/image/questionnaire/3.1-8.png" width="700"> |
+
+调查显示，开源社区中绝大多数成员为使用者（73.37%），同时有近半数参与者（49.03%）和少部分贡献者贡献者（26.51%）。
+
+接触开源的时长方面，三分之一的受访者在开源社区中的接触时长不足 1 年，接近半数的人已经有 3 年以上的经验。
+
+我们针对 "您认为自己多大程度上是开源社区一份子" 这个问题，与受访者在开源社区的角色进行了交叉分析。
+
+|                        认为自己多大程度上是开源社区一份子                         |
+|:----------------------------------------------------------------:|
+| <img src="https://raw.githubusercontent.com/wj23027/2023-China-Open-Source-Report/add_questionnaire/public/image/questionnaire/3.1-9.png" width="700"> |
+
+可以看出，开源社区中，维护者、贡献者、生态运营相比参与者、使用者更有归属感。
+
+接下来的问题针对在开源社区的角色为“使用者”及以上层级的受访者提出。
+
+#### 3.2.2 开源产品使用情况
+
+|                            选择开源产品的原因                             |                             影响选择的因素                              |
+|:----------------------------------------------------------------:|:----------------------------------------------------------------:|
+| <img src="https://raw.githubusercontent.com/wj23027/2023-China-Open-Source-Report/add_questionnaire/public/image/questionnaire/3.2-1.png" width="700"> | <img src="https://raw.githubusercontent.com/wj23027/2023-China-Open-Source-Report/add_questionnaire/public/image/questionnaire/3.2-2.png" width="700"> |
+
+使用者选择使用开源软件的主要原因是产品免费，其次是可以进行二次开发和社区氛围良好。
+
+在选择开源产品时，参与者更注重代码规范程度、开发者活跃度。这表明用户不仅关注开源产品的功能和质量，还关注社区和开发者的活跃度以及项目的可维护性。
+
+|                           使用开源产品遇到的问题                            |                           促使进行开源贡献的因素                            |
+|:----------------------------------------------------------------:|:----------------------------------------------------------------:|
+| <img src="https://raw.githubusercontent.com/wj23027/2023-China-Open-Source-Report/add_questionnaire/public/image/questionnaire/3.2-3.png" width="700"> | <img src="https://raw.githubusercontent.com/wj23027/2023-China-Open-Source-Report/add_questionnaire/public/image/questionnaire/3.2-4.png" width="700"> |
+
+在遇到的问题方面，最常见的是不稳定的版本更新、项目缺少文档和缺少相关功能。
+
+个人兴趣、技术发展以及社区氛围等因素在推动开源贡献方面起到了重要作用。
+
+#### 3.2.3 技术方向
+
+|                             感兴趣的技术方向                             |                             了解的开源许可证                             |
+|:----------------------------------------------------------------:|:----------------------------------------------------------------:|
+| <img src="https://raw.githubusercontent.com/wj23027/2023-China-Open-Source-Report/add_questionnaire/public/image/questionnaire/3.2-5.png" width="700"> |  <img src="https://raw.githubusercontent.com/wj23027/2023-China-Open-Source-Report/add_questionnaire/public/image/questionnaire/3.2-6.png" width="700"> |
+
+受访者对人工智能表现出强烈兴趣，占 67.43%，其次是容器化和云计算以及开发工具。
+
+关于开源许可证，Apache 是最受欢迎的选择，其次是 MIT 和 GPL。
+
+#### 3.2.4 信息交流
+
+|                            检索开源产品的途径                             |                             与社区的沟通方式                             |
+|:----------------------------------------------------------------:|:----------------------------------------------------------------:|
+| <img src="https://raw.githubusercontent.com/wj23027/2023-China-Open-Source-Report/add_questionnaire/public/image/questionnaire/3.2-7.png" width="700"> | <img src="https://raw.githubusercontent.com/wj23027/2023-China-Open-Source-Report/add_questionnaire/public/image/questionnaire/3.2-8.png" width="700"> |
+
+在检索开源产品时，大多数人通过代码托管平台搜索，同时也借助搜索引擎、技术社区或媒体的推荐。
+
+与开源社区的沟通方式主要包括国际化通讯工具（如 Slack、Skype、Telegram、Lark 等）和国内通讯工具（如钉钉、微信、QQ、飞书等），同时，异步沟通工具（如 GitHub Issue、Discussion、Mail List 等）也被广泛采用。
+
+|                           常用的产品 / 技术社区                           |                            获取开源信息的媒体                             |
+|:----------------------------------------------------------------:|:----------------------------------------------------------------:|
+| <img src="https://raw.githubusercontent.com/wj23027/2023-China-Open-Source-Report/add_questionnaire/public/image/questionnaire/3.2-9.png" width="700"> | <img src="https://raw.githubusercontent.com/wj23027/2023-China-Open-Source-Report/add_questionnaire/public/image/questionnaire/3.2-10.png" width="700"> |
+
+受访者主要通过代码托管平台和进行开源社区的参与。此外，还有一大部分受访者还通过国内技术论坛参与开源社区。
+
+在获取开源信息方面，视频平台和问答网站是主要选择，反映了开发者倾向于通过视听和互动问答等方式获取开源知识。
+
+### 3.3 开源贡献情况
+
+此部分的问题针对在开源社区角色为“贡献者”及以上层级的受访者提出。
+
+#### 3.3.1 开源贡献参与程度
+
+|                            是否参与开源项目活动                            |                            每周参与开源的时长                             |
+|:----------------------------------------------------------------:|:----------------------------------------------------------------:|
+| <img src="https://raw.githubusercontent.com/wj23027/2023-China-Open-Source-Report/add_questionnaire/public/image/questionnaire/3.3-1.png" width="700"> | <img src="https://raw.githubusercontent.com/wj23027/2023-China-Open-Source-Report/add_questionnaire/public/image/questionnaire/3.3-2.png" width="800"> |
+
+有三分之一的学生开发者参加过谷歌开源之夏（GSoC）、开源供应链点亮计划（OSPP）等开源项目活动；超过半数的贡献者每周参与开源的时长大于 5 小时，此外，有超过 10% 的贡献者每周参与开源的时长达 35 小时，已经接近全职开发者的标准。
+
+#### 3.3.2 开源贡献方式
+
+|                             主要开源贡献平台                             |                            开源贡献常用开发语言                            |
+|:----------------------------------------------------------------:|:----------------------------------------------------------------:|
+| <img src="https://raw.githubusercontent.com/wj23027/2023-China-Open-Source-Report/add_questionnaire/public/image/questionnaire/3.3-3.png" width="270"> | <img src="https://raw.githubusercontent.com/wj23027/2023-China-Open-Source-Report/add_questionnaire/public/image/questionnaire/3.3-4.png" width="700"> |
+
+GitHub 仍是最受受访者青睐的平台，占据主导地位，其次是 Gitee 和 GitLab。表明在国内开发者中，GitHub 的影响力仍然很大，但国内平台也在逐渐崭露头角。 主要使用的开发语言包括 Python、Java、C、JavaScript、Go。此外，HTML/CSS、TypeScript 等也获得了较高的选择次数。
+
+#### 3.3.3 开源贡献内容
+
+|                       主要贡献类型                       |                             贡献的项目类型                              |
+|:--------------------------------------------------:|:----------------------------------------------------------------:|
+| <img src="https://raw.githubusercontent.com/wj23027/2023-China-Open-Source-Report/add_questionnaire/public/image/questionnaire/3.3-5.png" width="700"> | <img src="https://raw.githubusercontent.com/wj23027/2023-China-Open-Source-Report/add_questionnaire/public/image/questionnaire/3.3-6.png" width="600"> |
+
+受访者主要通过编写代码和文档来为开源项目做出贡献。此外，开源布道、开源社区运营和协助社区活动举办也是常见的贡献方式。
+
+贡献的开源项目类型主要集中在库 / 中间件和通用框架 / 基础设施，体现了开发者对技术基础的深入关注。
+
+#### 3.3.4 激励机制
+
+|                               激励方式                               |                             财务回报的来源                              |
+|:----------------------------------------------------------------:|:----------------------------------------------------------------:|
+| <img src="https://raw.githubusercontent.com/wj23027/2023-China-Open-Source-Report/add_questionnaire/public/image/questionnaire/3.3-7.png" width="700"> | <img src="https://raw.githubusercontent.com/wj23027/2023-China-Open-Source-Report/add_questionnaire/public/image/questionnaire/3.3-8.png" width="400"> |
+
+各激励方式都受到了积极评价，表明多元化的激励机制对开发者的开源参与产生了积极的影响。具体而言，受访者认为荣誉激励与社交激励对贡献有更显著的正向影响。
+
+超过半数开发者参与开源项目没有财务回报。大多数开发者通过薪酬 / 工资、悬赏 / 奖励直接获得财务回报，仅有极少数开发者通过广告收入、捐赠和专利 / 知识产权收益等途径获得财务支持。
+
+### 3.4 社区运营调查
+
+此部分的问题针对在开源社区角色为“运营者”的受访者提出。
+
+#### 3.4.1 所在开源社区概况
+
+|                              社区用户数量                              |                              活跃开发者                               |
+|:----------------------------------------------------------------:|:----------------------------------------------------------------:|
+| <img src="https://raw.githubusercontent.com/wj23027/2023-China-Open-Source-Report/add_questionnaire/public/image/questionnaire/3.4-1.png" width="300"> | <img src="https://raw.githubusercontent.com/wj23027/2023-China-Open-Source-Report/add_questionnaire/public/image/questionnaire/3.4-2.png" width="250"> |
+
+近 6 成运营者所在开源社区用户数量小于 200 人，近 3 成大于 500 人，受访开源社区的用户规模呈现两极化的趋势。半数以上运营者所在开源社区活跃开发者数量小于 20 人。
+
+#### 3.4.2 开源社区管理
+
+|                                  社区管理情况                                   |                                 社区商业公司支持                                  |
+|:-------------------------------------------------------------------------:|:-------------------------------------------------------------------------:|
+| <img src="https://raw.githubusercontent.com/wj23027/2023-China-Open-Source-Report/add_questionnaire/public/image/questionnaire/3.4-3.png" style="width:500px;"> | <img src="https://raw.githubusercontent.com/wj23027/2023-China-Open-Source-Report/add_questionnaire/public/image/questionnaire/3.4-4.png" style="width:300px;"> |
+
+大约一半的社区有清晰的治理结构和专人负责日常运营。同时，社区普遍制定了明确的规范和提供更新的文档，以支持成员融入。
+
+大多数开源社区有商业公司支持，且主要采用声明采用、协同开发的形式。
+
+#### 3.4.3 开源软件商业化调研
+
+|                           所在企业开源软件使用情况                           |                           是否认同将开源项目商业化                           |
+|:----------------------------------------------------------------:|:----------------------------------------------------------------:|
+| <img src="https://raw.githubusercontent.com/wj23027/2023-China-Open-Source-Report/add_questionnaire/public/image/questionnaire/3.4-5.png" width="600"> | <img src="https://raw.githubusercontent.com/wj23027/2023-China-Open-Source-Report/add_questionnaire/public/image/questionnaire/3.4-6.png" width="350"> |
+
+绝大多数企业曾使用开源软件，其中有明确的使用要求和管理规范与缺乏相应管理规范的样本达 5:6。一部分企业更注重规范和管理，而另一部分则在采用开源软件时更为自由，这种可能受到企业规模、行业差异以及对开源软件理解的程度等因素的影响。
+
+将开源项目用于商业化的认可程度平均为 3.65，其中 31.66% 的人给出了最高认可评分，表明大多数受访者对此持中等至较高的认可态度。
+
+### 3.5 开源发展调研
+
+#### 3.5.1 开源发展态势
+
+|                            开源社区的发展态势                             |
+|:----------------------------------------------------------------:|
+| <img src="https://raw.githubusercontent.com/wj23027/2023-China-Open-Source-Report/add_questionnaire/public/image/questionnaire/3.5-1.png" width="500"> |
+
+总体而言，受访者普遍看好国内开源的未来发展，认为在各个方面都呈现出积极的态势。
+
+|                           开源项目持续发展的特征                            |                            评价开源项目的指标                             |
+|:----------------------------------------------------------------:|:----------------------------------------------------------------:|
+| <img src="https://raw.githubusercontent.com/wj23027/2023-China-Open-Source-Report/add_questionnaire/public/image/questionnaire/3.5-2.png" width="700"> | <img src="https://raw.githubusercontent.com/wj23027/2023-China-Open-Source-Report/add_questionnaire/public/image/questionnaire/3.5-3.png" width="700"> |
+
+受访者认为影响一个开源社区健康持续发展的最重要特质主要为快速的社区响应速度，有持续涌入的新贡献者和新贡献者能够被转化为长期贡献者。说明长期可持续性对于社区的成功发展至关重要。
+
+受访者在评价开源项目时主要关注体项目影响力、权威性、社区的活跃程度和是否有持续的更新和维护。反映了开发者对于项目在技术和社区层面的整体健康状况的关切。
+
+#### 3.5.2 人工智能对开发者及开源生态的影响与挑战
+
+|                            AI 对开发者的影响                            |                          AI 未来在开源社区的角色                           |
+|:----------------------------------------------------------------:|:----------------------------------------------------------------:|
+| <img src="https://raw.githubusercontent.com/wj23027/2023-China-Open-Source-Report/add_questionnaire/public/image/questionnaire/3.5-4.png" width="700"> | <img src="https://raw.githubusercontent.com/wj23027/2023-China-Open-Source-Report/add_questionnaire/public/image/questionnaire/3.5-5.png" width="700"> |
+
+调查结果表明，开发者对人工智能技术在开源项目中的影响较为乐观，特别是在提高效率、自动化测试、数据分析以及项目安全方面有较大应用前景。
+
+|                            开源生态面临的挑战                             |
+|:----------------------------------------------------------------:|
+| <img src="https://raw.githubusercontent.com/wj23027/2023-China-Open-Source-Report/add_questionnaire/public/image/questionnaire/3.5-6.png" width="400"> |
+
+此外，隐私和数据安全问题、透明度、伦理问题被视为人工智能技术在开源生态中面临的主要挑战，表明在 AI 技术应用中需要平衡技术难题和社会考量。
