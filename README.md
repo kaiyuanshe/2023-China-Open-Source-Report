@@ -1,5 +1,8 @@
 2023-China-Open-Source-Report
 
+
+更新至 2024 年 1 月 31 日 12:00 版本
+
 - 中文版
   - [卷首语](./preface.md)
   - [开源大事记](./open-source-milestones.md)
