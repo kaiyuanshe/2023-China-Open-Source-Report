@@ -672,7 +672,7 @@ Next.js 是由 Vercel 创建的开源平台，它使用 Node.js 和 Babel 转译
 |  5  |  StarRocks/starrocks  |  3194.56  |
 |  6  |     trinodb/trino     |  2703.4   |
 |  7  |     apache/spark      |  2654.02  |
-|  8  |      ingcap/tidb      |  2200.38  |
+|  8  |      pingcap/tidb      |  2200.38  |
 |  9  |   milvus-io/milvus    |  2001.11  |
 | 10  | yugabyte/yugabyte-db  |  1940.75  |
 
