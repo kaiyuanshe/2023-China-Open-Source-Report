@@ -6,75 +6,141 @@ outline: deep
 
 ## 概述
 
-## 一. 开源商业大事记【待更新】
+## 一. 开源商业大事记
 
-## 二. 开源技术大事记【更新中】
 
-### 2.1 大模型技术
+## 二. 开源技术大事记
+
+### 2.1 人工智能与大模型
 
 #### 2.1.1 智谱 AI GLM
+
 智谱 AI 开源了 ChatGLM-6B 系列，ChatGLM-6B 是一个开源的、支持中英双语问答的对话语言模型。另外，智谱 AI 开源了多模态对话模型VisualGLM-6B(CogVLM)，这个模型结合了图像处理和自然语言处理的能力，支持中文和英文对话，旨在提供更加丰富和直观的交互体验。
 
 #### 2.1.2 百川
+
 百川在过去一年开源了多个版本大模型，包括 baichuan-7B 。后续百川发布了 13B 模型，以及百川 2 系列模型，同步开源 base 和 chat 两个版本。后续开源了Baichuan2-192K 大模型，上下文窗口长度高
 达 192K。
 
 #### 2.1.3 书生大模型体系
+
 上海人工智能实验室发布全新升级的「书生通用大模型体系」，包括书生·多模态、书生·浦语和书生·天际等三大基础模型，以及首个面向大模型研发与应用的全链条开源体系。
 
 #### 2.1.4 通义千问
+
 阿里巴巴开源了通义千问 7B 模型，后续相继开源了 1.8B，14B，72B 的 base 和 chat 模型，并提供了对应的 int4 和 int8 的量化版本，在多模态场景，千问也开源了 qwen-vl 和 qwen-audio 两种视觉和语音的多模态模型。
 
 #### 2.1.5 昆仑万维天工
-2023 年 10 月，昆仑万维发布百亿级大语言模型「天工」Skywork-13B 系列，并罕见地配套开源了 600GB、150B Tokens 的超大高质量开源中文数据集。Skypile/Chinese-Web-Text-150B 数据集。
+
+昆仑万维发布百亿级大语言模型「天工」Skywork-13B 系列，并配套开源了 600GB、150B Tokens 的超大高质量开源中文数据集。Skypile/Chinese-Web-Text-150B 数据集。
 
 #### 2.1.6 RWKV
 
 
 #### 2.1.7 零一万物 Yi
+
 2023 年 11 月，01-AI（零一万物）发布了 Yi 系列模型，其参数规模介于 60 亿至 340 亿之间，训练数据量达到 300 亿 token。
 
 #### 2.1.8 蚂蚁集团开源代码大模型 CodeFuse
-蚂蚁集团开源了 CodeFuse-13B 和 CodeFuse-CodeLlama-34B 的代码大模型，目前该模型支持多种与代码相关的任务，如代码补全、文本转代码、单元测试生成等。开源内容包括：
-- MFT（多任务微调）框架，也称为 MFTcoder；
-- 两个用于增强 LLMs 编码能力的数据集，包括 Code Exercise 和 Evol-Instruction；
-- 基于 FasterTransformer 的更快速、更可靠的部署框架 ;。
 
+蚂蚁集团开源了 CodeFuse-13B 和 CodeFuse-CodeLlama-34B 的代码大模型，目前该模型支持多种与代码相关的任务，如代码补全、文本转代码、单元测试生成等。开源内容包括：MFT（多任务微调）框架、用于增强 LLMs 编码能力的数据集和部署框架。
 
 #### 2.1.9 Meta Llama 2
-2023 年 7 月，Meta 公司宣布，其 Llama 2项目已成功开源了三种不同规模的预训练模型，分别为 7B、13B 和70B 参数版本。在预训练阶段，模型经过了 2 万亿 Token 的大规模训练。SFT 阶段，模型进一步利用了超过 10 万条数据进行微调，以提升其在特定任务上的表现。另外，Meta 还开源了基于对话数据进行 SFT 优化后的 Llama2-Chat 模型。
+
+2023 年 7 月，Meta 公司宣布，其 Llama 2项目已成功开源了三种不同规模的预训练模型，分别为 7B、13B 和70B 参数版本。在预训练阶段，模型经过了 2 万亿 Token 的大规模训练。SFT 阶段，模型进一步利用了超过 10 万条数据进行微调，以提升其在特定任务上的表现。另外，Meta 还开源了基于对话数据进行 SFT 优化后的 Llama2-Chat 模型，后续 Meta 继续开源了 Code Llama 编程语言大模型。
 
 #### 2.1.10 Mixtral 8x7B
+
 2023年 12 月，Mixtral开源 MoE 开源模型 Mixtral 8x7B，在 Apache 2.0 许可证下可商用，Mixtral-8x7B 是一款混合专家模型（Mixtrue of Experts)，由8个拥有70亿参数的专家网络组成，这种结构不仅提高了模型处理信息的效率，还降低了运行成本。 
 
-#### 2.1.11 微软开源视觉基础模型 Visual ChatGPT
-微软推出开源项目Visual ChatGPT，它将 OpenAI 的 ChatGPT 与一系列视觉基础模型（Visual Foundation Models，简称 VFM）结合起来，使得用户能够在聊天过程中发送和接收图像。这个项目旨在扩展 ChatGPT 的功能，使其不仅能够处理文本，还能够理解和生成图像，从而实现多模态的交互体验。
+#### 2.1.11 Falcon 180B
+
+Falcon 180B 它是由 Technology Innovation Institute（TII）在发布的开源大型语言模型。该模型拥有 1800 亿个参数，并使用 TII 的 RefinedWeb 数据集进行了训练。
+
+#### 2.1.12 微软开源视觉基础模型 Visual ChatGPT
+
+微软推出开源项目 Visual ChatGPT，它将 OpenAI 的 ChatGPT 与一系列视觉基础模型（Visual Foundation Models，简称 VFM）结合起来，使得用户能够在聊天过程中发送和接收图像。这个项目旨在扩展 ChatGPT 的功能，使其不仅能够处理文本，还能够理解和生成图像，从而实现多模态的交互体验。
+
+#### 2.1.13 NVIDIA 正式开源 TensorRT-LLM
+
+英伟达推出名为 TensorRT-LLM 的深度优化的开源库，能够在 Hopper 等 AI GPU 上加速所有大语言模型的推理性能。在性能测试中，英伟达以 A100 为基础，对比了 H100 以及启用 TensorRT-LLM 的 H100，在 GPT-J 6B 推理中，H100 推理性能比 A100 提升 4 倍，而启用 TensorRT-LLM 的 H100 性能是 A100 的 8 倍。
+
+#### 2.1.13 马斯克主导 X（原 Twitter）开源推荐算法
+
+X（Twitter）在 GitHub 上发布了两个仓库 (main repo 、 mlrepo)，其中涵盖了推荐算法在内的许多推特源代码，包括用来控制用户在 For You 时间线上看到的推文的机制。
 
 ### 2.2 操作系统与编程语言
 
 #### 2.2.1 Linux 内核的长期支持（LTS）版本，维护期将从六年变回两年
+
 本次调整是继 2017 年，Linux 内核 LTS 版本的维护期从两年改为六年后，又调整回去的一次操作。针对本次调整，《Linux 每周新闻（Linux Weekly News）》执行主编 Jonathan Corbet 表示：「因为人们不使用它们，所以维护（旧内核）那么长时间真的没有意义。」
 
 #### 2.2.2 印度国防部自研 Linux 发行版 Maya OS，全面替代 Windows
+
 印度国防部宣布对其网络安全系统进行重大改革，计划采用一种名为 Maya 的 Linux 发行版，取代其所有联网计算机中的 Windows 操作系统。此举是为了应对日益增长的恶意软件和勒索软件攻击威胁。旨在促进自主创新，减少对外国软件的依赖。
 
 #### 2.2.3 红帽宣布 CentOS 7 和 RHEL 7 将在 2024 年 6 月 30 日结束支持
-红帽宣布结束 CentOS 7 和 RHEL 7 的支持同时表达：CentOS Stream 将成为公共 RHEL 相关源代码发布的唯一仓库。而对于 Red Hat 客户和合作伙伴，依然可以根据其订阅协议通过 Red Hat Customer Portal 获得 RHEL 源代码。红帽后续补充声明，CentOS 社区不会消失。社区贡献者和 CentOS 用户将继续围绕作为 CentOS Stream 项目组成部分的开源 Linux 发行版展开合作。
+
+红帽宣布结束 CentOS 7 和 RHEL 7 的支持，也将不再公开 RHEL 的完整源码，而是只提供补丁和更新，同时要求 RHEL 的下游发行版（如 CentOS、Rocky Linux、AlmaLinux 等）必须在 30 天内重新编译和发布自己的版本，否则将失去对 RHEL 的兼容性和支持。同时表达：CentOS Stream 将成为公共 RHEL 相关源代码发布的唯一仓库。而对于 Red Hat 客户和合作伙伴，依然可以根据其订阅协议通过 Red Hat Customer Portal 获得 RHEL 源代码。
+
+红帽后续补充声明，CentOS 社区不会消失。社区贡献者和 CentOS 用户将继续围绕作为 CentOS Stream 项目组成部分的开源 Linux 发行版展开合作。
 
 #### 2.2.4 谷歌开源浏览器项目 Chromium 宣布使用 Rust
 谷歌发布博客宣布将支持在 Chromium 中使用来自 C++ 的第三方 Rust 库，计划年底前将 Rust 代码包含到 Chrome 二进制文件中。还表示 Rust 作为 Mozilla 开发的编程语言，在提供安全性的同时还具有高性能，最初专门被用于编写浏览器，因此 Chromium 依赖这项技术也非常合适。
 
-#### 
+#### 2.2.5 开放国产系统 openKylin 1.0 正式发布，已支持 Arm、RISC-V
 
-#### 
+openKylin 0.9 首次支持 Arm、RISC-V。openKylin 1.0 版本默认搭载 6.1+5.15 双内核，完成 20+ 操作系统核心组件自主选型升级，并新增许多新特性，修复超千个bug，进一步提升系统整体稳定性和兼容性，为用户带来更好体验。
+
+#### 华为正式发布 HarmonyOS 4
+
+华为正式发布 HarmonyOS 4（鸿蒙 4）操作系统。据悉，全新的 HarmonyOS 4 在隐私安全、AI 大模型能力和个性交互等方面有全新突破。
+
+#### 亚马逊云科技开源特定语言 Ceda
+
+亚马逊云科技开源了他们用来定义策略访问权限的领域特定语言 Cedar。Cedar 已集成在 Amazon Verified Permissions 和 AWS Verified Access 中，还可以通过 SDK 和语言规范将Cedar 直接集成到应用程序中。
+
+Cedar 可以在应用程序代码之外定义访问策略，这种分离使得它们能够独立地进行编写、分析和审计。Cedar 支持基于角色的访问控制（RBAC）和基于属性的访问控制（ABAC）。
+
+#### 微软发布 Guidance 语言，用于调度大语言模型
+
+微软推出了一种名为 Guidance 的领域专属语言，旨在增强开发人员管理当代语言模型的能力。这个新框架将诸如生成、提示和逻辑控制等任务集成到一个统一的开发流程中。这门编程语言使开发人员能够「将生成、提示和逻辑控制组织到一个连续的流中，从而与语言模型实际处理文本的方式相匹配」。
+
+它可以与 Hugging Face 模型等提供程序无缝集成，并集成基于智能种子的生成缓存系统和令牌修复，从而优化提示边界并消除词汇切分过程中的偏见。
+
+
 
 ### 2.3 硬件技术
 
+#### 2.3.1 加速开发 RISC-V 开源软件，Linux 基金会启动 RISE 项目
+
+Linux 软件基金会在官博宣布了与 RISC-V International 合作的软件生态系统项目 RISE（RISC-V Software Ecosystem），该项目由 Linux Foundation Europe 托管，并支持 RISC-V International 的全球开放标准活动。
+
+
 ### 2.4 数据库
+
+#### 2.4.1 DragonflyDB 1.0 正式发布
+
+DragonflyDB 是一个现代化的开源内存数据库，兼容 Redis 和 Memcached API，迁移时无需修改任何代码，可作为两者的替代方案。近日，DragonflyDB 正式发布了 1.0 版本，开发团队称已支持在生产环境使用，Dragonfly 1.0 完全支持 Redis 最常见的数据类型和命令，以及快照、主从复制和高可用等特性。
+
+#### 2.4.2 FerretDB 1.0 正式发布
+
+号称 MongoDB 开源替代品的 FerretDB 1.0 正式发布，FerretDB 希望将 MongoDB 数据库的工作负载带回其开源的本源，使 PostgreSQL 和其他数据库后端能够运行 MongoDB 工作负载，保留 MongoDB 现有生态所提供的机会。
+
+#### 2.4.3 Apache Doris 2.0.0版本正式发布
+
+Apache Doris 2.0.0 版本于 2023 年 8 月11 日正式发布，有超过 275 位贡献者提交了超过 4100 个优化与修复。在 2.0.0 版本中，Apache Doris 在标准 Benchmark 数据集上盲测查询性能得到超过 10 倍的提升。
+
+#### 2.4.4 ApacheSeaTunnel 毕业成为 Apache 顶级项目
+
+这是首个由国人主导并贡献到 ASF 的大数据集成领域的顶级项目。Apache SeaTunnel 原名 Waterdrop ，在 2021 年 10 月更名为 SeaTunnel 并申请加入 Apache 孵化器。SeaTunnel 是一个非常易于使用的、超高性能的分布式数据集成平台，支持海量数据的实时同步。
+
 
 ### 2.5 云计算与基础软件
 
-### 2.6 Web 3 与区块链
+#### 2.5.1 Unity公开「Runtime Fee」方案，将根据游戏安装量进行计费
+
+游戏引擎厂商 Unity 在官网发布公告称，将从 2024 年 1 月 1 日开始向符合条件的游戏产品征收运行时费用「Unity Runtime Fee」，按安装量单次收费，价格区间为 0.01-0.2 美元。
 
 
 ## 三. 开源生态大事记
