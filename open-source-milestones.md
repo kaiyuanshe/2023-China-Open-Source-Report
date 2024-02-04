@@ -511,7 +511,7 @@ AMD 在官网宣布签署最终协议收购 Nod. ai，Nod.ai 将加速在 AMD �
 
 官网：https://summer-ospp.ac.cn/
 
-![6-1](https://raw.githubusercontent.com/wj23027/2023-China-Open-Source-Report/add_pic/public/image/Chronicle/chapter_6/6-1.png)
+![6-1](/image/open-source-milestones/chapter_6/6-1.png)
 
 
 
@@ -522,7 +522,7 @@ AMD 在官网宣布签署最终协议收购 Nod. ai，Nod.ai 将加速在 AMD �
 
 官网：https://www.gitlink.org.cn/glcc
 
-![6-2](https://raw.githubusercontent.com/wj23027/2023-China-Open-Source-Report/add_pic/public/image/Chronicle/chapter_6/6-2.png)
+![6-2](/image/open-source-milestones/chapter_6/6-2.png)
 
 
 #### 6.2.3 第六届中国软件开源创新大赛
@@ -530,28 +530,28 @@ AMD 在官网宣布签署最终协议收购 Nod. ai，Nod.ai 将加速在 AMD �
 
 该大赛在 2023 年设立了四条赛道：开源项目贡献赛道、开源任务挑战赛道、开源案例教学赛道和开源代码评注赛道。
 
-![6-3](https://raw.githubusercontent.com/wj23027/2023-China-Open-Source-Report/add_pic/public/image/Chronicle/chapter_6/6-3.png)
+![6-3](/image/open-source-milestones/chapter_6/6-3.png)
 
 #### 6.2.4 第十二届 “麒麟杯” 全国开源应用软件开发大赛
 2023 年第十二届 “麒麟杯” 全国开源应用软件开发大赛在中国软件行业协会、开放原子开源基金会、中国计算机学会开源发展委员会、中国开源软件推进联盟的指导下，由 openKylin 开源社区、麒麟软件有限公司、国防科技大学、信创海河实验室联合主办。
 
 根据报道显示，自 2023 年 4 月开赛以来，吸引了来自全国 60+ 高校的 345 组队伍报名参赛，经过层层选拔和严格评审，最终 20 支队伍脱颖而出晋级决赛。
 
-![6-4](https://raw.githubusercontent.com/wj23027/2023-China-Open-Source-Report/add_pic/public/image/Chronicle/chapter_6/6-4.png)
+![6-4](/image/open-source-milestones/chapter_6/6-4.png)
 
 
 
 #### 6.2.5 2023 开放原子开源大赛
 大赛由开放原子开源基金会、央视网、江苏省工业和信息化厅、无锡市人民政府、江苏软件产业人才发展基金会、苏州工业园区、无锡高新区等承办。本次大赛以“软件定义世界，开源共筑未来”为主题，旨在联合开源组织、企事业单位、高等院校、科研院所、行业组织、投融资机构等多方资源，充分发挥产业链生态上下游的协同能力，搭建面向全球开源领域的前沿技术竞争、优秀人才选拔、创新成果展示、商业转化引导和对接交流合作平台，广泛传播开源文化、普及开源知识、推广开源项目、提升开源技能，为推进开源生态繁荣和可持续发展提供动力与支撑。
 
-![6-5](https://raw.githubusercontent.com/wj23027/2023-China-Open-Source-Report/add_pic/public/image/Chronicle/chapter_6/6-5.png)
+![6-5](/image/open-source-milestones/chapter_6/6-5.png)
 
 
 
 #### 6.2.6 首届中国研究生操作系统开源创新大赛正式启动
 2023 年 12 月底，中国研究生创新实践系列大赛第 17 个主题赛事——中国研究生操作系统开源创新大赛在国防科技大学正式启动。教育部原副部长、中国学位与研究生教育学会原会长、中国研究生创新实践系列大赛顾问委员会主任委员赵沁平院士、中国计算机学会会士、开源发展委员会主任王怀民院士、国防科技大学副校长兼教育长吴建军出席会议并致辞。来自北京大学、清华大学、国防科技大学等30余所高校的专家和华为技术有限公司、麒麟软件有限公司等企业的代表出席启动仪式。
 
-![6-6](https://raw.githubusercontent.com/wj23027/2023-China-Open-Source-Report/add_pic/public/image/Chronicle/chapter_6/6-6.png)
+![6-6](/image/open-source-milestones/chapter_6/6-6.png)
 
 
 以上活动和大赛主要针对高校群体，此外今年还举办了 2023 开源和信息消费大赛——第四届工业 APP 和信息消费大赛，由工业和信息化部、江苏省人民政府、湖南省人民政府共同主办，不过面向主体主要是企业，当然，此类赛事非常有利于开源教育向职后人群的传播。

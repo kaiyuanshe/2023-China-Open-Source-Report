@@ -59,7 +59,7 @@ outline: deep
 
 |                                年龄                                |                                性别                                |
 |:----------------------------------------------------------------:|:----------------------------------------------------------------:|
-| <img src="https://raw.githubusercontent.com/wj23027/2023-China-Open-Source-Report/add_questionnaire/public/image/questionnaire/3.1-1.png" width="700"> | <img src="https://raw.githubusercontent.com/wj23027/2023-China-Open-Source-Report/add_questionnaire/public/image/questionnaire/3.1-2.png" width="700"> |
+| <img src="/image/questionnaire/3.1-1.png" width="700"> | <img src="/image/questionnaire/3.1-2.png" width="700"> |
 
 
 本次问卷受访者年龄分布与往年类似，主要集中在 21-50 岁年龄段，年龄分布较为均衡。值得一提的是，21岁以下的受访者比例为25.71%，较去年的8.42%有显著提升。表年轻受访者的参与度大幅增加。
@@ -68,7 +68,7 @@ outline: deep
 
 |                                学历                                |                                地区                                |
 |:----------------------------------------------------------------:|:----------------------------------------------------------------:|
-| <img src="https://raw.githubusercontent.com/wj23027/2023-China-Open-Source-Report/add_questionnaire/public/image/questionnaire/3.1-3.png" width="700"> | <img src="https://raw.githubusercontent.com/wj23027/2023-China-Open-Source-Report/add_questionnaire/public/image/questionnaire/3.1-4.png" width="700"> |
+| <img src="/image/questionnaire/3.1-3.png" width="700"> | <img src="/image/questionnaire/3.1-4.png" width="700"> |
 
 
 受访者受教育程度普遍在本科及以上；在城市分布上，来自江苏、四川、上海的受访者占大多数，有一部分原因是我们线下收集问卷的渠道在这些城市。另外北京市、广东省等地也有较多的受访者，整体分布和数据篇中的开发者分布较为一致。
@@ -77,7 +77,7 @@ outline: deep
 
 |                                行业                                |                               职业身份                               |
 |:----------------------------------------------------------------:|:----------------------------------------------------------------:|
-| <img src="https://raw.githubusercontent.com/wj23027/2023-China-Open-Source-Report/add_questionnaire/public/image/questionnaire/3.1-5.png"> | <img src="https://raw.githubusercontent.com/wj23027/2023-China-Open-Source-Report/add_questionnaire/public/image/questionnaire/3.1-6.png" width="700"> |
+| <img src="/image/questionnaire/3.1-5.png"> | <img src="/image/questionnaire/3.1-6.png" width="700"> |
 
 受访者主要分布在互联网 / IT / 电子 / 通信行业，占比达 72.23%，表明调查对象主要涵盖了科技领域。
 
@@ -89,7 +89,7 @@ outline: deep
 
 |                                                               开源社区的角色                                                               |                                                                     接触开源的时长                                                                     |
 |:------------------------------------------------------------------------------------------------------------------------------------------:|:------------------------------------------------------------------------------------------------------------------------------------------------------:|
-| <img src="https://raw.githubusercontent.com/wj23027/2023-China-Open-Source-Report/add_questionnaire/public/image/questionnaire/3.1-7.png"> | <img src="https://raw.githubusercontent.com/wj23027/2023-China-Open-Source-Report/add_questionnaire/public/image/questionnaire/3.1-8.png" width="700"> |
+| <img src="/image/questionnaire/3.1-7.png"> | <img src="/image/questionnaire/3.1-8.png" width="700"> |
 
 调查显示，开源社区中绝大多数成员为使用者（73.37%），同时有近半数参与者（49.03%）和少部分贡献者（26.51%）。
 
@@ -99,7 +99,7 @@ outline: deep
 
 |                        认为自己多大程度上是开源社区一份子                         |
 |:----------------------------------------------------------------:|
-| <img src="https://raw.githubusercontent.com/wj23027/2023-China-Open-Source-Report/add_questionnaire/public/image/questionnaire/3.1-9.png" width="700"> |
+| <img src="/image/questionnaire/3.1-9.png" width="700"> |
 
 可以看出，开源社区中，维护者、贡献者、生态运营相比参与者、使用者更有归属感。
 
@@ -109,7 +109,7 @@ outline: deep
 
 |                            选择开源产品的原因                             |                             影响选择的因素                              |
 |:----------------------------------------------------------------:|:----------------------------------------------------------------:|
-| <img src="https://raw.githubusercontent.com/wj23027/2023-China-Open-Source-Report/add_questionnaire/public/image/questionnaire/3.2-1.png" width="700"> | <img src="https://raw.githubusercontent.com/wj23027/2023-China-Open-Source-Report/add_questionnaire/public/image/questionnaire/3.2-2.png" width="700"> |
+| <img src="/image/questionnaire/3.2-1.png" width="700"> | <img src="/image/questionnaire/3.2-2.png" width="700"> |
 
 使用者选择使用开源软件的主要原因是产品免费，其次是可以进行二次开发和社区氛围良好。
 
@@ -117,7 +117,7 @@ outline: deep
 
 |                           使用开源产品遇到的问题                            |                           促使进行开源贡献的因素                            |
 |:----------------------------------------------------------------:|:----------------------------------------------------------------:|
-| <img src="https://raw.githubusercontent.com/wj23027/2023-China-Open-Source-Report/add_questionnaire/public/image/questionnaire/3.2-3.png" width="700"> | <img src="https://raw.githubusercontent.com/wj23027/2023-China-Open-Source-Report/add_questionnaire/public/image/questionnaire/3.2-4.png" width="700"> |
+| <img src="/image/questionnaire/3.2-3.png" width="700"> | <img src="/image/questionnaire/3.2-4.png" width="700"> |
 
 在遇到的问题方面，最常见的是项目缺少文档，其次是不稳定的版本更新。
 
@@ -127,7 +127,7 @@ outline: deep
 
 |                             感兴趣的技术方向                             |                             了解的开源许可证                             |
 |:----------------------------------------------------------------:|:----------------------------------------------------------------:|
-| <img src="https://raw.githubusercontent.com/wj23027/2023-China-Open-Source-Report/add_questionnaire/public/image/questionnaire/3.2-5.png" width="700"> |  <img src="https://raw.githubusercontent.com/wj23027/2023-China-Open-Source-Report/add_questionnaire/public/image/questionnaire/3.2-6.png" width="700"> |
+| <img src="/image/questionnaire/3.2-5.png" width="700"> |  <img src="/image/questionnaire/3.2-6.png" width="700"> |
 
 受访者对人工智能表现出强烈兴趣，占 67.43%，其次是开发工具以及容器化和云计算。
 
@@ -137,7 +137,7 @@ outline: deep
 
 |                            检索开源产品的途径                             |                             与社区的沟通方式                             |
 |:----------------------------------------------------------------:|:----------------------------------------------------------------:|
-| <img src="https://raw.githubusercontent.com/wj23027/2023-China-Open-Source-Report/add_questionnaire/public/image/questionnaire/3.2-7.png" width="700"> | <img src="https://raw.githubusercontent.com/wj23027/2023-China-Open-Source-Report/add_questionnaire/public/image/questionnaire/3.2-8.png" width="700"> |
+| <img src="/image/questionnaire/3.2-7.png" width="700"> | <img src="/image/questionnaire/3.2-8.png" width="700"> |
 
 在检索开源产品时，大多数人通过代码托管平台搜索，通过技术社区或媒体推荐，以及借助搜索引擎搜索、也是许多人的选择。
 
@@ -145,7 +145,7 @@ outline: deep
 
 |                           常用的产品 / 技术社区                           |                            获取开源信息的媒体                             |
 |:----------------------------------------------------------------:|:----------------------------------------------------------------:|
-| <img src="https://raw.githubusercontent.com/wj23027/2023-China-Open-Source-Report/add_questionnaire/public/image/questionnaire/3.2-9.png" width="700"> | <img src="https://raw.githubusercontent.com/wj23027/2023-China-Open-Source-Report/add_questionnaire/public/image/questionnaire/3.2-10.png" width="700"> |
+| <img src="/image/questionnaire/3.2-9.png" width="700"> | <img src="/image/questionnaire/3.2-10.png" width="700"> |
 
 受访者主要通过代码托管平台和进行开源社区的参与。此外，还有一大部分受访者还通过国内技术论坛参与开源社区。
 
@@ -159,7 +159,7 @@ outline: deep
 
 |                            是否参与开源项目活动                            |                            每周参与开源的时长                             |
 |:----------------------------------------------------------------:|:----------------------------------------------------------------:|
-| <img src="https://raw.githubusercontent.com/wj23027/2023-China-Open-Source-Report/add_questionnaire/public/image/questionnaire/3.3-1.png" width="700"> | <img src="https://raw.githubusercontent.com/wj23027/2023-China-Open-Source-Report/add_questionnaire/public/image/questionnaire/3.3-2.png" width="800"> |
+| <img src="/image/questionnaire/3.3-1.png" width="700"> | <img src="/image/questionnaire/3.3-2.png" width="800"> |
 
 有三分之一的学生开发者参加过谷歌开源之夏（GSoC）、开源供应链点亮计划（OSPP）等开源项目活动；超过半数的贡献者每周参与开源的时长大于 5 小时，此外，有超过 10% 的贡献者每周参与开源的时长达 35 小时，已经接近全职开发者的标准。
 
@@ -167,7 +167,7 @@ outline: deep
 
 |                             主要开源贡献平台                             |                            开源贡献常用开发语言                            |
 |:----------------------------------------------------------------:|:----------------------------------------------------------------:|
-| <img src="https://raw.githubusercontent.com/wj23027/2023-China-Open-Source-Report/add_questionnaire/public/image/questionnaire/3.3-3.png" width="270"> | <img src="https://raw.githubusercontent.com/wj23027/2023-China-Open-Source-Report/add_questionnaire/public/image/questionnaire/3.3-4.png" width="700"> |
+| <img src="/image/questionnaire/3.3-3.png" width="270"> | <img src="/image/questionnaire/3.3-4.png" width="700"> |
 
 GitHub 仍是最受受访者青睐的平台，占据主导地位，其次是 Gitee 和 GitLab。表明在国内开发者中，GitHub 的影响力仍然很大，但国内平台也在逐渐崭露头角。 主要使用的开发语言包括 Python、Java、C、JavaScript、Go。此外，HTML/CSS、TypeScript 等也获得了较高的选择次数。
 
@@ -175,7 +175,7 @@ GitHub 仍是最受受访者青睐的平台，占据主导地位，其次是 Git
 
 |                       主要贡献类型                       |                             贡献的项目类型                              |
 |:--------------------------------------------------:|:----------------------------------------------------------------:|
-| <img src="https://raw.githubusercontent.com/wj23027/2023-China-Open-Source-Report/add_questionnaire/public/image/questionnaire/3.3-5.png" width="700"> | <img src="https://raw.githubusercontent.com/wj23027/2023-China-Open-Source-Report/add_questionnaire/public/image/questionnaire/3.3-6.png" width="600"> |
+| <img src="/image/questionnaire/3.3-5.png" width="700"> | <img src="/image/questionnaire/3.3-6.png" width="600"> |
 
 受访者主要通过编写代码和文档来为开源项目做出贡献。此外，开源布道、开源社区运营和协助社区活动举办也是常见的贡献方式。
 
@@ -185,7 +185,7 @@ GitHub 仍是最受受访者青睐的平台，占据主导地位，其次是 Git
 
 |                               激励方式                               |                             财务回报的来源                              |
 |:----------------------------------------------------------------:|:----------------------------------------------------------------:|
-| <img src="https://raw.githubusercontent.com/wj23027/2023-China-Open-Source-Report/add_questionnaire/public/image/questionnaire/3.3-7.png" width="700"> | <img src="https://raw.githubusercontent.com/wj23027/2023-China-Open-Source-Report/add_questionnaire/public/image/questionnaire/3.3-8.png" width="400"> |
+| <img src="/image/questionnaire/3.3-7.png" width="700"> | <img src="/image/questionnaire/3.3-8.png" width="400"> |
 
 各激励方式都受到了积极评价，表明多元化的激励机制对开发者的开源参与产生了积极的影响。具体而言，受访者认为荣誉激励与社交激励对贡献有更显著的正向影响。
 
@@ -199,7 +199,7 @@ GitHub 仍是最受受访者青睐的平台，占据主导地位，其次是 Git
 
 |                              社区用户数量                              |                              活跃开发者                               |
 |:----------------------------------------------------------------:|:----------------------------------------------------------------:|
-| <img src="https://raw.githubusercontent.com/wj23027/2023-China-Open-Source-Report/add_questionnaire/public/image/questionnaire/3.4-1.png" width="300"> | <img src="https://raw.githubusercontent.com/wj23027/2023-China-Open-Source-Report/add_questionnaire/public/image/questionnaire/3.4-2.png" width="250"> |
+| <img src="/image/questionnaire/3.4-1.png" width="300"> | <img src="/image/questionnaire/3.4-2.png" width="250"> |
 
 近 6 成运营者所在开源社区用户数量小于 200 人，近 3 成大于 500 人。半数以上运营者所在开源社区活跃开发者数量小于 20 人。
 
@@ -207,7 +207,7 @@ GitHub 仍是最受受访者青睐的平台，占据主导地位，其次是 Git
 
 |                                  社区管理情况                                   |                                 社区商业公司支持                                  |
 |:-------------------------------------------------------------------------:|:-------------------------------------------------------------------------:|
-| <img src="https://raw.githubusercontent.com/wj23027/2023-China-Open-Source-Report/add_questionnaire/public/image/questionnaire/3.4-3.png" style="width:500px;"> | <img src="https://raw.githubusercontent.com/wj23027/2023-China-Open-Source-Report/add_questionnaire/public/image/questionnaire/3.4-4.png" style="width:300px;"> |
+| <img src="/image/questionnaire/3.4-3.png" style="width:500px;"> | <img src="/image/questionnaire/3.4-4.png" style="width:300px;"> |
 
 大约一半的社区有清晰的治理结构和专人负责日常运营。同时，社区普遍制定了明确的规范和提供更新的文档，以支持成员融入。
 
@@ -217,7 +217,7 @@ GitHub 仍是最受受访者青睐的平台，占据主导地位，其次是 Git
 
 |                           所在企业开源软件使用情况                           |                           是否认同将开源项目商业化                           |
 |:----------------------------------------------------------------:|:----------------------------------------------------------------:|
-| <img src="https://raw.githubusercontent.com/wj23027/2023-China-Open-Source-Report/add_questionnaire/public/image/questionnaire/3.4-5.png" width="600"> | <img src="https://raw.githubusercontent.com/wj23027/2023-China-Open-Source-Report/add_questionnaire/public/image/questionnaire/3.4-6.png" width="350"> |
+| <img src="/image/questionnaire/3.4-5.png" width="600"> | <img src="/image/questionnaire/3.4-6.png" width="350"> |
 
 绝大多数企业曾使用开源软件，其中有明确的使用要求和管理规范与缺乏相应管理规范的样本达 5:6。说明一部分企业采用开源软件时注重规范和管理，但仍有一大部分企业在管理规范上较为松散，这可能受到企业规模、行业差异以及对开源软件理解程度等因素的影响。
 
@@ -229,13 +229,13 @@ GitHub 仍是最受受访者青睐的平台，占据主导地位，其次是 Git
 
 |                            开源社区的发展态势                             |
 |:----------------------------------------------------------------:|
-| <img src="https://raw.githubusercontent.com/wj23027/2023-China-Open-Source-Report/add_questionnaire/public/image/questionnaire/3.5-1.png" width="500"> |
+| <img src="/image/questionnaire/3.5-1.png" width="500"> |
 
 总体而言，受访者普遍看好国内开源的未来发展，认为在各个方面都呈现出积极的态势。
 
 |                           开源项目持续发展的特征                            |                            评价开源项目的指标                             |
 |:----------------------------------------------------------------:|:----------------------------------------------------------------:|
-| <img src="https://raw.githubusercontent.com/wj23027/2023-China-Open-Source-Report/add_questionnaire/public/image/questionnaire/3.5-2.png" width="700"> | <img src="https://raw.githubusercontent.com/wj23027/2023-China-Open-Source-Report/add_questionnaire/public/image/questionnaire/3.5-3.png" width="700"> |
+| <img src="/image/questionnaire/3.5-2.png" width="700"> | <img src="/image/questionnaire/3.5-3.png" width="700"> |
 
 受访者认为影响一个开源社区健康持续发展的最重要特质主要为快速的社区响应速度，有持续涌入的新贡献者和新贡献者能够被转化为长期贡献者。说明长期可持续性对于社区的成功发展至关重要。
 
@@ -245,12 +245,12 @@ GitHub 仍是最受受访者青睐的平台，占据主导地位，其次是 Git
 
 |                            AI 对开发者的影响                            |                          AI 未来在开源社区的角色                           |
 |:----------------------------------------------------------------:|:----------------------------------------------------------------:|
-| <img src="https://raw.githubusercontent.com/wj23027/2023-China-Open-Source-Report/add_questionnaire/public/image/questionnaire/3.5-4.png" width="700"> | <img src="https://raw.githubusercontent.com/wj23027/2023-China-Open-Source-Report/add_questionnaire/public/image/questionnaire/3.5-5.png" width="700"> |
+| <img src="/image/questionnaire/3.5-4.png" width="700"> | <img src="/image/questionnaire/3.5-5.png" width="700"> |
 
 调查结果表明，开发者对人工智能技术在开源项目中的影响较为乐观，特别是在提高效率、自动化测试、数据分析以及项目安全方面有较大应用前景。
 
 |                            人工智能在开源生态面临的挑战                             |
 |:----------------------------------------------------------------:|
-| <img src="https://raw.githubusercontent.com/wj23027/2023-China-Open-Source-Report/add_questionnaire/public/image/questionnaire/3.5-6.png" width="400"> |
+| <img src="/image/questionnaire/3.5-6.png" width="400"> |
 
 此外，隐私和数据安全问题、透明度、伦理问题被视为人工智能技术在开源生态中面临的主要挑战，表明在 AI 技术应用中需要平衡技术难题和社会考量。
