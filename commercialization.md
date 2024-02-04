@@ -42,7 +42,7 @@ outline: deep
 
 <div style="margin-left: auto; margin-right: auto; width: 75%">
 
-| ![image001](https://raw.githubusercontent.com/wj23027/2023-China-Open-Source-Report/add_questionnaire/public/image/commercialization/chapter_2/2-1.png) |
+| ![image001](/image/commercialization/chapter_2/2-1.png) |
 |-------------------------------------------------------|
 
 </div>
@@ -54,7 +54,7 @@ outline: deep
 
 <div style="margin-left: auto; margin-right: auto; width: 75%">
     
-| ![image002](https://raw.githubusercontent.com/wj23027/2023-China-Open-Source-Report/add_questionnaire/public/image/commercialization/chapter_2/2-2.png) |
+| ![image002](/image/commercialization/chapter_2/2-2.png) |
 |-------------------------------------------------------|
     
 </div>
@@ -71,7 +71,7 @@ outline: deep
 
 <div style="margin-left: auto; margin-right: auto; width: 100%">
     
-| ![image003](https://raw.githubusercontent.com/wj23027/2023-China-Open-Source-Report/add_questionnaire/public/image/commercialization/chapter_2/2-3.png) |
+| ![image003](/image/commercialization/chapter_2/2-3.png) |
 |-------------------------------------------------------|
 </div>
 
@@ -84,7 +84,7 @@ outline: deep
 
 <div style="margin-left: auto; margin-right: auto; width: 100%">
 
-| ![image004](https://raw.githubusercontent.com/wj23027/2023-China-Open-Source-Report/add_questionnaire/public/image/commercialization/chapter_2/2-4.png) |
+| ![image004](/image/commercialization/chapter_2/2-4.png) |
 |-------------------------------------------------------|
 
 </div>
@@ -100,7 +100,7 @@ outline: deep
 
 <div style="margin-left: auto; margin-right: auto; width: 90%">
 
-| ![image005](https://raw.githubusercontent.com/wj23027/2023-China-Open-Source-Report/add_questionnaire/public/image/commercialization/chapter_2/2-5.png) |
+| ![image005](/image/commercialization/chapter_2/2-5.png) |
 |-------------------------------------------------------|
 
 </div>
@@ -113,7 +113,7 @@ outline: deep
 
 <div style="margin-left: auto; margin-right: auto; width: 80%">
 
-| ![image006](https://raw.githubusercontent.com/wj23027/2023-China-Open-Source-Report/add_questionnaire/public/image/commercialization/chapter_2/2-6.png) |
+| ![image006](/image/commercialization/chapter_2/2-6.png) |
 |-------------------------------------------------------|
 
 </div>
@@ -153,7 +153,7 @@ outline: deep
 
 <div style="margin-left: auto; margin-right: auto; width: 100%">
 
-| ![image007](https://raw.githubusercontent.com/wj23027/2023-China-Open-Source-Report/add_questionnaire/public/image/commercialization/chapter_2/2-7.png) |
+| ![image007](/image/commercialization/chapter_2/2-7.png) |
 |-------------------------------------------------------|
 
 </div>
@@ -174,7 +174,7 @@ outline: deep
 
 <div style="margin-left: auto; margin-right: auto; width: 75%">
 
-| ![image008](https://raw.githubusercontent.com/wj23027/2023-China-Open-Source-Report/add_questionnaire/public/image/commercialization/chapter_2/2-8.png) |
+| ![image008](/image/commercialization/chapter_2/2-8.png) |
 |-------------------------------------------------------|
 
 </div>
@@ -215,7 +215,7 @@ outline: deep
 
 <div style="margin-left: auto; margin-right: auto; width: 100%">
 
-| ![image009](https://raw.githubusercontent.com/wj23027/2023-China-Open-Source-Report/add_questionnaire/public/image/commercialization/chapter_2/2-9.png) |
+| ![image009](/image/commercialization/chapter_2/2-9.png) |
 |-------------------------------------------------------|
 
 </div>
@@ -259,7 +259,7 @@ Meta 与高通的合作也预示着其在手机领域的扩展。开源大模型
 
 <div style="margin-left: auto; margin-right: auto; width: 80%">
 
-| ![image010](https://raw.githubusercontent.com/wj23027/2023-China-Open-Source-Report/add_questionnaire/public/image/commercialization/chapter_2/2-10.png) |
+| ![image010](/image/commercialization/chapter_2/2-10.png) |
 |-------------------------------------------------------|
 
 </div>
@@ -272,7 +272,7 @@ Meta 与高通的合作也预示着其在手机领域的扩展。开源大模型
 
 <div style="margin-left: auto; margin-right: auto; width: 80%">
 
-| ![image011](https://raw.githubusercontent.com/wj23027/2023-China-Open-Source-Report/add_questionnaire/public/image/commercialization/chapter_2/2-11.png) |
+| ![image011](/image/commercialization/chapter_2/2-11.png) |
 |-------------------------------------------------------|
 
 </div>
@@ -308,7 +308,7 @@ Redhat 为代表的企业开始尝试基于开源软件实现商业化运营，�
 
 <div style="margin-left: auto; margin-right: auto; width: 90%">
 
-| ![image012](https://raw.githubusercontent.com/wj23027/2023-China-Open-Source-Report/add_questionnaire/public/image/commercialization/chapter_2/2-12.png) |
+| ![image012](/image/commercialization/chapter_2/2-12.png) |
 |-------------------------------------------------------|
 
 </div>
@@ -330,7 +330,7 @@ Hugging Face 也提供了云托管的商业模式。Hugging Face 平台托管了
 
 <div style="margin-left: auto; margin-right: auto; width: 90%">
 
-| ![image013](https://raw.githubusercontent.com/wj23027/2023-China-Open-Source-Report/add_questionnaire/public/image/commercialization/chapter_2/2-13.png) |
+| ![image013](/image/commercialization/chapter_2/2-13.png) |
 |-------------------------------------------------------|
 
 </div>
@@ -347,7 +347,7 @@ Hugging Face 也提供了云托管的商业模式。Hugging Face 平台托管了
 
 <div style="margin-left: auto; margin-right: auto; width: 90%">
 
-| ![image014](https://raw.githubusercontent.com/wj23027/2023-China-Open-Source-Report/add_questionnaire/public/image/commercialization/chapter_2/2-14.png) |
+| ![image014](/image/commercialization/chapter_2/2-14.png) |
 |-------------------------------------------------------|
 
 </div>
@@ -364,7 +364,7 @@ Hugging Face 也提供了云托管的商业模式。Hugging Face 平台托管了
 
 <div style="margin-left: auto; margin-right: auto; width: 90%">
 
-| ![image015](https://raw.githubusercontent.com/wj23027/2023-China-Open-Source-Report/add_questionnaire/public/image/commercialization/chapter_2/2-15.png) |
+| ![image015](/image/commercialization/chapter_2/2-15.png) |
 |-------------------------------------------------------|
 
 </div>
@@ -393,7 +393,7 @@ Hugging Face 也提供了云托管的商业模式。Hugging Face 平台托管了
 
 <div style="margin-left: auto; margin-right: auto; width: 70%">
 
-| ![image016](https://raw.githubusercontent.com/wj23027/2023-China-Open-Source-Report/add_questionnaire/public/image/commercialization/chapter_2/2-16.png) |
+| ![image016](/image/commercialization/chapter_2/2-16.png) |
 |-------------------------------------------------------|
 
 </div>
@@ -408,7 +408,7 @@ Hugging Face 也提供了云托管的商业模式。Hugging Face 平台托管了
 
 <div style="margin-left: auto; margin-right: auto; width: 90%">
 
-| ![image017](https://raw.githubusercontent.com/wj23027/2023-China-Open-Source-Report/add_questionnaire/public/image/commercialization/chapter_2/2-17.png) |
+| ![image017](/image/commercialization/chapter_2/2-17.png) |
 |-------------------------------------------------------|
 
 </div>
@@ -421,7 +421,7 @@ Hugging Face 也提供了云托管的商业模式。Hugging Face 平台托管了
 
 <div style="margin-left: auto; margin-right: auto; width: 90%">
 
-| ![image018](https://raw.githubusercontent.com/wj23027/2023-China-Open-Source-Report/add_questionnaire/public/image/commercialization/chapter_2/2-18.png) |
+| ![image018](/image/commercialization/chapter_2/2-18.png) |
 |-------------------------------------------------------|
 
 </div>
@@ -469,7 +469,7 @@ Hugging Face 也提供了云托管的商业模式。Hugging Face 平台托管了
 
 <div style="margin-left: auto; margin-right: auto; width: 75%">
 
-| ![image020](https://raw.githubusercontent.com/wj23027/2023-China-Open-Source-Report/add_questionnaire/public/image/commercialization/chapter_2/2-20.png) |
+| ![image020](/image/commercialization/chapter_2/2-20.png) |
 |-------------------------------------------------------|
 
 </div>
@@ -484,7 +484,7 @@ Hugging Face 也提供了云托管的商业模式。Hugging Face 平台托管了
 
 <div style="margin-left: auto; margin-right: auto; width: 90%">
 
-| ![image021](https://raw.githubusercontent.com/wj23027/2023-China-Open-Source-Report/add_questionnaire/public/image/commercialization/chapter_2/2-21.png) |
+| ![image021](/image/commercialization/chapter_2/2-21.png) |
 |-------------------------------------------------------|
 
 </div>
@@ -513,7 +513,7 @@ Scale AI 公司主要提供数据标注产品，定价模式较为简洁，Scale
 
 <div style="margin-left: auto; margin-right: auto; width: 90%">
 
-| ![image022](https://raw.githubusercontent.com/wj23027/2023-China-Open-Source-Report/add_questionnaire/public/image/commercialization/chapter_2/2-22.png) |
+| ![image022](/image/commercialization/chapter_2/2-22.png) |
 |-------------------------------------------------------|
 
 </div>
@@ -540,7 +540,7 @@ Zilliz 是研发面向人工智能的新一代数据处理和分析平台，其�
 
 <div style="margin-left: auto; margin-right: auto; width: 90%">
 
-| ![image023](https://raw.githubusercontent.com/wj23027/2023-China-Open-Source-Report/add_questionnaire/public/image/commercialization/chapter_2/2-23.png) |
+| ![image023](/image/commercialization/chapter_2/2-23.png) |
 |-------------------------------------------------------|
 
 </div>
@@ -553,7 +553,7 @@ Zilliz 的成功代表着基于 GPU 的大数据加速器为企业日益增长�
 
 <div style="margin-left: auto; margin-right: auto; width: 90%">
 
-| ![image024](https://raw.githubusercontent.com/wj23027/2023-China-Open-Source-Report/add_questionnaire/public/image/commercialization/chapter_2/2-24.png) |
+| ![image024](/image/commercialization/chapter_2/2-24.png) |
 |-------------------------------------------------------|
 
 </div>
@@ -568,7 +568,7 @@ Zilliz 的商业化产品为 Zilliz Cloud，采用月度订阅模式，采用 Sa
 
 <div style="margin-left: auto; margin-right: auto; width: 90%">
 
-| ![image025](https://raw.githubusercontent.com/wj23027/2023-China-Open-Source-Report/add_questionnaire/public/image/commercialization/chapter_2/2-25.png) |
+| ![image025](/image/commercialization/chapter_2/2-25.png) |
 |-------------------------------------------------------|
 
 </div>
@@ -586,7 +586,7 @@ Zilliz 的商业化产品为 Zilliz Cloud，采用月度订阅模式，采用 Sa
 
 <div style="margin-left: auto; margin-right: auto; width: 60%">
 
-| ![image026](https://raw.githubusercontent.com/wj23027/2023-China-Open-Source-Report/add_questionnaire/public/image/commercialization/chapter_2/2-26.png) |
+| ![image026](/image/commercialization/chapter_2/2-26.png) |
 |-------------------------------------------------------|
 
 </div>
@@ -601,7 +601,7 @@ Zilliz 的商业化产品为 Zilliz Cloud，采用月度订阅模式，采用 Sa
 
 <div style="margin-left: auto; margin-right: auto; width: 90%">
 
-| ![image027](https://raw.githubusercontent.com/wj23027/2023-China-Open-Source-Report/add_questionnaire/public/image/commercialization/chapter_2/2-27.png) |
+| ![image027](/image/commercialization/chapter_2/2-27.png) |
 |-------------------------------------------------------|
 
 </div>
@@ -638,7 +638,7 @@ PLG 模式主要通过自下而上的销售模式进行获客，产品是整个�
 
 <div style="margin-left: auto; margin-right: auto; width: 60%">
 
-| ![image028](https://raw.githubusercontent.com/wj23027/2023-China-Open-Source-Report/add_questionnaire/public/image/commercialization/chapter_2/2-28.png) |
+| ![image028](/image/commercialization/chapter_2/2-28.png) |
 |-------------------------------------------------------|
 
 </div>
@@ -714,7 +714,7 @@ PLG 模式主要通过自下而上的销售模式进行获客，产品是整个�
 
 <div style="margin-left: auto; margin-right: auto; width: 55%">
 
-| ![image029](https://raw.githubusercontent.com/wj23027/2023-China-Open-Source-Report/add_questionnaire/public/image/commercialization/chapter_3/3-1.png) |
+| ![image029](/image/commercialization/chapter_3/3-1.png) |
 |-------------------------------------------------------|
 
 </div>
@@ -739,7 +739,7 @@ PLG 模式主要通过自下而上的销售模式进行获客，产品是整个�
 
 <div style="margin-left: auto; margin-right: auto; width: 75%">
 
-| ![image030](https://raw.githubusercontent.com/wj23027/2023-China-Open-Source-Report/add_questionnaire/public/image/commercialization/chapter_3/3-2.png) |
+| ![image030](/image/commercialization/chapter_3/3-2.png) |
 |-------------------------------------------------------|
 
 </div>
@@ -759,7 +759,7 @@ PLG 模式主要通过自下而上的销售模式进行获客，产品是整个�
 
 <div style="margin-left: auto; margin-right: auto; width: 90%">
 
-| ![image031](https://raw.githubusercontent.com/wj23027/2023-China-Open-Source-Report/add_questionnaire/public/image/commercialization/chapter_3/3-3.png) |
+| ![image031](/image/commercialization/chapter_3/3-3.png) |
 |-------------------------------------------------------|
 
 </div>
@@ -772,7 +772,7 @@ PLG 模式主要通过自下而上的销售模式进行获客，产品是整个�
 
 <div style="margin-left: auto; margin-right: auto; width: 90%">
 
-| ![image032](https://raw.githubusercontent.com/wj23027/2023-China-Open-Source-Report/add_questionnaire/public/image/commercialization/chapter_3/3-4.png)|
+| ![image032](/image/commercialization/chapter_3/3-4.png)|
 | -------- |
 
 </div>
@@ -791,7 +791,7 @@ PLG 模式主要通过自下而上的销售模式进行获客，产品是整个�
 
 <div style="margin-left: auto; margin-right: auto; width: 90%">
 
-| ![image033](https://raw.githubusercontent.com/wj23027/2023-China-Open-Source-Report/add_questionnaire/public/image/commercialization/chapter_3/3-5.png) |
+| ![image033](/image/commercialization/chapter_3/3-5.png) |
 |-------------------------------------------------------|
 
 </div>
@@ -840,7 +840,7 @@ PLG 模式主要通过自下而上的销售模式进行获客，产品是整个�
 
 <div style="margin-left: auto; margin-right: auto; width: 90%">
 
-| ![image034](https://raw.githubusercontent.com/wj23027/2023-China-Open-Source-Report/add_questionnaire/public/image/commercialization/chapter_3/3-6.png) |
+| ![image034](/image/commercialization/chapter_3/3-6.png) |
 |-------------------------------------------------------|
 
 </div>
@@ -859,7 +859,7 @@ Strong Copyleft 类别是相对更为严格的许可证，包括 GPL、AGPL、CP
 
 <div style="margin-left: auto; margin-right: auto; width: 80%">
 
-| ![image035](https://raw.githubusercontent.com/wj23027/2023-China-Open-Source-Report/add_questionnaire/public/image/commercialization/chapter_3/3-7.png) |
+| ![image035](/image/commercialization/chapter_3/3-7.png) |
 |-------------------------------------------------------|
 
 </div>
@@ -896,7 +896,7 @@ Strong Copyleft 类别是相对更为严格的许可证，包括 GPL、AGPL、CP
 
 <div style="margin-left: auto; margin-right: auto; width: 90%">
 
-| ![image036](https://raw.githubusercontent.com/wj23027/2023-China-Open-Source-Report/add_questionnaire/public/image/commercialization/chapter_3/3-8.png) |
+| ![image036](/image/commercialization/chapter_3/3-8.png) |
 |-------------------------------------------------------|
 
 </div>
@@ -1036,7 +1036,7 @@ Falcon 的许可证与 Apache License 的共同之处在于，它同样提供了
 
 <div style="margin-left: auto; margin-right: auto; width: 75%">
 
-| ![image037](https://raw.githubusercontent.com/wj23027/2023-China-Open-Source-Report/add_questionnaire/public/image/commercialization/chapter_3/3-9.png) |
+| ![image037](/image/commercialization/chapter_3/3-9.png) |
 |-------------------------------------------------------|
 
 </div>
@@ -1087,7 +1087,7 @@ Falcon 的许可证与 Apache License 的共同之处在于，它同样提供了
 
 <div style="margin-left: auto; margin-right: auto; width: 75%">
 
-| ![image038](https://raw.githubusercontent.com/wj23027/2023-China-Open-Source-Report/add_questionnaire/public/image/commercialization/chapter_4/4-1.png) |
+| ![image038](/image/commercialization/chapter_4/4-1.png) |
 |-------------------------------------------------------|
 
 </div>
@@ -1100,7 +1100,7 @@ Falcon 的许可证与 Apache License 的共同之处在于，它同样提供了
 
 <div style="margin-left: auto; margin-right: auto; width: 75%">
 
-| ![image039](https://raw.githubusercontent.com/wj23027/2023-China-Open-Source-Report/add_questionnaire/public/image/commercialization/chapter_4/4-2.png) |
+| ![image039](/image/commercialization/chapter_4/4-2.png) |
 |-------------------------------------------------------|
 
 </div>
@@ -1113,7 +1113,7 @@ Falcon 的许可证与 Apache License 的共同之处在于，它同样提供了
 
 <div style="margin-left: auto; margin-right: auto; width: 75%">
 
-| ![image040](https://raw.githubusercontent.com/wj23027/2023-China-Open-Source-Report/add_questionnaire/public/image/commercialization/chapter_4/4-3.png) |
+| ![image040](/image/commercialization/chapter_4/4-3.png) |
 |-------------------------------------------------------|
 
 </div>
@@ -1138,7 +1138,7 @@ Falcon 的许可证与 Apache License 的共同之处在于，它同样提供了
 
 <div style="margin-left: auto; margin-right: auto; width: 75%">
 
-| ![image041](https://raw.githubusercontent.com/wj23027/2023-China-Open-Source-Report/add_questionnaire/public/image/commercialization/chapter_4/4-4.png) |
+| ![image041](/image/commercialization/chapter_4/4-4.png) |
 |-------------------------------------------------------|
 
 </div>
@@ -1151,7 +1151,7 @@ Falcon 的许可证与 Apache License 的共同之处在于，它同样提供了
 
 <div style="margin-left: auto; margin-right: auto; width: 75%">
 
-| ![image042](https://raw.githubusercontent.com/wj23027/2023-China-Open-Source-Report/add_questionnaire/public/image/commercialization/chapter_4/4-5.png) |
+| ![image042](/image/commercialization/chapter_4/4-5.png) |
 |-------------------------------------------------------|
 
 </div>
@@ -1164,7 +1164,7 @@ Falcon 的许可证与 Apache License 的共同之处在于，它同样提供了
 
 <div style="margin-left: auto; margin-right: auto; width: 75%">
 
-| ![image043](https://raw.githubusercontent.com/wj23027/2023-China-Open-Source-Report/add_questionnaire/public/image/commercialization/chapter_4/4-6.png) |
+| ![image043](/image/commercialization/chapter_4/4-6.png) |
 |-------------------------------------------------------|
 
 </div>
@@ -1183,7 +1183,7 @@ Falcon 的许可证与 Apache License 的共同之处在于，它同样提供了
 
 <div style="margin-left: auto; margin-right: auto; width: 75%">
 
-| ![image044](https://raw.githubusercontent.com/wj23027/2023-China-Open-Source-Report/add_questionnaire/public/image/commercialization/chapter_4/4-7.png) |
+| ![image044](/image/commercialization/chapter_4/4-7.png) |
 |-------------------------------------------------------|
 
 </div>
@@ -1200,7 +1200,7 @@ Falcon 的许可证与 Apache License 的共同之处在于，它同样提供了
 
 <div style="margin-left: auto; margin-right: auto; width: 85%">
 
-| ![image045](https://raw.githubusercontent.com/wj23027/2023-China-Open-Source-Report/add_questionnaire/public/image/commercialization/chapter_4/4-8.png) |
+| ![image045](/image/commercialization/chapter_4/4-8.png) |
 |-------------------------------------------------------|
 
 </div>
@@ -1210,7 +1210,7 @@ Falcon 的许可证与 Apache License 的共同之处在于，它同样提供了
 
 <div style="margin-left: auto; margin-right: auto; width: 85%">
 
-| ![image046](https://raw.githubusercontent.com/wj23027/2023-China-Open-Source-Report/add_questionnaire/public/image/commercialization/chapter_4/4-9.png) |
+| ![image046](/image/commercialization/chapter_4/4-9.png) |
 |-------------------------------------------------------|
 
 </div>
@@ -1225,7 +1225,7 @@ Falcon 的许可证与 Apache License 的共同之处在于，它同样提供了
 
 <div style="margin-left: auto; margin-right: auto; width: 85%">
 
-| ![image047](https://raw.githubusercontent.com/wj23027/2023-China-Open-Source-Report/add_questionnaire/public/image/commercialization/chapter_4/4-10.png) |
+| ![image047](/image/commercialization/chapter_4/4-10.png) |
 |-------------------------------------------------------|
 
 </div>
@@ -1250,7 +1250,7 @@ Falcon 的许可证与 Apache License 的共同之处在于，它同样提供了
 
 <div style="margin-left: auto; margin-right: auto; width: 85%">
 
-| ![image048](https://raw.githubusercontent.com/wj23027/2023-China-Open-Source-Report/add_questionnaire/public/image/commercialization/chapter_4/4-11.png) |
+| ![image048](/image/commercialization/chapter_4/4-11.png) |
 |-------------------------------------------------------|
 
 </div>
@@ -1267,7 +1267,7 @@ Falcon 的许可证与 Apache License 的共同之处在于，它同样提供了
 
 <div style="margin-left: auto; margin-right: auto; width: 75%">
 
-| ![image049](https://raw.githubusercontent.com/wj23027/2023-China-Open-Source-Report/add_questionnaire/public/image/commercialization/chapter_4/4-12.png) |
+| ![image049](/image/commercialization/chapter_4/4-12.png) |
 |-------------------------------------------------------|
 
 </div>
