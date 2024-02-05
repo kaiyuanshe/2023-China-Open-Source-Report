@@ -43,14 +43,15 @@ import {
 
 // 召集人
 const convener = [
-  {
-    avatar: 'https://github.com/wj23027.png',
-    name: '王婕',
-    title: '召集人',
+    {
+    avatar: 'https://github.com/will-ww.png',
+    name: '王伟',
+    title: '开源社理事',
     links: [
-      { icon: 'github', link: 'https://github.com/wj23027' }
+      { icon: 'github', link: 'https://github.com/will-ww' }
     ]
   },
+
 ]
 
 // 大事记篇
@@ -67,12 +68,13 @@ const memorabiliaMembers = [
 
 // 数据篇
 const dataPieceMembers = [
-  {
-    avatar: 'https://github.com/will-ww.png',
-    name: '王伟',
-    title: '开源社理事',
+
+    {
+    avatar: 'https://github.com/wj23027.png',
+    name: '王婕',
+    title: '召集人',
     links: [
-      { icon: 'github', link: 'https://github.com/will-ww' }
+      { icon: 'github', link: 'https://github.com/wj23027' }
     ]
   },
 ]
