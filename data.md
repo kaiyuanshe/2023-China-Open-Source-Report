@@ -6,7 +6,7 @@ outline: deep
 
 ## 概述
 
-2023 年中国开源年度报告以深入全面的数据洞察为基础，共分为八大部分。第一部分**总体宏观洞篇**，察通过对基础事件、活跃仓库、活跃用户、开源许可证和编程语言等方面的深入分析，揭示中国在全球开源生态中的全貌。第二部分 **OpenRank 排行榜篇**，提供了全球和中国各领域开源项目、企业、基金会、开发者以及协作机器人的排名，为业界提供全面系统的 OpenRank 指标信息服务。第三部分**技术领域洞察篇**，深入研究了各领域 Top10 榜单和项目变化趋势，展示了前沿技术的发展方向和趋势。第四和第五部分为**企业洞察篇**和**基金会洞察篇**，通过演变图和趋势分析，呈现了全球和中国企业、基金会在开源领域中的演化。第六部分**开源项目洞察篇**，深入探讨了不同项目类型、领域和主题的多样性和创新方向。第七部**分开发者洞察篇**，则通过对开发者类型、工作时间分布、地区分布和机器人使用情况的分析，展现了开发者群体的多样性和工作特征。第八部分**案例分析篇**，通过深入挖掘开源社区、企业和开发者的具体案例，总结了一系列有趣的数据现象，为读者提供了对开源生态的深刻洞见。整体而言，数据篇通过丰富多彩的数据洞察与分析，勾勒出中国开源生态在 2023 年的全景。
+2023 中国开源年度报告以深入全面的数据洞察为基础，共分为八大部分。第一部分**总体宏观洞篇**，察通过对基础事件、活跃仓库、活跃用户、开源许可证和编程语言等方面的深入分析，揭示中国在全球开源生态中的全貌。第二部分 **OpenRank 排行榜篇**，提供了全球和中国各领域开源项目、企业、基金会、开发者以及协作机器人的排名，为业界提供全面系统的 OpenRank 指标信息服务。第三部分**技术领域洞察篇**，深入研究了各领域 Top10 榜单和项目变化情况，展示了前沿技术的发展方向和趋势。第四和第五部分为**企业洞察篇**和**基金会洞察篇**，通过演变图和趋势分析，呈现了全球和中国企业、基金会在开源领域中的演化。第六部分**开源项目洞察篇**，深入探讨了不同项目类型、领域和主题的多样性和创新方向。第七部**分开发者洞察篇**，则通过对开发者类型、工作时间分布、地区分布和机器人使用情况的分析，展现了开发者群体的多样性和工作特征。第八部分**案例分析篇**，通过一系列有趣的案例分析，从一个侧面让读者一窥中国开源生态的蓬勃发展。整体而言，数据篇通过丰富多彩的数据洞察与分析，勾勒出中国开源生态在 2023 年的全景图。
 
 ### 指标介绍
 
@@ -20,7 +20,7 @@ OpenRank 指标是由 X-lab 开放实验室所研发，基于开源开发者-项
 
 [2] [赵生宇: 如何评价一个开源项目（三）价值流网络, 2021](https://blog.frankzhao.cn/how_to_measure_open_source_3)
 
-[3] 工业和信息化部标准化研究院: 《信息技术 开源治理 第3部分：社区治理与运营》[T/CESA 1270.3-2023], 2023
+[3] 工业和信息化部标准化研究院: 《信息技术 开源治理 第3部分：社区治理与运营》[T/CESA 1270.3-2023]、《信息技术 开源治理 第 5 部分：开源贡献者评价模型》[T/CESA 1270.5-2023], 2023
 
 
 **活跃度（Activity）**
@@ -39,6 +39,8 @@ OpenRank 指标是由 X-lab 开放实验室所研发，基于开源开发者-项
 
 ### 1.1 基础事件
 
+**基础事件**是本数据篇分析的数据基础，是指全球化开源协作平台上（如 GitHub、Gitee 等）由于开发者活动行为所产生一系列事件日志数据。对基础事件的统计分析，可以宏观洞察全球开原生态发展的态势。本次开源年度报告所涉及的开源协作平台包括 GitHub、Gitee 以及 GitLink。
+
 #### 1.1.1 GitHub 全域事件趋势
 
 首先，统计分析全域 GitHub 的事件⽇志总体数量，如下图所示。
@@ -46,7 +48,7 @@ OpenRank 指标是由 X-lab 开放实验室所研发，基于开源开发者-项
 
 ![1-1](/image/data/chapter_1/1-1.png)
 
-<center>GitHub 年度事件数趋势 </center>
+<center>图 1.1 GitHub 年度事件数趋势 </center>
 <br> 
 
 可以看到近⼏年全球开源的总体活跃情况和活跃仓库数量都在明显上升，显⽰了全球开源发展中的增速。2023 年 GitHub ⽇志数据达到了 14 亿，相⽐ 2022 年增⻓了约 10.32%。在经过了 2018-2020 的高增长后，GitHub 平台的年度事件增长数量逐渐下降，2023 年的增长率为 10% 左右。但由于整体体量的关系，10% 的增长率还是一个非常大的数字，继续凸显出开源科技的发展在全球数字化转型中的活跃与关键地位。
@@ -58,29 +60,34 @@ OpenRank 指标是由 X-lab 开放实验室所研发，基于开源开发者-项
 ![1-2](/image/data/chapter_1/1-2.png)
 
 
-<center>GitHub 与 Gitee 活跃仓库事件数 </center>
+<center>图 1.2 GitHub 与 Gitee 活跃仓库事件数 </center>
 <br> 
 
 发现 Gitee 平台呈现更为显著的增长趋势。甚至从 2021 年起，前 3 万个活跃仓库的事件数量超越了 GitHub，凸显了国内活跃开源项目的爆发态势。反映了国内开发者积极参与和贡献到开源社区的热情，为技术创新和知识共享注入了新的活力。
 
 然而，需要强调的是，单纯依靠前 3 万个活跃项目的数据无法完全揭示全球 GitHub 平台的真实情况，因为长尾效应在全球范围内仍然非常明显。这一点将在后续的分析中更为清晰地体现出来，特别是 GitHub 平台作为全球领先的开源社区的广泛和多样性。在未来，随着技术的不断演进和开源文化的推动，可以期待中国开源社区在全球范围内继续蓬勃发展。
 
+再进一步，分析基础事件的细分领域数据，结果如下图所示。
+
 ![1-3](/image/data/chapter_1/1-3.png)
 
 
-<center>GitHub 与 Gitee 活跃仓库事件类型对比 </center>
+<center>图 1.3 GitHub 与 Gitee 活跃仓库事件类型对比 </center>
 <br> 
 
-再进一步，从细分的基础事件数据分析可以看到：
+从分析结果可以看到：
 
 - 在 GitHub 平台上，最多的事件类型是 Push 事件，Pull Request 事件和 Issue Comment 事件分别居二三席。其中各个事件的发生次数占比基本上没有太大的变化，这体现出 GitHub 的开源生态模式在走向一个稳定的趋势。
 - 在 Gitee 平台上，事件数据在 2018 年有极大的增长，最初以 Watch 事件为主。但在 2020 年后，Pull Request、 Review Comment 事件开始快速增长，在 2022 年成为最多的事件类型，并且在 2023 年也有持续的增长。Gitee 事件数据的结构性变化，体现出国内开发者从关注者到贡献者角色的巨大转变，这和全球范围内的观察都是一致的。
 
 #### 1.1.3 GitLink 事件数分析
 
-对于 Gitlink 平台，我们同样选择了前 3 万个活跃仓库作为基准。鉴于数据的局限性，仅选取了包括 CommitCommentEvent、ForkEvent、IssueCommentEvent、IssuesEvent、PullRequestEvent 和 WatchEvent 六种事件类型的数据进行分析。
+对于 GitLink 平台，我们同样选择了前 3 万个活跃仓库作为基准。鉴于数据的局限性，仅选取了包括 CommitCommentEvent、ForkEvent、IssueCommentEvent、IssuesEvent、PullRequestEvent 和 WatchEvent 六种事件类型的数据进行分析。
 
 ![1-17](/image/data/chapter_1/1-17.png)
+
+<center>图 1.4 GitLink 平台事件数据分析 </center>
+<br> 
 
 观察到，尽管 Gitlink 的活跃仓库事件数相较于 GitHub、Gitee 等平台仍存在一定差距，但同样呈现明显的增长趋势。在 Gitlink 平台上，Issue 事件和 CommitComment 事件占活跃仓库事件的绝大多数。
 
@@ -93,7 +100,7 @@ OpenRank 指标是由 X-lab 开放实验室所研发，基于开源开发者-项
 
 ![1-4](/image/data/chapter_1/1-4.png)
 
-<center>GitHub 年度活跃仓库数量趋势 </center>
+<center>图 1.5 GitHub 年度活跃仓库数量趋势 </center>
 <br>
 
 从 2023 年总体数据来说，全域活跃仓库数量达到了 8,792 万，比上一年增长了 4.06%，这和总体事件趋势一样、并在经过了 2018～2020 年的高增长后，开始逐年下降。这有可能和疫情以及全球经济发展的影响有关。
@@ -109,14 +116,14 @@ OpenRank 指标是由 X-lab 开放实验室所研发，基于开源开发者-项
 
 
 
-<center>GitHub 与 Gitee 活跃仓库活跃度对比 </center>
+<center>图 1.6 GitHub 与 Gitee 活跃仓库活跃度对比 </center>
 <br>
 
 从每个平台前 3 万个活跃仓库的活跃度数据来看，Gitee 平台的总体活跃度从 2019 年开始迅速增长，并在 2022 年的的时候甚至超越了 GitHub，且继续保持这高增长的趋势，揭示了这个时间中国开源发展的巨大活力。
 
 ![1-6](/image/data/chapter_1/1-6.png)
 
-<center>GitHub 与 Gitee 活跃仓库活跃度组成对比 </center>
+<center>图 1.7 GitHub 与 Gitee 活跃仓库活跃度组成对比 </center>
 <br>
 
 进一步，从细分的活跃度组成分析可以看到：
@@ -131,7 +138,7 @@ OpenRank 指标是由 X-lab 开放实验室所研发，基于开源开发者-项
 
 ![1-7](/image/data/chapter_1/1-7.png)
 
-<center>GitHub 与 Gitee 活跃仓库 OpenRank 对比 </center>
+<center>图 1.8 GitHub 与 Gitee 活跃仓库 OpenRank 对比 </center>
 <br>
 
 然而，从活跃仓库的总体 OpenRank 趋势分析可以看到，虽然 Gitee 的前 3 万仓库的活跃度在 2022 年一度超越了 GitHub，但 OpenRank 的影响力差距还是较大（大约为 5 : 2）。不仅差距较大，从趋势上看，也还没有拉近的迹象，这一点尤其值得关注，也是中国开源接下来的重点发展方向。
@@ -144,7 +151,7 @@ OpenRank 指标是由 X-lab 开放实验室所研发，基于开源开发者-项
 
 ![1-8](/image/data/chapter_1/1-8.png)
 
-<center>GitHub 年度活跃用户数量趋势 </center>
+<center>图 1.9 GitHub 年度活跃用户数量趋势 </center>
 <br>
 
 2023 年总体来说，全域活跃开发者数量达到了 2,193 万，比上一年增长了 8.88%。和 GitHub 活跃仓库数据一样，在经过了近五年的高增长后，增长率在 2020 年开始逐年下降， GitHub 平台的活跃用户增长开始放缓（虽然 GitHub 官方曾在 2023 年初的时候，宣布其平台整体用户数量突破一亿），这和全球局势的变化、以及中国像 Gitee 这样平台的崛起，也有一定的关系。
@@ -161,10 +168,10 @@ OpenRank 指标是由 X-lab 开放实验室所研发，基于开源开发者-项
 
 ![1-9](/image/data/chapter_1/1-9.png)
 
-<center> 全球开发者地域分布 </center>
+<center> 图 1.10 全球开发者地域分布 </center>
 <br>
 
-<center> 全球开发者国家/地区人数分布（Top 15） </center>
+<center> 表1.1 全球开发者国家/地区人数分布（Top 15） </center>
 <br>
 
 | 排名 |      国家      | 总人数 |  占比  | 年度活跃数 | 活跃率 |
@@ -199,13 +206,13 @@ OpenRank 指标是由 X-lab 开放实验室所研发，基于开源开发者-项
 
 ![1-10](/image/data/chapter_1/1-10.png)
 
-<center> 中国开发者地域分布 </center>
+<center> 图 1.11 中国开发者地域分布 </center>
 <br>
 
 根据 GitHub 2023 年 Q3 季度的数据，中国开发者总量约为 1188 万，依据比例可以估计各省实际开发者总量。
 
 
-<center> 中国开发者人数分布（Top 15） </center>
+<center> 表1.2 中国开发者人数分布（Top 15） </center>
 
 <br>
 
@@ -244,7 +251,7 @@ OpenRank 指标是由 X-lab 开放实验室所研发，基于开源开发者-项
 
 ![1-11](/image/data/chapter_1/1-11.png)
 
-<center> 使用开源许可证的仓库数量占比 </center>
+<center> 图 1.12 使用开源许可证的仓库数量占比 </center>
 <br>
 
 分析发现目前使用最多的开源许可证，包括 MIT 许可证、Apache 许可证 v2.0、GNU 通用公共许可证 v3.0、BSD 3-Clause 许可证。其中 MIT 许可证以接近 60% 的占比排名第一。MIT 许可证以麻省理工学院（Massachusetts Institute of Technology）为名，最早由该学院使用，因此得名。MIT 许可证的简洁和灵活性使其成为许多开发者选择的许可证之一，它提供了最小的法律限制，鼓励开发者自由地使用和传播软件。
@@ -255,14 +262,14 @@ OpenRank 指标是由 X-lab 开放实验室所研发，基于开源开发者-项
 
 ![1-12](/image/data/chapter_1/1-12.png)
 
-<center> 开源许可证种类数量变化趋势 </center>
+<center> 图 1.13 开源许可证种类数量变化趋势 </center>
 <br>
 
-总体来看，开源许可证的种类在 2017 年以来不断增加。Eclipse 公共许可证 2.0 和欧盟公共许可证 1.2 以及其他许可证的推出造成了 2017-2018 年的增长。在此之后开源许可证种类的增长速度放缓，在 2021 年至 2022 年间，一批新的开源许可证如木兰系列许可证、CERN（欧洲核子研究组织）许可证v2 开始崭露头角。随后发展趋于稳定，目前 GitHub 上主流许可证的种类也持续两年稳定在 46 个。
+总体来看，开源许可证的种类在 2017 年以来不断增加。Eclipse 公共许可证 2.0 和欧盟公共许可证 1.2 以及其他许可证的推出造成了 2017-2018 年的增长。在此之后开源许可证种类的增长速度放缓，在 2021 年至 2022 年间，一批新的开源许可证如木兰系列许可证、CERN（欧洲核子研究组织）许可证v2 开始崭露头角，随后发展趋于稳定，目前 GitHub 上主流许可证的种类也持续两年稳定在 46 个。
 
 #### 1.4.3 使用开源许可证仓库数量变化趋势
 
-根据日志数据显示，有接近 770 万个活跃仓库使用了开源许可证，其中由于 MIT 许可证强大的影响力，我们将其数据单独展示。
+根据日志数据显示，2023 年有接近 770 万个活跃仓库使用了各种开源许可证（占全体活跃仓库的 8.76%），其中由于 MIT 许可证强大的影响力，我们将其数据单独展示。
 
 **1、使用 MIT 许可证仓库数量变化趋势**
 
@@ -270,10 +277,12 @@ OpenRank 指标是由 X-lab 开放实验室所研发，基于开源开发者-项
 
 ![1-13](/image/data/chapter_1/1-13.png)
 
-<center> 使用 MIT 许可证的仓库数量变化趋势 </center>
+<center> 图 1.14 使用 MIT 许可证的仓库数量变化趋势 </center>
 <br>
 
-MIT 许可证是最流行的开源许可证，在 2023 年，有 158 万个活跃仓库使用了该许可证。使用 MIT 许可证的仓库情况和总仓库数量情况变化趋势类似，都是有较大的增长，但是在 2022 年和 2023 年的增长速度有所减缓，这和整体项目增长趋势放缓有关。
+可以看到：
+- MIT 许可证是目前最流行的开源许可证，2023 年有 158 万个活跃仓库使用了该许可证；
+- 使用 MIT 许可证的仓库情况和总仓库数量情况变化趋势类似，都有较大增长，但是在 2022 年和 2023 年的增长速度有所减缓，这和整体项目增长趋势放缓有关。
 
 **2、其余前五的开源许可证数量变化趋势**
 
@@ -281,10 +290,14 @@ MIT 许可证是最流行的开源许可证，在 2023 年，有 158 万个活�
 
 ![1-14](/image/data/chapter_1/1-14.png)
 
-<center> 使用 其他许可证的仓库数量变化趋势 </center>
+<center> 图 1.15 使用其他许可证的仓库数量变化趋势 </center>
 <br>
 
-选取了除 MIT 许可证以外排名前五的开源许可证进行趋势分析。总体而言，各类开源许可证的数量都在增长，但是开源许可证种类的头牌依旧还是以 MIT、Apache、GNU 等为主，小众开源许可证和热门开源许可证的差异仍然存在。
+可以看到：
+- 各类开源许可证的数量都在增长，但是开源许可证种类的头牌依旧还是以 MIT、Apache、GNU 等为主；
+- 小众开源许可证和热门开源许可证的差异仍然存在；
+- 从 2022 年开始，GNU 通用许可证 v2 和 v3 整体呈下降趋势；
+- GNU Affero 通用许可证 v3 使用数量逐年上升。
 
 #### 1.4.3 使用木兰系列许可证仓库数量变化趋势
 
@@ -292,7 +305,7 @@ MIT 许可证是最流行的开源许可证，在 2023 年，有 158 万个活�
 
 ![1-15](/image/data/chapter_1/1-15.png)
 
-<center> 使用木兰系列许可证的活跃仓库数量累加图 </center>
+<center> 图 1.16 使用木兰系列许可证的活跃仓库数量累加图 </center>
 <br>
 
 木兰系列许可证（包含 “木兰宽松许可证” 和“木兰公共许可证”等），均由北京大学作为牵头单位，依托全国信标委云计算标准工作组和中国开源云联盟，联合开源生态圈（如开源社）及产学研团队和个体、尤其是开源法务和律师，起草、修订并发布。其中 Mulan PSL 是国内首个被 OSI 认定的 “开源软件协议”。
@@ -301,7 +314,12 @@ MIT 许可证是最流行的开源许可证，在 2023 年，有 158 万个活�
 
 ### 1.5 编程语言
 
-#### 1.5.1 2023年开发者使用编程语言榜单
+#### 1.5.1 2023 年开发者使用编程语言榜单
+
+编程语言的受欢迎程度也是开发者所喜闻乐见的，分析了 2023 年度最受开发者欢迎的编程语言，如下表所示。
+
+<center> 表 1.3 开发者使用编程语言排行榜（Top 15） </center>
+<br>
 
 |   排名   |     编程语言      |  使用该语言开发者数   |    使用该语言仓库数   |
 |:-------:|:----------------:|:------------------:|:------------------:|
@@ -326,13 +344,16 @@ MIT 许可证是最流行的开源许可证，在 2023 年，有 158 万个活�
 |   19    |       Dart       |        46143       |       43006        |
 |   20    |      Swift       |        33839       |       35978        |
 
-从上表中可以看出：开发者使用人数前五名的开发语言分别为JavaScript、Python、HTML、TypeScript、Java，是开发者使用的主要编程语言，而从第6名的CSS开始，使用人数相较于第5名的java降低了接近一半。
+从上表中可以看出：开发者使用人数前五名的开发语言分别为 JavaScript、Python、HTML、TypeScript、Java，是开发者使用的主要编程语言，而从第 6 名的 CSS 开始，使用人数相较于第 5 名的 Java 降低了接近一半。
 
 #### 1.5.2 2019-2023年开发者使用编程语言趋势
 
+统计分析了开发者使用编程语言的趋势，如下图所示。
+
 ![1-16](/image/data/chapter_1/1-16.png)
 
-<center>2019-2023年开发者使用编程语言趋势</center>
+<center>图 1.17 2019 - 2023 年开发者使用编程语言趋势</center>
+<br>
 
 从上图中可以看出：
 - JavaScript、Python、HTML、TypeScript、Java五种编程语言是开发者使用的主要编程语言；
@@ -341,17 +362,20 @@ MIT 许可证是最流行的开源许可证，在 2023 年，有 158 万个活�
 
 ## 二. OpenRank 排行榜
 
+**排行榜**是一种大家喜闻乐见的分析结果展现形式，2023 中国开源年度报告将排行榜独立出来，作为一个单独的部分集中展示，一则是为了更好的展示开源生态中各主体（仓库/项目、国家地区、企业、基金会、开发者等）的发展态势，另一个重要原因是因为 OpenRank 指标的逐渐成熟与全域数据的完整性。由于今年同时加入了 GitHub 与 Gitee 的全球数据，使得我们能够站在一个以中国开源为出发点的全球性视角，让全世界看到中国企业、基金会、开发者等主体为发展全球开源生态所做的共同努力与贡献，这是目前市面上其他报告所不具备的。
+
 ### 2.1 全球开源仓库 OpenRank 排名
 
 ![2-1](/image/data/chapter_2/2-1.png)
 
-<center> 全球开源项目 OpenRank 排名（Top 20）</center>
+<center> 图 2.1 全球开源项目 OpenRank 排名（Top 20）</center>
 
 ### 2.2 中国开源项目 OpenRank 排名
 
 ![2-2](/image/data/chapter_2/2-2.png)
 
-<center> 中国开源项目 OpenRank 排名（Top 20）</center>
+<center> 图 2.2 中国开源项目 OpenRank 排名（Top 20）</center>
+<br>
 
 > 中国开源项目是以 OpenDigger 项目标签数据为准，单项目可能包含多个 GitHub 或 Gitee 平台上的组织或仓库。
 
@@ -359,7 +383,8 @@ MIT 许可证是最流行的开源许可证，在 2023 年，有 158 万个活�
 
 ![2-3](/image/data/chapter_2/2-3.png)
 
-<center> 全球企业 OpenRank 排名（Top 20）</center>
+<center> 图 2.3 全球企业 OpenRank 排名（Top 20）</center>
+<br>
 
 > 企业排名是以 OpenDigger 项目标签数据为准，含义为某企业发起的所有开源项目 OpenRank 之和，包含已捐赠到基金会的项目。
 
@@ -367,41 +392,46 @@ MIT 许可证是最流行的开源许可证，在 2023 年，有 158 万个活�
 
 ![2-4](/image/data/chapter_2/2-4.png)
 
-<center> 中国企业 OpenRank 排名（Top 20）</center>
+<center> 图 2.4 中国企业 OpenRank 排名（Top 20）</center>
 
 ### 2.5 全球基金会 OpenRank 排名
 
 ![2-5](/image/data/chapter_2/2-5.png)
 
-<center> 全球基金会 OpenRank 排名（Top 10）</center>
+<center> 图 2.5 全球基金会 OpenRank 排名（Top 10）</center>
 
 ### 2.6 国家和地区 OpenRank 排名
 
 ![2-6](/image/data/chapter_2/2-6.png)
 
-<center> 国家和地区 OpenRank 排名（Top 20）</center>
+<center> 图 2.6 国家和地区 OpenRank 排名（Top 20）</center>
+<br>
 
 > 国家和地区使用 GitHub 开发者填写的位置信息，采集量为全球 OpenRank 用户前 1000 万名。
 
 ### 2.7 全球开发者 OpenRank 排名
 
 ![2-7](/image/data/chapter_2/2-7.png)
-<center> 全球开发者 OpenRank 排名（Top 30）</center>
+<center> 图 2.7 全球开发者 OpenRank 排名（Top 30）</center>
 
 ### 2.8 中国开发者 OpenRank 排名
 
 ![2-8](/image/data/chapter_2/2-8.png)
-<center> 中国开发者 OpenRank 排名（Top 30）</center>
+<center> 图 2.8 中国开发者 OpenRank 排名（Top 30）</center>
+<br>
 
 > 中国开发者账号以 OpenDigger 的标签数据为准。
 
 ## 三. 企业洞察
 
+企业是推动全球开源生态发展的核心力量，既是发起者、还是开发者与维护者，在开源项目发展及其商业化探索的最前沿。
+
 ### 3.1 近 10 年全球企业 OpenRank 演变图
 
 ![3-1](/image/data/chapter_3/3-1.png)
 
-<center> 中国企业 OpenRank 排名变化 </center>
+<center> 图 3.1 中国企业 OpenRank 排名变化 </center>
+<br>
 
 全球企业开源影响力的观察如下：
 
@@ -416,7 +446,8 @@ MIT 许可证是最流行的开源许可证，在 2023 年，有 158 万个活�
 
 ![3-2](/image/data/chapter_3/3-2.png)
 
-<center> 中国企业 OpenRank 排名变化 </center>
+<center> 图 3.2 中国企业 OpenRank 排名变化 </center>
+<br>
 
 本图能够很好表现国内公司的开源战略及其变化趋势：
 
@@ -426,7 +457,7 @@ MIT 许可证是最流行的开源许可证，在 2023 年，有 158 万个活�
 - 字节跳动则是近几年肉眼可见的进步神速；
 - [Espressif](https://github.com/espressif)（乐鑫科技）是国内开源界相对低调的半导体开源王者；
 - Fit2Cloud 则是作为另一家低调但非常务实的开源企业，旗下多款开源软件深受开发者喜爱；
-- 腾讯、PingCAP、JD、TAOS 近两年肉眼可见其下跌趋势，印证了后疫情时代的开源竞争将更加激烈。
+- 腾讯、PingCAP、JD、TAOS 等近两年略有下跌趋势，印证了后疫情时代的开源竞争将更加激烈。
 
 ### 3.3 中国企业在 GitHub/Gitee 平台上的 OpenRank 占比
 
@@ -437,22 +468,26 @@ MIT 许可证是最流行的开源许可证，在 2023 年，有 158 万个活�
     
 </div>
 
-<center> 中国企业在全球企业中的 OpenRank 占比（左）和 中美企业在项目维度 OpenRank 上的对比（右）</center>
+<center> 图 3.3 中国企业在全球企业中的 OpenRank 占比（左）和 中美企业在项目维度 OpenRank 上的对比（右）</center>
 <br>
 
 左图显示了中国企业在全球开源生态中的影响力不断上升的趋势，右图则体现了中美两国后贸易战时代的此消彼长的趋势，特别是疫情后，在华为等企业的拉动下，中国开源影响力上升明显；但同样可以看到，中美企业在整体开源影响力之间的差距还是比较明显的（大约 3 倍的差距），但这个势头在未来非常值得期待。
 
 ## 四. 基金会洞察
 
-本部分从基金会这一维度，对开源生态的发展进行分析。由于 Linux 基金会已经扩张成了一个超级基金会，旗下的子基金会作为独立一级，这样和其他基金会做对比分析更有意义。
+本部分从基金会这一维度，对开源生态的发展进行分析。**基金会**是非营利型开源组织，在开源项目和开源社区的组织、发展、协同创新中起到了主导作用，为开源软件的孵化提供技术、运营、法律等全方位支持，为开源社区建设和运营提供指导，发挥了孵化器和加速器的作用，是开源生态中重要的组织者。今年，我们将开源基金会的洞察作为单独的一部分，可以看到中国的开源基金会所起到的全球性作用。
+
+由于 Linux 基金会已经扩张成了一个超级基金会，旗下的子基金会作为独立一级，这样和其他基金会做对比分析更有意义。
 
 ### 4.1 全球基金会 OpenRank 趋势分析
 
 
 <div align=center>
 <img src="/image/data/chapter_4/4-1.png" width="700px">
+
+
 </div>
-<center> 全球基金会 OpenRank 整体变化趋势 </center>
+<center> 图 4.1 全球基金会 OpenRank 整体变化趋势 </center>
 <br>
 
 可以看到如下趋势：
@@ -467,7 +502,7 @@ MIT 许可证是最流行的开源许可证，在 2023 年，有 158 万个活�
 <div align=center>
 <img src="/image/data/chapter_4/4-2.png" width="700px">
 </div>
-<center> 全球基金会项目 OpenRank 变化趋势 </center>
+<center> 图 4.2 全球基金会项目 OpenRank 变化趋势 </center>
 <br>
 
 从全球基金会下的开源项目来看：
@@ -481,7 +516,7 @@ MIT 许可证是最流行的开源许可证，在 2023 年，有 158 万个活�
 <div align=center>
 <img src="/image/data/chapter_4/4-3.png" width="700px">
 </div>
-<center> 中国基金会项目 OpenRank 变化趋势 </center>
+<center> 图 4.3 中国基金会项目 OpenRank 变化趋势 </center>
 <br>
 
 将各基金会旗下的中国项目单独拿出来看：
@@ -494,8 +529,9 @@ MIT 许可证是最流行的开源许可证，在 2023 年，有 158 万个活�
 
 <div align=center>
 <img src="/image/data/chapter_4/4-4.png" width="700px">
+
 </div>
-<center> 开放原子基金会项目 OpenRank 变化趋势 </center>
+<center> 图 4.4 开放原子基金会项目 OpenRank 变化趋势 </center>
 <br>
 
 今年能够第一次看到开放原子旗下各项目的发展情况：
@@ -505,16 +541,16 @@ MIT 许可证是最流行的开源许可证，在 2023 年，有 158 万个活�
 
 ## 五. 技术领域洞察
 
-前端不断演进，追求交互与美感；云原生风靡，企业加速迁移；大数据助力智能决策，数据库创新驱动存储；人工智能蓬勃发展，实现自动化与预测；操作系统在新架构中持续演化。这些领域正成为科技前沿，吸引着创新者和投资，形成蓬勃的发展态势，本节从影响力和活跃度两项指标对该六大领域展开数据洞察。
+**技术领域**的发展在开源技术中起着风向标的作用，众多技术子领域展现出快速的进步和变革：**操作系统**在新架构中持续演化，**云原生**加速企业的数字化转型，**数据库**成为数据创新的基础设施，**大数据**助力智能决策，**人工智能**加快各行业的自动化实现，**前端**追求交互与美感。这些领域正成为科技前沿，吸引着创新者和投资者，形成蓬勃的发展态势。本节从影响力和活跃度两项指标对该六大领域展开数据洞察。
 
-### 5.1 各技术领域近 5 年变化趋势
+### 5.1 六大技术领域近五年整体发展趋势
 
 ![5-1](/image/data/chapter_5/5-1.png)
 
-<center> 各子领域近 5 年 OpenRank 变化趋势 </center>
+<center> 图 5.1 各子领域近 5 年 OpenRank 变化趋势 </center>
 
 ![5-2](/image/data/chapter_5/5-2.png)
-<center> 各子领域近 5 年活跃度变化趋势 </center>
+<center> 图 5.2 各子领域近 5 年活跃度变化趋势 </center>
 <br>
 
 从各子领域近 5 年的变化趋势来看，云原生优势明显，该领域下仓库数量相对其他领域较多，AI 由于这两年的火热增长迅速，数据库作为重要和活跃的基础软件排在前列，操作系统领域虽然总量较低，但影响力依然逐年增加，体现了基础软件的性质，数量虽少，但价值巨大，与前端领域的影响力逐年缩小。
@@ -525,11 +561,11 @@ MIT 许可证是最流行的开源许可证，在 2023 年，有 158 万个活�
 
 ![5-3](/image/data/chapter_5/5-3.png)
 
-<center> 云原生 OpenRank Top10 项目近五年变化趋势 </center>
+<center> 图 5.3 云原生 OpenRank Top10 项目近五年变化趋势 </center>
 
 ![5-4](/image/data/chapter_5/5-4.png)
 
-<center> 云原生活跃度 Top10 项目近五年变化趋势 </center>
+<center> 图 5.4 云原生活跃度 Top10 项目近五年变化趋势 </center>
 <br>
 
 kubernetes 双指标下降明显，Grafana 影响力排名第一。llvm-project 增速明显，活跃度位居第一，llvm 是一个编译器框架，是一系列模块化、可重用的编译器以及工具链技术的集合，从近 3 年来看，该项目活跃度增长迅速，受到广大开发者的喜爱。
@@ -538,11 +574,11 @@ kubernetes 双指标下降明显，Grafana 影响力排名第一。llvm-project 
 
 ![5-5](/image/data/chapter_5/5-5.png)
 
-<center> 人工智能 OpenRank Top10 项目近五年变化趋势 </center>
+<center> 图 5.5 人工智能 OpenRank Top10 项目近五年变化趋势 </center>
 
 ![5-6](/image/data/chapter_5/5-6.png)
 
-<center> 人工智能活跃度 Top10 项目近五年变化趋势 </center>
+<center> 图 5.6 人工智能活跃度 Top10 项目近五年变化趋势 </center>
 <br>
 
 可以看到 tensorflow 自 2020 年开始双指标严重下滑，掉出前 5，同样作为 AI 开发框架，pytorch 稳步增长，逐步拉开与其他项目的差距，值得一提的是，langchain 项目自 2022 年开源后，双指标便位居第二名，LangChain 是由 Harrison Chase 于 2022 年 10 月推出的开源软件项目。它已成为 LLM 开发中最受欢迎的框架之一。
@@ -551,11 +587,11 @@ kubernetes 双指标下降明显，Grafana 影响力排名第一。llvm-project 
 
 ![5-7](/image/data/chapter_5/5-7.png)
 
-<center> 大数据 OpenRank Top10 项目近五年变化趋势 </center>
+<center> 图 5.7 大数据 OpenRank Top10 项目近五年变化趋势 </center>
 
 ![5-8](/image/data/chapter_5/5-8.png)
 
-<center> 大数据活跃度 Top10 项目近五年变化趋势 </center>
+<center> 图 5.8 大数据活跃度 Top10 项目近五年变化趋势 </center>
 <br>
 
 可以看出，大数据领域双指标整体呈现上升趋势，其中，Kibana 和 Grafana 位居影响力和活跃度前二位，并且差距逐渐缩小，预测在未来 Grafana 会超越 Kibana，成为第一名。
@@ -568,11 +604,11 @@ Grafana 是一个开源的数据可视化工具，它可以用于监控和报告
 
 ![5-9](/image/data/chapter_5/5-9.png)
 
-<center> 数据库 OpenRank Top10 项目近五年变化趋势 </center>
+<center> 图 5.9 数据库 OpenRank Top10 项目近五年变化趋势 </center>
 
 ![5-10](/image/data/chapter_5/5-10.png)
 
-<center> 数据库活跃度 Top10 项目近五年变化趋势 </center>
+<center> 图 5.10 数据库活跃度 Top10 项目近五年变化趋势 </center>
 <br>
 
 ClickHouse 数据库双指标持续稳定增长，ElasticSearch 热度回落，Doris 增速最快，活跃度指标接近第一名，预测该数据库双指标会在未来超越 ClickHouse。
@@ -586,12 +622,12 @@ Apache Doris 是由百度贡献的开源 MPP 分析型数据库产品，分布�
 
 ![5-11](/image/data/chapter_5/5-11.png)
 
-<center> 前端 OpenRank Top 10 项目近五年变化趋势 </center>
+<center> 图 5.11 前端 OpenRank Top 10 项目近五年变化趋势 </center>
 
 ![5-12](/image/data/chapter_5/5-12.png)
 
 
-<center> 前端活跃度 Top 10 项目近五年变化趋势 </center>
+<center> 图 5.12 前端活跃度 Top 10 项目近五年变化趋势 </center>
 <br>
 
 Flutter 虽然双指标逐年下降，相较于 Next.js 仍具有明显的优势，Next.js 在 2023 年开始发力，上升明显，3-10 名项目竞争激烈，差距不大。
@@ -604,19 +640,25 @@ Next.js 是由 Vercel 创建的开源平台，它使用 Node.js 和 Babel 转译
 
 ![5-13](/image/data/chapter_5/5-13.png)
 
-<center> 操作系统 OpenRank Top 10 项目近五年变化趋势 </center>
+<center> 图 5.13 操作系统 OpenRank Top 10 项目近五年变化趋势 </center>
 <br>
 
 ![5-14](/image/data/chapter_5/5-14.png)
 
-<center> 操作系统活跃度 Top 10 项目近五年变化趋势 </center>
+<center> 图 5.14 操作系统活跃度 Top 10 项目近五年变化趋势 </center>
 <br>
 
 可以看到，OpenHarmony 项目下的多个仓库均处于前 10 的榜单中，本次洞察中结合了 Gitee 平台的数据，可以更直观的看到国产操作系统在各方面所处的优势（OpenHarmony 项目下有多个仓库，本次洞察以仓库的维度进行分析），SerenityOS 从 2021 年开始双指标稍显回落，仅次于 OpenHarmony、OpenEuler 也有着不错的表现。
 
 ### 5.3 2023 年各领域 OpenRank TOP 10 榜单
 
+以下再给出 2023 年各领域的项目 OpenRank 排行榜。
+
 #### 5.3.1 云原生
+
+<center> 表 5.1 云原生领域项目排行榜
+</center>
+<br>
 
 | 序号  |          项目名称          | OpenRank |
 |:---:|:----------------------:|:--------:|
@@ -633,6 +675,10 @@ Next.js 是由 Vercel 创建的开源平台，它使用 Node.js 和 Babel 转译
 
 #### 5.3.2 人工智能
 
+<center> 表 5.2 人工智能领域项目排行榜
+</center>
+<br>
+
 | 序号  |                 项目名称                 | OpenRank |
 |:---:|:------------------------------------:|:--------:|
 |  1  |           pytorch/pytorch            | 10182.45 |
@@ -647,6 +693,10 @@ Next.js 是由 Vercel 创建的开源平台，它使用 Node.js 和 Babel 转译
 | 10  |         ggerganov/llama.cpp          |  2339.8  |
 
 #### 5.3.3 大数据
+
+<center> 表 5.3 大数据领域项目排行榜
+</center>
+<br>
 
 | 序号 |       项目名称        | OpenRank |
 |:----:|:---------------------:| -------- |
@@ -663,6 +713,10 @@ Next.js 是由 Vercel 创建的开源平台，它使用 Node.js 和 Babel 转译
 
 #### 5.3.4 数据库
 
+<center> 表 5.4 数据库领域项目排行榜
+</center>
+<br>
+
 | 序号  |         项目名称          | OpenRank  |
 |:---:|:---------------------:|:---------:|
 |  1  | ClickHouse/ClickHouse |  4941.99  |
@@ -677,6 +731,10 @@ Next.js 是由 Vercel 创建的开源平台，它使用 Node.js 和 Babel 转译
 | 10  | yugabyte/yugabyte-db  |  1940.75  |
 
 #### 5.3.5 前端
+
+<center> 表 5.5 前端领域项目排行榜
+</center>
+<br>
 
 | 序号  |         项目名称          | OpenRank |
 |:---:|:---------------------:|:--------:|
@@ -693,6 +751,10 @@ Next.js 是由 Vercel 创建的开源平台，它使用 Node.js 和 Babel 转译
 
 #### 5.3.6 操作系统
 
+<center> 表 5.6 操作系统领域项目排行榜
+</center>
+<br>
+
 | 序号 |              项目名称               | OpenRank |
 |:----:|:-----------------------------------:|:--------:|
 |  1   |          openharmony/docs           | 3277.69  |
@@ -708,7 +770,7 @@ Next.js 是由 Vercel 创建的开源平台，它使用 Node.js 和 Babel 转译
 
 ## 六. 开源项目洞察
 
-2023 年，AI 大模型领域蓬勃发展，GPT-4、CLIP 等新一代模型崭露头角。全球企业竞相投入研发，推动语言理解、图像生成等前沿技术。行业呈现快速演进和探索的态势，为人工智能的广泛应用打开新篇章。与此同时，数据库领域迎来创新潮流。分布式数据库、时序数据库、图数据库等异彩纷呈，满足不同应用场景需求。云原生数据库蓬勃发展，提供灵活扩展与高可用性。本章节从不同项目类型的角度入手展开宏观洞察，对项目 Topic 进行统计分析，最后，分别对数据库与 AI 领域深入洞察。
+2023 年，AI 大模型领域蓬勃发展，GPT-4、CLIP 等新一代模型崭露头角。全球企业竞相投入研发，推动语言理解、图像生成等前沿技术。行业呈现快速演进和探索的态势，为人工智能的广泛应用打开新篇章。与此同时，数据库领域迎来创新潮流。分布式数据库、时序数据库、图数据库等异彩纷呈，满足不同应用场景需求。云原生数据库蓬勃发展，提供灵活扩展与高可用性。本节从项目类型视角开展数据洞察，并对项目 Topic 进行统计分析，最后分别对数据库与 AI 两个核心领域开展了深入洞察。
 
 ### 6.1 项目类型
 
@@ -721,7 +783,7 @@ Next.js 是由 Vercel 创建的开源平台，它使用 Node.js 和 Babel 转译
 
 
 
-<center> 不同项目类型数量比例 </center>
+<center> 图 6.1 不同项目类型数量比例 </center>
 <br>
 
 - 组件框架类型（Libraries and Frameworks）占比最高（31.36%），充分反映了开源协同创新特点（站在巨人的肩膀上），也是最受开发者喜爱、乐于贡献的类型；
@@ -733,8 +795,9 @@ Next.js 是由 Vercel 创建的开源平台，它使用 Node.js 和 Babel 转译
 #### 6.1.2 不同项目类型 OpenRank 加总比例
 
 <img width="691" alt="6-2" src="/image/data/chapter_6/6-2.png">
-<br><br>
-<center> 不同项目类型 OpenRank 加总比例 </center>
+
+<br>
+<center> 图 6.2 不同项目类型 OpenRank 加总比例 </center>
 <br>
 
 进一步，再从 OpenRank 影响力视角看这几个类别：
@@ -746,7 +809,9 @@ Next.js 是由 Vercel 创建的开源平台，它使用 Node.js 和 Babel 转译
 #### 6.1.3 不同项目类型近 5 年 OpenRank 变化趋势
 
 <img width="728" alt="6-3" src="/image/data/chapter_6/6-3.png">
-<center> 不同项目类型近 5 年 OpenRank 变化趋势 </center>
+
+<br>
+<center> 图 6.3 不同项目类型近 5 年 OpenRank 变化趋势 </center>
 <br>
 
 从上面的五年 OpenRank 演化图上可以看得出来，系统软件类型（System Software）的影响力也是逐年升高、而内容资源类型（Non Software）项目的影响力比例是在相对下降这样一个现象。
@@ -759,7 +824,7 @@ Next.js 是由 Vercel 创建的开源平台，它使用 Node.js 和 Babel 转译
 
 <img width="643" alt="6-4" src="/image/data/chapter_6/6-4.png">
 
-<center> 出现次数前十的 Topic</center>
+<center> 图 6.4 出现次数前十的 Topic</center>
 <br>
 
 前十的主题涵盖了多个领域，反映了开源社区的广泛兴趣。其中，JavaScript、Hacktoberfest、Python 等主题代表了前沿技术、活跃社区活动和多用途编程语言的热点，突显了对于前端开发、开源贡献和多领域编程的关注。
@@ -768,7 +833,7 @@ Next.js 是由 Vercel 创建的开源平台，它使用 Node.js 和 Babel 转译
 
 <center><img width="707" alt="6-5" src="/image/data/chapter_6/6-5.png"></center>
 
-<center> 出现次数前十的 topic 下仓库的 OpenRank 变化 (2019 - 2023)</center>
+<center> 图 6.5 出现次数前十的 Topic 下仓库的 OpenRank 变化 (2019 - 2023)</center>
 <br>
 
 - Hacktoberfest 是一个每年十月举办的活动，旨在促进开源社区的发展。它由 DigitalOcean 与 GitHub 合作发起，其目标是鼓励更多人参与开源项目，为开源社区做出贡献。它的 OpenRank 高反映了人们对于开源项目、社区参与和贡献的热情。开发者们积极参与这个活动，通过向开源项目提交 Pull Request 的方式贡献，从而帮助提升了这个仓库的声誉和影响力。
@@ -780,9 +845,13 @@ Next.js 是由 Vercel 创建的开源平台，它使用 Node.js 和 Babel 转译
 
 #### 6.3.1 数据库领域各子领域 2023 年 OpenRank 和活跃度榜单
 
-**数据库子领域 OpenRank 榜单**
+**1、数据库子领域 OpenRank 榜单**
 
-| 排名  |      子领域名称      | openrank |
+<center> 表 6.1 数据库子领域 OpenRank 排行 
+</center>
+<br>
+
+| 排名  |      子领域名称      | OpenRank |
 |:---:|:---------------:|:--------:|
 |  1  |   Relational    | 58092.36 |
 |  2  |    Key-value    | 21834.08 |
@@ -802,7 +871,11 @@ Next.js 是由 Vercel 创建的开源平台，它使用 Node.js 和 Babel 转译
 | 16  |   Multivalue    |  15.89   |
 | 17  |     Content     |   3.43   |
 
-**数据库子领域活跃度榜单**
+**2、数据库子领域活跃度榜单**
+
+<center> 表 6.2 数据库子领域活跃度排行 
+</center>
+<br>
 
 | 排名  |      子领域名称      | activity  |
 |:---:|:---------------:|:---------:|
@@ -833,11 +906,11 @@ Next.js 是由 Vercel 创建的开源平台，它使用 Node.js 和 Babel 转译
 
 ![6-6](/image/data/chapter_6/6-6.png)
 
-<center> 数据库领域各子领域 2019 - 2023 年 OpenRank 变化趋势 </center>
+<center> 图 6.6 数据库领域各子领域 2019 - 2023 年 OpenRank 变化趋势 </center>
 
 ![6-7](/image/data/chapter_6/6-7.png)
 
-<center> 数据库领域各子领域 2019 - 2023 年 Activity 变化趋势 </center>
+<center> 图 6.7 数据库领域各子领域 2019 - 2023 年 Activity 变化趋势 </center>
 <br>
 
 从数据库领域各子领域项目近 5 年 OpenRank 变化趋势及活跃度变化趋势上可以看出：
@@ -856,12 +929,12 @@ Next.js 是由 Vercel 创建的开源平台，它使用 Node.js 和 Babel 转译
 <img width="712" alt="6-8" src="/image/data/chapter_6/6-8.png">
 
 
-<center> 生成式 AI 各子领域 2019 - 2023 年 OpenRank 变化趋势 </center>
+<center> 图 6.8 生成式 AI 各子领域 2019 - 2023 年 OpenRank 变化趋势 </center>
 <br>
 
 <img width="722" alt="6-9" src="/image/data/chapter_6/6-9.png">
 
-<center> 生成式 AI 各子领域 2019 - 2023 年活跃度变化趋势 </center>
+<center> 图 6.9 生成式 AI 各子领域 2019 - 2023 年活跃度变化趋势 </center>
 <br>
 
 - 根据类别（模型类、工具类、应用类、基础类）划分的分类分析，在活跃度和影响力上总体趋势一致；
@@ -872,12 +945,12 @@ Next.js 是由 Vercel 创建的开源平台，它使用 Node.js 和 Babel 转译
 
 <img width="716" alt="6-10" src="/image/data/chapter_6/6-10.png">
 
-<center> 生成式 AI 领域 OpenRank Top 10 项目近 5 年变化趋势 </center>
+<center> 图 6.10 生成式 AI 领域 OpenRank Top 10 项目近 5 年变化趋势 </center>
 <br>
 
 <img width="699" alt="6-11" src="/image/data/chapter_6/6-11.png">
 
-<center> 生成式 AI 领域活跃度 Top 10 项目近  5 年变化趋势 </center>
+<center> 图 6.11 生成式 AI 领域活跃度 Top 10 项目近  5 年变化趋势 </center>
 <br>
 
 - langchain 影响力和活跃度双排名第一，备受开发者的关注；
@@ -887,9 +960,13 @@ Next.js 是由 Vercel 创建的开源平台，它使用 Node.js 和 Babel 转译
 
 #### 6.4.3 2023 年生成式 AI 领域项目 OpenRank 和活跃度 Top 10 榜单
 
-**生成式 AI 领域 OpenRank Top 10 项目榜单**
+**1、生成式 AI 领域 OpenRank Top 10 项目榜单**
 
-| 排名  |                 项目名称                 | openrank |
+<center> 表 6.3 生成式 AI 领域 OpenRank 度排行 
+</center>
+<br>
+
+| 排名  |                 项目名称                 | OpenRank |
 |:---:|:------------------------------------:|:--------:|
 |  1  |        langchain-ai/langchain        | 6080.25  |
 |  2  |       huggingface/transformers       | 4422.84  |
@@ -902,7 +979,11 @@ Next.js 是由 Vercel 创建的开源平台，它使用 Node.js 和 Babel 转译
 |  9  |       facebookincubator/velox        | 1589.53  |
 | 10  |          invoke-ai/InvokeAI          | 1571.45  |
 
-**生成式 AI 领域活跃度 Top 10 项目榜单**
+**2、生成式 AI 领域活跃度 Top 10 项目榜单**
+
+<center> 表 6.4 生成式 AI 领域活跃度排行 
+</center>
+<br>
 
 | 排名  |                 项目名称                 | activity |
 |:---:|:------------------------------------:|:--------:|
@@ -919,6 +1000,8 @@ Next.js 是由 Vercel 创建的开源平台，它使用 Node.js 和 Babel 转译
 
 ## 七. 开发者洞察
 
+**开发者**是开源创新全过程的核心参与方，是开源项目及其衍生产品的生产者和供给方，是开源项目的主要贡献者。开发者的整体数量规模和协作机制对开发者整体的贡献量具有决定性影响。本节以个体开发者为单位开展数据洞察，并在国家与地区层面上做适当的聚合分析。
+
 ### 7.1 开发者的地区分布
 
 和前面 1.3 部分的分析类似，以下分析基于 GitHub 上 1000 万个活跃开发者展开。其中正确填写地理位置信息的开发者总量约 200 万人，按照 GitHub 全域注册用户数 1 亿计算，采样比例约为 2%。
@@ -928,7 +1011,7 @@ Next.js 是由 Vercel 创建的开源平台，它使用 Node.js 和 Babel 转译
 首先将 GitHub 上活跃开发者数量在地图上进行可视化分析，如下图所示。
 
 ![7-1.png](/image/data/chapter_7/7-1.png)
-<center> 2023 GitHub 活跃开发者分布图 </center>
+<center> 图 7.1 2023 GitHub 活跃开发者分布图 </center>
 <br>
 
 地图上可以直观地感受 GitHub 开发者大致的地理位置分布。在人口数量众多且互联网发展较快的地区例如中国沿海地区、欧洲地区、美国、印度、巴西东南沿海地区有着最为密集的 GitHub 开发者分布，在其他居住人口少或者互联网较不发达的地区则相对稀疏。
@@ -938,8 +1021,14 @@ Next.js 是由 Vercel 创建的开源平台，它使用 Node.js 和 Babel 转译
 
 ![7-2.png](/image/data/chapter_7/7-2.png)
 
-<center>2023 GitHub 活跃开发者国家 / 地区分布图 </center>
+<center>图 7.2 2023 GitHub 活跃开发者国家 / 地区分布图
+</center>
 <br>
+
+<center> 表 7.1 2023 活跃开发者数量国家 / 地区排名
+</center>
+<br>
+
     
 | 排名 | 国家|活跃数量|
 |:---:|:---:|:---------------:|
@@ -963,10 +1052,12 @@ Next.js 是由 Vercel 创建的开源平台，它使用 Node.js 和 Babel 转译
 
 ![7-4.png](/image/data/chapter_7/7-4.png)
 
-<center>2023 中国活跃开发者分布图 </center>
+<center>图 7.3 2023 中国活跃开发者分布图 </center>
 <br>
 
-<center>2023 中国活跃开发者数量地区排名 </center>
+
+<center> 表 7.2 2023 活跃开发者数量中国地区排名
+</center>
 <br>
 
 |排名 | 地区 | 数量 |
@@ -990,10 +1081,10 @@ Next.js 是由 Vercel 创建的开源平台，它使用 Node.js 和 Babel 转译
 
 ![7-3.png](/image/data/chapter_7/7-3.png)
 
-<center> 中国开发者 OpenRank 影响力分布图 </center>
+<center> 图 7.4 中国开发者 OpenRank 影响力分布图 </center>
 <br>
 
-<center> 中国地区 OpenRank 影响力排名 </center>
+<center> 表 7.3 中国地区 OpenRank 影响力排名 </center>
 <br>
 
 |排名 | 地区 | OpenRank |
@@ -1027,14 +1118,14 @@ Next.js 是由 Vercel 创建的开源平台，它使用 Node.js 和 Babel 转译
 
 ![7-5.png](/image/data/chapter_7/7-5.png)
 
-<center>GitHub 全域开发者 2023 年工作时间打点图</center>
+<center>图 7.5 GitHub 全域开发者 2023 年工作时间打点图</center>
 <br>
 
 **Gitee 全域开发者工作时间分布**
 
 ![7-6.png](/image/data/chapter_7/7-6.png)
 
-<center>Gitee 全域开发者 2023 年工作时间打点图</center>
+<center>图 7.6 Gitee 全域开发者 2023 年工作时间打点图</center>
 <br>
 
 可以明显看出，Gitee 数据更符合东八区作息规律。
@@ -1043,7 +1134,7 @@ Next.js 是由 Vercel 创建的开源平台，它使用 Node.js 和 Babel 转译
 
 ![7-7.png](/image/data/chapter_7/7-7.png)
 
-<center>除去机器人的全域开发者 2023 年工作时间打点图</center>
+<center>图 7.7 除去机器人的全域开发者 2023 年工作时间打点图</center>
 <br>
 
 去掉机器人数据后发现开发者时间分布集中在 6 时 - 21 时这个区间更为普遍，分布更加均匀。
@@ -1058,28 +1149,28 @@ Next.js 是由 Vercel 创建的开源平台，它使用 Node.js 和 Babel 转译
 
 ![7-8.png](/image/data/chapter_7/7-8.png)
 
-<center>NixOS/nixpkgs 2023 年工作时间打点图</center>
+<center>图 7.8 NixOS/nixpkgs 2023 年工作时间打点图</center>
 <br>
 
 2. home-assistant/core
 
 ![7-9.png](/image/data/chapter_7/7-9.png)
 
-<center>home-assistant/core 2023 年工作时间打点图</center>
+<center>图 7.9 home-assistant/core 2023 年工作时间打点图</center>
 <br>
 
 3. microsoft/vscode
 
 ![7-10.png](/image/data/chapter_7/7-10.png)
 
-<center>microsoft/vscode 2023 年工作时间打点图</center>
+<center>图 7.10 microsoft/vscode 2023 年工作时间打点图</center>
 <br>
 
 4. MicrosoftDocs/azure-docs
 
 ![7-11.png](/image/data/chapter_7/7-11.png)
 
-<center>MicrosoftDocs/azure-docss 2023 年工作时间打点图</center>
+<center>图 7.11 MicrosoftDocs/azure-docss 2023 年工作时间打点图</center>
 <br>
 
 **中国仓库 OpenRank 前四名工作时间分布**
@@ -1088,33 +1179,37 @@ Next.js 是由 Vercel 创建的开源平台，它使用 Node.js 和 Babel 转译
 
 ![7-12.png](/image/data/chapter_7/7-12.png)
 
-<center>openHarmony 2023 年工作时间打点图</center>
+<center>图 7.12 openHarmony 2023 年工作时间打点图</center>
 <br>
 
 2. openEuler
 
 ![7-13.png](/image/data/chapter_7/7-13.png)
 
-<center>openEuler 2023 年工作时间打点图</center>
+<center>图 7.13 openEuler 2023 年工作时间打点图</center>
 <br>
 
 3. PaddlePaddle
 
 ![7-14.png](/image/data/chapter_7/7-14.png)
 
-<center>PaddlePaddle 2023 年工作时间打点图</center>
+<center>图 7.14 PaddlePaddle 2023 年工作时间打点图</center>
 <br>
 
 4. MindSpore
 
 ![7-15.png](/image/data/chapter_7/7-15.png)
 
-<center>MindSpore 2023 年工作时间打点图</center>
+<center>图 7.15 MindSpore 2023 年工作时间打点图</center>
 <br>
 
 ### 7.3 开发者角色分析
 
-本部分基于 GitHub 用户在开源仓库中所触发的事件将 GitHub 用户分为探索者、参与者、贡献者、提交者(Committer)四个角色，四种角色定义为：
+本部分基于 GitHub 用户在开源仓库中所触发的事件将 GitHub 用户分为**探索者**、**参与者**、**贡献者**、**提交者**（Committer）四个角色，四种角色定义如下表所示。
+
+<center> 表 7.5 四种开发者角色
+</center>
+<br>
 
 | 角色  | 定义                            | 含义                   |
 |-----|-------------------------------|----------------------|
@@ -1127,7 +1222,14 @@ Next.js 是由 Vercel 创建的开源平台，它使用 Node.js 和 Babel 转译
 
 ![7-16.png](/image/data/chapter_7/7-16.png)
 
+<center>图 7.16 开发者类型关系</center>
+<br>
+
 #### 7.3.1 各角色数量分布
+
+<center> 表 7.6 OpenRank 排名前 10 项目各开发者角色数量分布
+</center>
+<br>
 
 | 仓库名                                      | 探索者   | 参与者   | 贡献者  | 提交者  |
 |------------------------------------------|-------|-------|------|------|
@@ -1141,13 +1243,15 @@ Next.js 是由 Vercel 创建的开源平台，它使用 Node.js 和 Babel 转译
 | odoo/odoo                                | 5078  | 1841  | 930  | 570  |
 | digitalinnovationone/dio-lab-open-source | 3619  | 907   | 504  | 40   |
 | microsoft/winget-pkgs                    | 1852  | 1395  | 1384 | 286  |
+
 <br>
 
 ![7-17.png](/image/data/chapter_7/7-17.png)
 
-<center> 开发者角色分布图 </center>
+<center> 图 7.17 开发者角色分布图 </center>
 <br>
 
+结果表明：
 - 探索者的数量普遍较高，这表明这些项目受到了广泛的关注和支持。godotengine/godot、microsoft/vscode、home-assistant/core 探索者数量远超其他项目，说明了这三个项目受到广泛关注；
 - microsoft/vscode 是参与者与贡献者人数差距最大的项目，而 microsoft/winget-pkgs 二者差距最小；
 - 提交者（Committer）角色方面，NixOS/nixpkgs 项目提交者人数最多，有 2,638 人；digitalinnovationone/dio-lab-open-source 项目提交者数最少。
@@ -1158,11 +1262,15 @@ Next.js 是由 Vercel 创建的开源平台，它使用 Node.js 和 Babel 转译
 
 例如：A 2021 年给 B 项目提交了 PR，但是从未参与 Code Review 工作。2023 年 A review 了 B 项目中的 PR，则称 A 为新增提交者。
 
-以下是详细角色新增情况。
+详细角色新增情况如下图和下表所示。
 
 ![7-18.png](/image/data/chapter_7/7-18.png)
 
-<center>2023 年开源社区角色新增图 </center>
+<center>图 7.18 2023 年开源社区角色新增图 </center>
+<br>
+
+<center> 表 7.7 OpenRank 排名前 10 项目新增开发者角色数量分布
+</center>
 <br>
 
 | 仓库名                                      | 新增提交者 | 新增贡献者 | 新增参与者 | 新增探索者 |
@@ -1179,7 +1287,7 @@ Next.js 是由 Vercel 创建的开源平台，它使用 Node.js 和 Babel 转译
 | microsoft/winget-pkgs                    | 231   | 957   | 485   | 1373  |
 
 
-**结果分析**
+结果表明：
 
 - 最高新增 Stars 的仓库是 godotengine/godot，达到了 22,996，其中有一半的新增来自于 2023.9，是由于当月 Unity 公司发布的新收费策略导致大量游戏开发者寻找开源游戏开发引擎替代品带来的; digitalinnovationone/dio-lab-open-source 和 microsoft/winget-pkgs 的新增探索者最少，分别为 504 和 1,373;
 - 最高新增参与者的仓库是 microsoft/vscode，达到了 10,216；digitalinnovationone/dio-lab-open-source 的新增 Issues 最少，为 732;
@@ -1193,7 +1301,11 @@ Next.js 是由 Vercel 创建的开源平台，它使用 Node.js 和 Babel 转译
 ![7-19.png](/image/data/chapter_7/7-25.png)
 
 
-<center> 开发者角色演化图 </center>
+<center> 图 7.19 开发者角色演化图 </center>
+<br>
+
+<center> 表 7.8 OpenRank 排名前 10 项目角色转化数量分布
+</center>
 <br>
 
 |                  仓库名                  | 贡献者 -> 提交者 | 参与者 -> 贡献者 | 探索者 -> 参与者 |
@@ -1209,7 +1321,7 @@ Next.js 是由 Vercel 创建的开源平台，它使用 Node.js 和 Babel 转译
 | digitalinnovationone/dio-lab-open-source |        0         |        0         |        0         |
 |          microsoft/winget-pkgs           |        49        |        11        |        18        |
 
-**结果分析**
+结果表明：
 
 - 在各社区中，我们可以观察到典型的漏斗模型，即从探索者到参与者，再到贡献者和提交者的演化路径。以 godotengine/godot 为例，有 330 名贡献者成功演化为提交者，131 名参与者演化为贡献者，而 63 名探索者演化为参与者。这一趋势在其他社区也得到了体现，符合社区成员从初次探索到深度参与的一般发展过程。
 - 在一些社区中，例如 NixOS/nixpkgs，我们观察到贡献者向提交者的演化数量相对较大。在该社区中，254 名贡献者成功演化为提交者，这可能代表相对高的代码审查需求，鼓励更多的贡献者深度参与到维护工作中。这种机制可能有助于提高社区代码的质量和稳定性。
@@ -1227,7 +1339,7 @@ Next.js 是由 Vercel 创建的开源平台，它使用 Node.js 和 Babel 转译
     <img src="/image/data/chapter_7/7-20.png" alt="7-20" width="300px"/>
 </div>
 
-<center>机器人事件数趋势（左） 2023 年机器人事件数比例（右）</center>
+<center>图 7.20 机器人事件数趋势（左） 2023 年机器人事件数比例（右）</center>
 <br>
 
 分析 2015 年至 2023 年的机器人活动数据，部分观察如下：
@@ -1240,7 +1352,7 @@ Next.js 是由 Vercel 创建的开源平台，它使用 Node.js 和 Babel 转译
 
 ![7-22.png](/image/data/chapter_7/7-22.png)
 
-<center> GitHub 事件计数的数量和年度增长率（%）的差异（2022 vs 2023）</center>
+<center> 图 7.21 GitHub 事件计数的数量和年度增长率（%）的差异（2022 vs 2023）</center>
 <br>
 
 这幅图表展示了 2022 年与 2023 年间 GitHub 各事件类型的数量变化及其增长率。通过对比这两年的数据，我们可以洞察机器人账号在开发流程中的使用趋势：
@@ -1260,7 +1372,7 @@ Next.js 是由 Vercel 创建的开源平台，它使用 Node.js 和 Babel 转译
 
 ![7-23.png](/image/data/chapter_7/7-23.png)
 
-<center> 机器人账号工作时间分布 </center>
+<center> 图 7.22 机器人账号工作时间分布 </center>
 <br>
 
 - 机器人账号的工作时间分布主要集中在凌晨 0 点至 1 点和中午 12 点至 13 点；
@@ -1271,7 +1383,7 @@ Next.js 是由 Vercel 创建的开源平台，它使用 Node.js 和 Babel 转译
 
 ![7-24.png](/image/data/chapter_7/7-24.png)
 
-<center>2023 年 GitHub 协作机器人事件数量排行榜</center>
+<center>图 7.23 2023 年 GitHub 协作机器人事件数量排行榜</center>
 <br>
 
 ## 八. 案例分析
@@ -1296,7 +1408,7 @@ Next.js 是由 Vercel 创建的开源平台，它使用 Node.js 和 Babel 转译
 
 ![8-1.png](/image/data/chapter_8/8-1.png)
 
-<center>GitHub 中国开发者贡献仓库排行榜（Top 30）</center>
+<center>图 8.1 GitHub 中国开发者贡献仓库排行榜（Top 30）</center>
 <br>
 
 大部分项目是在 OpenRank 大榜中有体现的，比较有趣的项目包括：
@@ -1307,7 +1419,11 @@ Next.js 是由 Vercel 创建的开源平台，它使用 Node.js 和 Babel 转译
 
  <img src="/image/data/chapter_8/8-2.png" alt="8-2" width="400px"/>
 
-> 以上截图来自 [HyperCRX](https://github.com/hypertrons/hypertrons-crx)
+<center>图 8.2 BigDL OpenRank 变化趋势图
+</center>
+<br>
+
+>以上截图来自 [HyperCRX](https://github.com/hypertrons/hypertrons-crx)
   
 - [siyuan-note/siyuan](https://github.com/siyuan-note/siyuan)：思源笔记，一款隐私优先的国产开源知识管理工具，支持双向知识块级引用，保持每月百人的社区活跃规模。支持订阅商业化，价格非常亲民。
 
@@ -1318,3 +1434,7 @@ Next.js 是由 Vercel 创建的开源平台，它使用 Node.js 和 Babel 转译
 - [MaaAssistantArknights/MaaAssistantArknights](https://github.com/MaaAssistantArknights/MaaAssistantArknights) 这个项目很有意思，是明日方舟这款游戏的一个自动化刷日常任务的脚本助手项目，可以在手机模拟器上进行游戏日常任务的自动化执行。这个仓库超过 10k star，每月稳定有 300 多人活跃，非常惊人的活跃度。而且项目完全开源免费，社区维护，且支持所有桌面平台。
 
 ![8-3.png](/image/data/chapter_8/8-3.png)
+
+<center>图 8.3 MaaAssistantArknights 项目截图
+</center>
+<br>
