@@ -247,9 +247,11 @@ OpenRank 指标是由 X-lab 开放实验室所研发，基于开源开发者-项
 
 #### 1.4.1 使用开源许可证的仓库数量
 
-统计了 GitHub 和 Gitee 的活跃仓库采用的开源许可证的数量，如下图所示。
+统计了 GitHub 的活跃仓库采用的开源许可证的数量，如下图所示。
 
-![1-11](/image/data/chapter_1/1-11.png)
+
+<img src="/image/data/chapter_1/1-11.png" alt="1-11" width="500px"/>
+
 
 <center> 图 1.12 使用开源许可证的仓库数量占比 </center>
 <br>
@@ -780,9 +782,6 @@ Next.js 是由 Vercel 创建的开源平台，它使用 Node.js 和 Babel 转译
 
 <img width="728" alt="6-1" src="/image/data/chapter_6/6-1.png">
 
-
-
-
 <center> 图 6.1 不同项目类型数量比例 </center>
 <br>
 
@@ -920,6 +919,54 @@ Next.js 是由 Vercel 创建的开源平台，它使用 Node.js 和 Babel 转译
 - 从上图的排名变化可以看出 Search Engine 和 Vector 的活跃度增速相对较快，Search Engine 的 OpenRank 也提升了两个名次，已经跃居第四大子类，而 Vector 子类还有未爆发的 OpenRank 潜力，其 OpenRank 值已经与 Graph 子类非常接近了；大模型带来的影响目前仍未减退，预计 2024 年 Vector 子类将超过 Graph 子类。
 
 
+#### 6.3.3 数据库领域各子领域下项目的开源象限图
+
+开源象限图共涉及三个度量指标：Activity、Openrank、CommunityVolume。
+其中CommunityVolume与open-digger中的Attention指标计算公式相同，即对一定时间内目标项目的star数和fork数的加权求和：`sum(1*star+2*fork)`。
+
+象限图绘制方法：
+- 1. 把每个数据库子类按activity选取Top 10的项目；
+- 2. 做出 log(openrank)-log(communityvolume) 的 log(x)-log(y) 散点图, log的底数均为2，分别表示空间影响力openrank与时间影响力communityvolume衰减到1所需的半衰次数；
+- 3. 以图上所有点的横坐标均值所对应的纵向线作为纵轴，以图上所有点的纵坐标均值所对应的横向线作为横轴划分为四个象限。
+
+数据库领域子类标签共计18个，选取2023年活跃度占比超过1%的前九个类别统计分析，绘制开源象限图如下：
+![1relational](/image/data/chapter_6/6-12.png)
+
+<center>图 6.8 关系型数据库 OpenRank-CommmunityVolume log-log 开源象限图</center><br />
+
+![2key_value](/image/data/chapter_6/6-13.png)
+<center>图 6.9 键值数据库 OpenRank-CommmunityVolume log-log 开源象限图</center><br />
+
+![3document](/image/data/chapter_6/6-14.png)
+<center>图 6.10 文档型数据库 OpenRank-CommmunityVolume log-log 开源象限图</center><br />
+
+![4search_engine](/image/data/chapter_6/6-15.png)
+<center>图 6.11 搜索引擎 OpenRank-CommmunityVolume log-log 开源象限图</center><br />
+
+![5time_series](/image/data/chapter_6/6-16.png)
+<center>图 6.12 时序数据库 OpenRank-CommmunityVolume log-log 开源象限图</center><br />
+
+![6wide_column](/image/data/chapter_6/6-17.png)
+<center>图 6.13 宽列数据库 OpenRank-CommmunityVolume log-log 开源象限图</center><br />
+
+![7vector](/image/data/chapter_6/6-18.png)
+<center>图 6.14 向量数据库 OpenRank-CommmunityVolume log-log 开源象限图</center><br />
+
+![8graph](/image/data/chapter_6/6-19.png)
+<center>图 6.15 图数据库 OpenRank-CommmunityVolume log-log 开源象限图</center><br />
+
+![9object_oriented](/image/data/chapter_6/6-20.png)
+<center>图 6.16 面向对象数据库 OpenRank-CommmunityVolume log-log 开源象限图</center><br />
+
+![top9子类-所有占比超过1个百分点的子类](/image/data/chapter_6/6-21.png)
+<center>图 6.17 活跃度Top 9子类数据库 OpenRank-CommmunityVolume log-log 开源象限图</center><br />
+
+搜索引擎类两极分化严重，既有像ElasticSearch这样OpenRank和CommmunityVolume都很高的项目，又有像Sphinx和Xapian这样OpenRank和CommmunityVolume都极低的项目。
+
+从第一象限看出：relational、document、searchengine、vector都是openrank影响力较强且CommmunityVolume关注度也较强的数据库类型，而object_oriented则在两方面相对较弱。
+
+从活跃度Top 9子类数据库的开源象限图中的纵向分布可以看出：search_engine、vector两个子类的CommmunityVolume相较于OpenRank更高，有较高的社区声量，相比于其他的子类有较快的发展期望。
+
 ### 6.4 生成式 AI 领域项目分析
 
 本小节参考 [Generative AI Open Source (GenOS) Index](https://www.decibel.vc/articles/launching-the-generative-ai-open-source-genos-index) 中的生成式 AI 领域开源项目，将其分为 tool、model、application 和 infrastructure 四个子类展开分析, 详细洞察结果如下：
@@ -929,12 +976,12 @@ Next.js 是由 Vercel 创建的开源平台，它使用 Node.js 和 Babel 转译
 <img width="712" alt="6-8" src="/image/data/chapter_6/6-8.png">
 
 
-<center> 图 6.8 生成式 AI 各子领域 2019 - 2023 年 OpenRank 变化趋势 </center>
+<center> 图 6.18 生成式 AI 各子领域 2019 - 2023 年 OpenRank 变化趋势 </center>
 <br>
 
 <img width="722" alt="6-9" src="/image/data/chapter_6/6-9.png">
 
-<center> 图 6.9 生成式 AI 各子领域 2019 - 2023 年活跃度变化趋势 </center>
+<center> 图 6.19 生成式 AI 各子领域 2019 - 2023 年活跃度变化趋势 </center>
 <br>
 
 - 根据类别（模型类、工具类、应用类、基础类）划分的分类分析，在活跃度和影响力上总体趋势一致；
@@ -945,12 +992,12 @@ Next.js 是由 Vercel 创建的开源平台，它使用 Node.js 和 Babel 转译
 
 <img width="716" alt="6-10" src="/image/data/chapter_6/6-10.png">
 
-<center> 图 6.10 生成式 AI 领域 OpenRank Top 10 项目近 5 年变化趋势 </center>
+<center> 图 6.20 生成式 AI 领域 OpenRank Top 10 项目近 5 年变化趋势 </center>
 <br>
 
 <img width="699" alt="6-11" src="/image/data/chapter_6/6-11.png">
 
-<center> 图 6.11 生成式 AI 领域活跃度 Top 10 项目近  5 年变化趋势 </center>
+<center> 图 6.21 生成式 AI 领域活跃度 Top 10 项目近  5 年变化趋势 </center>
 <br>
 
 - langchain 影响力和活跃度双排名第一，备受开发者的关注；
