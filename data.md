@@ -6,7 +6,7 @@ outline: deep
 
 ## 概述
 
-2023 中国开源年度报告以深入全面的数据洞察为基础，共分为八大部分。第一部分**总体宏观洞篇**，察通过对基础事件、活跃仓库、活跃用户、开源许可证和编程语言等方面的深入分析，揭示中国在全球开源生态中的全貌。第二部分 **OpenRank 排行榜篇**，提供了全球和中国各领域开源项目、企业、基金会、开发者以及协作机器人的排名，为业界提供全面系统的 OpenRank 指标信息服务。第三部分**技术领域洞察篇**，深入研究了各领域 Top10 榜单和项目变化情况，展示了前沿技术的发展方向和趋势。第四和第五部分为**企业洞察篇**和**基金会洞察篇**，通过演变图和趋势分析，呈现了全球和中国企业、基金会在开源领域中的演化。第六部分**开源项目洞察篇**，深入探讨了不同项目类型、领域和主题的多样性和创新方向。第七部**分开发者洞察篇**，则通过对开发者类型、工作时间分布、地区分布和机器人使用情况的分析，展现了开发者群体的多样性和工作特征。第八部分**案例分析篇**，通过一系列有趣的案例分析，从一个侧面让读者一窥中国开源生态的蓬勃发展。整体而言，数据篇通过丰富多彩的数据洞察与分析，勾勒出中国开源生态在 2023 年的全景图。
+2023 中国开源年度报告以深入全面的数据洞察为基础，共分为八大部分。第一部分**总体宏观洞篇**，察通过对基础事件、活跃仓库、活跃用户、开源许可证和编程语言等方面的深入分析，揭示中国在全球开源生态中的全貌。第二部分 **OpenRank 排行榜篇**，提供了全球和中国各领域开源项目、企业、基金会、开发者以及协作机器人的排名，为业界提供全面系统的 OpenRank 指标信息服务。第三和第四部分为**企业洞察篇**和**基金会洞察篇**，通过演变图和趋势分析，呈现了全球和中国企业、基金会在开源领域中的演化。第五部分**技术领域洞察篇**，深入研究了各领域 Top10 榜单和项目变化情况，展示了前沿技术的发展方向和趋势。第六部分**开源项目洞察篇**，深入探讨了不同项目类型、领域和主题的多样性和创新方向。第七部**分开发者洞察篇**，则通过对开发者类型、工作时间分布、地区分布和机器人使用情况的分析，展现了开发者群体的多样性和工作特征。第八部分**案例分析篇**，通过一系列有趣的案例分析，从一个侧面让读者一窥中国开源生态的蓬勃发展。整体而言，数据篇通过丰富多彩的数据洞察与分析，勾勒出中国开源生态在 2023 年的全景图。
 
 ### 指标介绍
 
@@ -192,7 +192,7 @@ OpenRank 指标是由 X-lab 开放实验室所研发，基于开源开发者-项
 | 14  | Spain            | 28928   | 1.49%  | 19509                 | 67.44%  |
 | 15  | South Korea       | 28325   | 1.46%  | 21811                 | 77.00%  |
 
-
+    
 总体而言，各国的开发者都在不断增加：
 - 美国凭借其在开源领域的先发、以及科技人才优势，位居第一；
 - 按照表中美国总人数（40.9万）进行折算，实际 GitHub 上的美国开发者总人数大约在 2101 万左右，和 GitHub 公布的官方数据（2200 万）偏差大约在 4%；
@@ -249,8 +249,9 @@ OpenRank 指标是由 X-lab 开放实验室所研发，基于开源开发者-项
 
 统计了 GitHub 的活跃仓库采用的开源许可证的数量，如下图所示。
 
-
-<img src="/image/data/chapter_1/1-11.png" alt="1-11" width="500px"/>
+<center>
+<img src="/image/data/chapter_1/1-11.png" alt="1-11" width="450px"/> 
+</center>
 
 
 <center> 图 1.12 使用开源许可证的仓库数量占比 </center>
@@ -466,8 +467,6 @@ OpenRank 指标是由 X-lab 开放实验室所研发，基于开源开发者-项
 <div align="center">
   <img src="/image/data/chapter_3/3-3.png" alt="3-3" width="300px"/>
     <img src="/image/data/chapter_3/3-4.png" alt="3-4" width="400px"/>
-    
-    
 </div>
 
 <center> 图 3.3 中国企业在全球企业中的 OpenRank 占比（左）和 中美企业在项目维度 OpenRank 上的对比（右）</center>
@@ -780,7 +779,8 @@ Next.js 是由 Vercel 创建的开源平台，它使用 Node.js 和 Babel 转译
 
 #### 6.1.1 不同项目类型数量比例
 
-<img width="728" alt="6-1" src="/image/data/chapter_6/6-1.png">
+
+<img width="600" alt="6-1" src="/image/data/chapter_6/6-1.png">
 
 <center> 图 6.1 不同项目类型数量比例 </center>
 <br>
@@ -793,7 +793,7 @@ Next.js 是由 Vercel 创建的开源平台，它使用 Node.js 和 Babel 转译
 
 #### 6.1.2 不同项目类型 OpenRank 加总比例
 
-<img width="691" alt="6-2" src="/image/data/chapter_6/6-2.png">
+<img width="600" alt="6-2" src="/image/data/chapter_6/6-2.png">
 
 <br>
 <center> 图 6.2 不同项目类型 OpenRank 加总比例 </center>
@@ -922,50 +922,80 @@ Next.js 是由 Vercel 创建的开源平台，它使用 Node.js 和 Babel 转译
 #### 6.3.3 数据库领域各子领域下项目的开源象限图
 
 开源象限图共涉及三个度量指标：Activity、Openrank、CommunityVolume。
-其中CommunityVolume与open-digger中的Attention指标计算公式相同，即对一定时间内目标项目的star数和fork数的加权求和：`sum(1*star+2*fork)`。
+其中 CommunityVolume 与 open-digger 中的 Attention 指标计算公式相同，即对一定时间内目标项目的 star 数和 fork 数的加权求和：`sum(1*star+2*fork)`。
 
 象限图绘制方法：
-- 1. 把每个数据库子类按activity选取Top 10的项目；
-- 2. 做出 log(openrank)-log(communityvolume) 的 log(x)-log(y) 散点图, log的底数均为2，分别表示空间影响力openrank与时间影响力communityvolume衰减到1所需的半衰次数；
-- 3. 以图上所有点的横坐标均值所对应的纵向线作为纵轴，以图上所有点的纵坐标均值所对应的横向线作为横轴划分为四个象限。
+1. 把每个数据库子类按 activity 选取 Top 10 的项目；
+2. 做出 `log(openrank)-log(communityvolume)` 的 `log(x)-log(y)` 散点图, log 的底数均为 2，分别表示空间影响力 openrank 与时间影响力 communityvolume 衰减到 1 所需的半衰次数；
+3. 以图上所有点的横坐标均值所对应的纵向线作为纵轴，以图上所有点的纵坐标均值所对应的横向线作为横轴划分为四个象限。
 
-数据库领域子类标签共计18个，选取2023年活跃度占比超过1%的前九个类别统计分析，绘制开源象限图如下：
-![1relational](/image/data/chapter_6/6-12.png)
+数据库领域子类标签共计18个，选取2023年活跃度占比超过1%的前9个类别统计分析，绘制开源象限图如下：
 
+<center>
+<img src="/image/data/chapter_6/6-12.png" width="600px">
+</center>
+
+
+    
 <center>图 6.8 关系型数据库 OpenRank-CommmunityVolume log-log 开源象限图</center><br />
 
-![2key_value](/image/data/chapter_6/6-13.png)
+<center>
+<img src="/image/data/chapter_6/6-13.png" width="600px">
+</center>
+
 <center>图 6.9 键值数据库 OpenRank-CommmunityVolume log-log 开源象限图</center><br />
 
-![3document](/image/data/chapter_6/6-14.png)
+
+<center>
+<img src="/image/data/chapter_6/6-14.png" width="600px">
+</center>
+
 <center>图 6.10 文档型数据库 OpenRank-CommmunityVolume log-log 开源象限图</center><br />
 
-![4search_engine](/image/data/chapter_6/6-15.png)
+<center>
+<img src="/image/data/chapter_6/6-15.png" width="600px">
+</center>
+
 <center>图 6.11 搜索引擎 OpenRank-CommmunityVolume log-log 开源象限图</center><br />
 
-![5time_series](/image/data/chapter_6/6-16.png)
+<center>
+<img src="/image/data/chapter_6/6-16.png" width="600px">
+</center>
+
 <center>图 6.12 时序数据库 OpenRank-CommmunityVolume log-log 开源象限图</center><br />
 
-![6wide_column](/image/data/chapter_6/6-17.png)
+<center>
+<img src="/image/data/chapter_6/6-17.png" width="600px">
+</center>
+
 <center>图 6.13 宽列数据库 OpenRank-CommmunityVolume log-log 开源象限图</center><br />
 
-![7vector](/image/data/chapter_6/6-18.png)
+<center>
+<img src="/image/data/chapter_6/6-18.png" width="600px">
+</center>
+
 <center>图 6.14 向量数据库 OpenRank-CommmunityVolume log-log 开源象限图</center><br />
 
-![8graph](/image/data/chapter_6/6-19.png)
+<center>
+<img src="/image/data/chapter_6/6-19.png" width="600px">
+</center>
 <center>图 6.15 图数据库 OpenRank-CommmunityVolume log-log 开源象限图</center><br />
 
-![9object_oriented](/image/data/chapter_6/6-20.png)
+<center>
+<img src="/image/data/chapter_6/6-20.png" width="600px">
+</center>
 <center>图 6.16 面向对象数据库 OpenRank-CommmunityVolume log-log 开源象限图</center><br />
 
-![top9子类-所有占比超过1个百分点的子类](/image/data/chapter_6/6-21.png)
-<center>图 6.17 活跃度Top 9子类数据库 OpenRank-CommmunityVolume log-log 开源象限图</center><br />
+<center>
+<img src="/image/data/chapter_6/6-21.png" width="600px">
+</center>
+<center>图 6.17 活跃度 Top 9 子类数据库 OpenRank-CommmunityVolume log-log 开源象限图</center><br />
 
-搜索引擎类两极分化严重，既有像ElasticSearch这样OpenRank和CommmunityVolume都很高的项目，又有像Sphinx和Xapian这样OpenRank和CommmunityVolume都极低的项目。
+搜索引擎类两极分化严重，既有像 ElasticSearch 这样 OpenRank 和 CommmunityVolume 都很高的项目，又有像 Sphinx 和 Xapian 这样 OpenRank 和 CommmunityVolume 都极低的项目。
 
-从第一象限看出：relational、document、searchengine、vector都是openrank影响力较强且CommmunityVolume关注度也较强的数据库类型，而object_oriented则在两方面相对较弱。
+从第一象限看出：relational、document、searchengine、vector 都是 openrank 影响力较强且 CommmunityVolume 关注度也较强的数据库类型，而 object_oriented 则在两方面相对较弱。
 
-从活跃度Top 9子类数据库的开源象限图中的纵向分布可以看出：search_engine、vector两个子类的CommmunityVolume相较于OpenRank更高，有较高的社区声量，相比于其他的子类有较快的发展期望。
+从活跃度 Top 9 子类数据库的开源象限图中的纵向分布可以看出：search_engine、vector 两个子类的 CommmunityVolume 相较于 OpenRank 更高，有较高的社区声量，相比于其他的子类有较快的发展期望。
 
 ### 6.4 生成式 AI 领域项目分析
 
@@ -1464,7 +1494,9 @@ Next.js 是由 Vercel 创建的开源平台，它使用 Node.js 和 Babel 转译
 
 - [intel-analytics/BigDL](https://github.com/intel-analytics/BigDL)：将 LLM 运行在 Intel XPU 上的运行库，这个仓库 17 年就建立了，到 2021 年底时近乎已经废弃，但随着 2022 年 LLM 崛起，这个仓库起死回生，目前保持每月 50 人左右的活跃规模。
 
+<center>
  <img src="/image/data/chapter_8/8-2.png" alt="8-2" width="400px"/>
+</center>
 
 <center>图 8.2 BigDL OpenRank 变化趋势图
 </center>
