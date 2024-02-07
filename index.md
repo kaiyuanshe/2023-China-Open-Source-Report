@@ -67,7 +67,7 @@ const memorabiliaMembers = [
     title: `开源技术和商业大事记`,
   },
   {
-    avatar: withBase('/image/home/avatar/王蓉.jpg'),
+    avatar: withBase('/image/home/avatar/王蓉.png'),
     name: '王蓉',
     title: '开源技术大事记',
   },
