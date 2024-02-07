@@ -275,5 +275,5 @@ const copyreaders = [
   </template>
 </VPTeamPageTitle>
 
-<p :style="{fontSize: '1.5rem', textAlign: 'center'}">姜宁、卫剑钒、余杰</p>
+<p :style="{fontSize: '1.5rem', textAlign: 'center'}">郭雪、姜宁、蒋涛、tison、卫剑钒、余杰</p>
 
