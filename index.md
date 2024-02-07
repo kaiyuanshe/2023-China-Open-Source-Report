@@ -25,7 +25,7 @@ features:
     linkText: 官网
   - icon:
       src: "/image/home/yunqi_partnets_logo.jpg"
-      width: 138
+      width: 40
       height: 40
     title: 云启资本
     details: 云启成立于 2014 年，国内最早专注于「科技创新+产业赋能」的专研型创投机构，投资范围覆盖前沿科技、先进制造、企业软件、产业供应链科技等赛道，多次蝉联清科、投中、36 氪等「中国最佳早期投资机构 TOP 10」。作为早期领投方，云启已投资了 170 多家优秀创业公司，其中 30 多家已成长为行业领头羊企业，包括 360 数科(NASDAQ:QFIN)、英科医疗(SZ:300677)、英科再生(SH:688087)、酷家乐、百布、元戎启行、MiniMax、擎朗智能、 XTransfer、环世物流、德风科技等优秀科技公司。同时，云启持续参与共创开源生态，领投了 PingCAP, Zilliz, Jina AI, RisingWave, TabbyML 等多家开源企业，并于 2021、2022、2023 年联合开源社出品中国开源年度报告商业化篇。
@@ -64,10 +64,10 @@ const memorabiliaMembers = [
   {
     avatar: withBase('/image/home/avatar/袁滚滚.jpg'),
     name: '袁滚滚',
-    title: '开源技术大事记、开源商业大事记',
+    title: `开源技术和商业大事记`,
   },
   {
-    avatar: '',
+    avatar: withBase('/image/home/avatar/王蓉.jpg'),
     name: '王蓉',
     title: '开源技术大事记',
   },
@@ -79,17 +79,17 @@ const memorabiliaMembers = [
   {
     avatar: withBase('/image/home/avatar/刘天栋.jpg'),
     name: '刘天栋',
-    title: '开源治理大事记、开源安全大事记、',
+    title: '开源治理大事记、开源安全大事记',
   },
   {
-    avatar: '',
+    avatar: withBase('/image/home/avatar/梁尧.jpg'),
     name: '梁尧',
     title: '开源安全大事记',
   },
   {
-    avatar: '',
+    avatar: withBase('/image/home/avatar/INP.jpg'),
     name: 'INP',
-    title: '',
+    title: '开源商业大事记',
   },
   {
     avatar: withBase('/image/home/avatar/李明康.jpg'),
@@ -108,12 +108,12 @@ const dataPieceMembers = [
   {
     avatar: withBase('/image/home/avatar/黄温瑞.jpg'),
     name: '黄温瑞',
-    title: '宏观洞察、',
+    title: '宏观洞察',
   },
   {
     avatar: withBase('/image/home/avatar/唐烨男.png'),
     name: '唐烨男',
-    title: 'OpenRank 排行榜、',
+    title: 'OpenRank 排行榜',
   },
   {
     avatar: withBase('/image/home/avatar/赵生宇.jpg'),
@@ -123,22 +123,22 @@ const dataPieceMembers = [
   {
     avatar: withBase('/image/home/avatar/伍泰炜.jpg'),
     name: '伍泰炜',
-    title: '企业洞察、',
+    title: '企业洞察',
   },
   {
     avatar: withBase('/image/home/avatar/宁志成.jpg'),
     name: '宁志成',
-    title: '企业洞察、',
+    title: '企业洞察',
   },
   {
     avatar: withBase('/image/home/avatar/夏小雅.jpg'),
     name: '夏小雅',
-    title: '基金会洞察、',
+    title: '基金会洞察',
   },
   {
     avatar: withBase('/image/home/avatar/张欣然.jpg'),
     name: '张欣然',
-    title: '基金会洞察、',
+    title: '基金会洞察',
   },
   {
     avatar: withBase('/image/home/avatar/韩凡宇.jpg'),
@@ -210,15 +210,16 @@ const copyreaders = [
 
 </script>
 
+<VPTeamPageTitle>
+  <template #title>合作媒体</template>
+</VPTeamPageTitle>
+
+<div :style="{display: 'flex', width: '100%'}">
+  <img :style="{display: 'flex', width: '50%', objectFit: 'contain'}" src="/image/home/sf_logo.png"/>
+  <img :style="{display: 'flex', width: '50%', objectFit: 'contain'}" src="/image/home/csdn_logo.jpg"/>
+</div>
+
 <VPTeamPage>
-  <VPTeamPageTitle>
-    <template #title>协作开源社区/单位</template>
-  </VPTeamPageTitle>
-
-  <VPTeamPageTitle>
-    <template #title>合作媒体</template>
-  </VPTeamPageTitle>
-
   <VPTeamPageTitle>
     <template #title>编写团队</template>
   </VPTeamPageTitle>
@@ -265,11 +266,14 @@ const copyreaders = [
       <VPTeamMembers size="small" :members="artWorkers" />
     </template>
   </VPTeamPageSection>
-
-  <VPTeamPageTitle>
-    <template #title>点评专家</template>
-    <template #lead>
-      （按姓氏字⺟顺序列名）
-    </template>
-  </VPTeamPageTitle>
 </VPTeamPage>
+
+<VPTeamPageTitle>
+  <template #title>点评专家</template>
+  <template #lead>
+    （按姓氏字母顺序列名）
+  </template>
+</VPTeamPageTitle>
+
+<p :style="{fontSize: '1.5rem', textAlign: 'center'}">姜宁、卫剑钒、余杰</p>
+
