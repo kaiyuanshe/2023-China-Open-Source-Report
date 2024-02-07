@@ -84,7 +84,7 @@ const memorabiliaMembers = [
   {
     avatar: withBase('/image/home/avatar/梁尧.jpg'),
     name: '梁尧',
-    title: '开源安全大事记',
+    title: '开源治理大事记',
   },
   {
     avatar: withBase('/image/home/avatar/INP.jpg'),
@@ -94,7 +94,7 @@ const memorabiliaMembers = [
   {
     avatar: withBase('/image/home/avatar/李明康.jpg'),
     name: '李明康',
-    title: '开源教育大事',
+    title: '开源教育大事记',
   },
 ]
 
