@@ -8,7 +8,7 @@ export default defineConfig({
   head: [
     [
       'script',
-      { async: '', src: 'https://www.googletagmanager.com/gtag/js?id=G-FG889GL7DW' }
+      { async: '', src: 'https://www.googletagmanager.com/gtag/js?id=G-7CSQ2KPB1F' }
     ],
     [
       'script',
@@ -16,7 +16,7 @@ export default defineConfig({
       `window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
-      gtag('config', 'G-FG889GL7DW');`
+      gtag('config', 'G-7CSQ2KPB1F');`
     ]
   ],
   locales: {
