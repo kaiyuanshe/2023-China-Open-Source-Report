@@ -16,10 +16,10 @@ export const en = defineConfig({
       {
         items: [
           { text: 'Preface', link: '/en/preface' },
-          { text: 'Open Source Milestones', link: '/en/open-source-milestones' },
+          { text: 'Questionnaire', link: '/en/questionnaire' },
           { text: 'Data', link: '/en/data' },
           { text: 'Commercialization', link: '/en/commercialization' },
-          { text: 'Questionnaire', link: '/en/questionnaire' },
+          { text: 'Open Source Milestones', link: '/en/open-source-milestones' },
         ]
       }
     ],

@@ -16,10 +16,10 @@ export const zh = defineConfig({
       {
         items: [
           { text: '卷首语', link: '/preface' },
-          { text: '开源大事记', link: '/open-source-milestones' },
+          { text: '问卷篇', link: '/questionnaire' },
           { text: '数据篇', link: '/data' },
           { text: '商业化篇', link: '/commercialization' },
-          { text: '问卷篇', link: '/questionnaire' },
+          { text: '开源大事记', link: '/open-source-milestones' },
         ]
       }
     ],
