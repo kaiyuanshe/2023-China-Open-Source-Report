@@ -210,14 +210,7 @@ const copyreaders = [
 
 </script>
 
-<VPTeamPageTitle>
-  <template #title>合作媒体</template>
-</VPTeamPageTitle>
 
-<div :style="{display: 'flex', width: '100%'}">
-  <img :style="{display: 'flex', width: '50%', objectFit: 'contain'}" src="/image/home/sf_logo.png"/>
-  <img :style="{display: 'flex', width: '50%', objectFit: 'contain'}" src="/image/home/csdn_logo.jpg"/>
-</div>
 
 <VPTeamPage>
   <VPTeamPageTitle>
@@ -229,31 +222,34 @@ const copyreaders = [
       <VPTeamMembers size="small" :members="convener" />
     </template>
   </VPTeamPageSection>
-  <VPTeamPageSection v-if="memorabiliaMembers">
-    <h5>开源技术大事记</h5>
-    <template #title>开源大事记</template>
-    <template #members>
-      <VPTeamMembers size="small" :members="memorabiliaMembers" />
-    </template>
-  </VPTeamPageSection>
-  <VPTeamPageSection v-if="dataPieceMembers">
-    <template #title>数据篇</template>
-    <template #members>
-      <VPTeamMembers size="small" :members="dataPieceMembers" />
-    </template>
-  </VPTeamPageSection>
-  <VPTeamPageSection v-if="commercializationMembers">
-    <template #title>商业化篇</template>
-    <template #members>
-      <VPTeamMembers size="small" :members="commercializationMembers" />
-    </template>
-  </VPTeamPageSection>
   <VPTeamPageSection v-if="questionnaireDesignMembers">
     <template #title>问卷篇</template>
     <template #members>
       <VPTeamMembers size="small" :members="questionnaireDesignMembers" />
     </template>
   </VPTeamPageSection>
+
+  <VPTeamPageSection v-if="dataPieceMembers">
+    <template #title>数据篇</template>
+    <template #members>
+      <VPTeamMembers size="small" :members="dataPieceMembers" />
+    </template>
+  </VPTeamPageSection>
+
+  <VPTeamPageSection v-if="commercializationMembers">
+    <template #title>商业化篇</template>
+    <template #members>
+      <VPTeamMembers size="small" :members="commercializationMembers" />
+    </template>
+  </VPTeamPageSection>
+
+  <VPTeamPageSection v-if="memorabiliaMembers">
+    <template #title>开源大事记</template>
+    <template #members>
+      <VPTeamMembers size="small" :members="memorabiliaMembers" />
+    </template>
+  </VPTeamPageSection>
+
   <VPTeamPageSection v-if="copyreaders">
     <template #title>整体报告汇总/编辑</template>
     <template #members>
@@ -276,4 +272,13 @@ const copyreaders = [
 </VPTeamPageTitle>
 
 <p :style="{fontSize: '1.5rem', textAlign: 'center'}">郭雪、姜宁、蒋涛、tison、卫剑钒、余杰</p>
+
+<VPTeamPageTitle>
+  <template #title>合作媒体</template>
+</VPTeamPageTitle>
+
+<div :style="{display: 'flex', width: '100%',center}">
+  <img :style="{display: 'flex', width: '50%', objectFit: 'contain'}" src="/image/home/sf_logo.png"/>
+  <img :style="{display: 'flex', width: '50%', objectFit: 'contain'}" src="/image/home/csdn_logo.jpg"/>
+</div>
 
