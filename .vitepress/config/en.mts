@@ -30,7 +30,7 @@ export const en = defineConfig({
     },
 
     editLink: {
-      pattern: 'https://github.com/kaiyuanshe/2023-China-Open-Source-Report/:path',
+      pattern: 'https://github.com/kaiyuanshe/2023-China-Open-Source-Report/edit/main/:path',
       text: 'Edit this page on GitHub'
     },
   },
