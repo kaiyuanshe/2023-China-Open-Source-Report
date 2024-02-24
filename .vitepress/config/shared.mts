@@ -1,7 +1,6 @@
 import { defineConfig } from 'vitepress';
 
 export const shared = defineConfig({
-  cleanUrls: true,
   lastUpdated: true,
 
   base: '/2023-China-Open-Source-Report/',
