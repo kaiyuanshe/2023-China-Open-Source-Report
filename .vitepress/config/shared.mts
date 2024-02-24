@@ -3,7 +3,7 @@ import { defineConfig } from 'vitepress';
 export const shared = defineConfig({
   lastUpdated: true,
 
-  base: '/2023-China-Open-Source-Report/',
+  base: '/2023-china-open-source-report/',
 
   head: [
     ['link', { rel: 'icon', type: 'image/x-icon', href: '/image/China-Open-Source-Report.ico' }],
