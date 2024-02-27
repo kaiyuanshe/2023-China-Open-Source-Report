@@ -1,4 +1,4 @@
-name: Deploy to GitHub Pages
+name: Deploy to GitHub Pages & Gitee Page & Vercel
 
 on:
   push:
@@ -9,10 +9,27 @@ on:
 
 jobs:
   deploy:
-    name: Deploy to GitHub Pages
+    env:
+      VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
+      VERCEL_ORG_ID: ${{ secrets.VERCEL_ORG_ID }}
+      VERCEL_PROJECT_ID: ${{ secrets.VERCEL_PROJECT_ID }}
+      LARK_CHATBOT_HOOK_URL: ${{ secrets.LARK_CHATBOT_HOOK_URL }}
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
+
+      - name: Deploy to Vercel
+        id: vercel-deployment
+        uses: amondnet/vercel-action@v25
+        if: ${{ env.VERCEL_TOKEN && env.VERCEL_ORG_ID && env.VERCEL_PROJECT_ID }}
+        with:
+          vercel-token: ${{ secrets.VERCEL_TOKEN }}
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          vercel-org-id: ${{ secrets.VERCEL_ORG_ID }}
+          vercel-project-id: ${{ secrets.VERCEL_PROJECT_ID }}
+          working-directory: ./
+          vercel-args: --prod
+
       - uses: pnpm/action-setup@v2
         with:
           version: 8
@@ -23,11 +40,9 @@ jobs:
 
       - name: Install dependencies
         run: pnpm i
-      - name: Build website
-        run: pnpm build
 
-      # 部署到 GitHub Pages 的热门选择：
-      # 文档：https://github.com/peaceiris/actions-gh-pages#%EF%B8%8F-docusaurus
+      - name: Build website for GitHub
+        run: pnpm build
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
@@ -35,3 +50,41 @@ jobs:
           # 要发布到 `gh-pages` 分支的构建输出：
           publish_dir: ./.vitepress/dist
           force_orphan: true
+
+      - name: Build website for gitee
+        run: VITE_DEPLOYMENT_ENVIRONMENT=gitee pnpm build
+      - name: Deploy to Gitee Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          personal_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_branch: gitee  # default: gh-pages
+          publish_dir: ./.vitepress/dist
+          force_orphan: true
+
+      - name: Lark notification
+        uses: foxundermoon/feishu-action@v2
+        if: ${{ env.LARK_CHATBOT_HOOK_URL }}
+        with:
+          url: ${{ secrets.LARK_CHATBOT_HOOK_URL }}
+          msg_type: post
+          content: |
+            post:
+              zh_cn:
+                title: Vercel 预览环境
+                content:
+                  - - tag: text
+                      text: Git 仓库：
+                    - tag: a
+                      text: ${{ github.server_url }}/${{ github.repository }}
+                      href: ${{ github.server_url }}/${{ github.repository }}
+                  - - tag: text
+                      text: 代码分支：
+                    - tag: a
+                      text: ${{ github.ref }}
+                      href: ${{ github.server_url }}/${{ github.repository }}/tree/${{ github.ref_name }}
+                  - - tag: text
+                      text: 预览链接：
+                    - tag: a
+                      text: ${{ steps.vercel-deployment.outputs.preview-url }}
+                      href: ${{ steps.vercel-deployment.outputs.preview-url }}
+  
