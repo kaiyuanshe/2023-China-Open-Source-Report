@@ -1,10 +1,11 @@
 import { defineConfig } from 'vitepress';
 
+const deploymentEnvironment = process.env.VITE_DEPLOYMENT_ENVIRONMENT;
+
 export const shared = defineConfig({
-  cleanUrls: true,
   lastUpdated: true,
 
-  base: '/2023-China-Open-Source-Report/',
+  base: deploymentEnvironment === 'gitee' ? '/2023-china-open-source-report/' : deploymentEnvironment === 'vercel'? '' : '/2023-China-Open-Source-Report/',
 
   head: [
     ['link', { rel: 'icon', type: 'image/x-icon', href: '/image/China-Open-Source-Report.ico' }],

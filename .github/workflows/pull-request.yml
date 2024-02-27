@@ -1,14 +1,10 @@
-name: Deploy to GitHub Pages & Gitee Page & Vercel
-
+name: Pull Request
 on:
   push:
-    branches:
+    branches-ignore:
       - main
-    # 如果你想要进一步定义触发条件、路径等，可以查看文档
-    # https://docs.github.com/en/actions/using-workflows/workflow-syntax-for-github-actions#on
-
 jobs:
-  deploy:
+  Build-and-Deploy:
     env:
       VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
       VERCEL_ORG_ID: ${{ secrets.VERCEL_ORG_ID }}
@@ -17,6 +13,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        if: ${{ env.VERCEL_TOKEN && env.VERCEL_ORG_ID && env.VERCEL_PROJECT_ID }}
 
       - name: Deploy to Vercel
         id: vercel-deployment
@@ -28,38 +25,6 @@ jobs:
           vercel-org-id: ${{ secrets.VERCEL_ORG_ID }}
           vercel-project-id: ${{ secrets.VERCEL_PROJECT_ID }}
           working-directory: ./
-          vercel-args: --prod
-
-      - uses: pnpm/action-setup@v2
-        with:
-          version: 8
-      - uses: actions/setup-node@v3
-        with:
-          node-version: 18
-          cache: pnpm
-
-      - name: Install dependencies
-        run: pnpm i
-
-      - name: Build website for GitHub
-        run: pnpm build
-      - name: Deploy to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v3
-        with:
-          personal_token: ${{ secrets.GITHUB_TOKEN }}
-          # 要发布到 `gh-pages` 分支的构建输出：
-          publish_dir: ./.vitepress/dist
-          force_orphan: true
-
-      - name: Build website for gitee
-        run: VITE_DEPLOYMENT_ENVIRONMENT=gitee pnpm build
-      - name: Deploy to Gitee Pages
-        uses: peaceiris/actions-gh-pages@v3
-        with:
-          personal_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_branch: gitee  # default: gh-pages
-          publish_dir: ./.vitepress/dist
-          force_orphan: true
 
       - name: Lark notification
         uses: foxundermoon/feishu-action@v2
@@ -87,4 +52,3 @@ jobs:
                     - tag: a
                       text: ${{ steps.vercel-deployment.outputs.preview-url }}
                       href: ${{ steps.vercel-deployment.outputs.preview-url }}
-  
