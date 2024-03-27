@@ -10,7 +10,7 @@ hero:
   actions:
     - theme: brand
       text: Read 2023 Annual Report Immediately
-      link: /preface
+      link: /en/preface
     - theme: alt
       text: Previous Reports
       link: https://kaiyuanshe.feishu.cn/wiki/wikcnUDeVll6PNzw900yPV71Sxd
