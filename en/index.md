@@ -29,7 +29,7 @@ features:
       width: 40
       height: 40
     title: Yunqi Partners
-    details: 
+    details: Yunqi is a research-based venture capital firm founded in 2014 in China. Its investment focuses on technology innovation and industry empowerment, covering various areas such as advanced manufacturing, enterprise software, cutting-edge technology, and industrial supply chain technology.Yunqi has been consistently ranked among China's Top 10 Best Early Stage Investment Firms by Zero2IPO, China Venture, and 36Kr. As an early-stage lead investor, Yunqi has invested in over 170 startups, out of which 30 have emerged as industry leaders, including Qifu Technology (NASDAQ:QFIN), Intco Medical (SZ:300677), Intco Recycling (SH:688087), Kujiale, Baibu, Deeproute.ai, MiniMax, KEENON Robotics, XTransfer, Worldwide Logistics, and Takfung. Besides, Yunqi also collaborates in co-creating the open-source ecosystem and has led investments in PingCAP, Zilliz, Jina AI, RisingWave, TabbyML, and several other open-source firms. Along with KAIYUANSHE, it has produced the open-source commercialization chapter of the China Open Source Annual Report in 2021, 2022, and 2023.
     link: https://www.yunqi.vc/
     linkText: website
   - icon:
