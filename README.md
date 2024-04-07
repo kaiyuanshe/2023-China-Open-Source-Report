@@ -18,10 +18,10 @@
   - [开源大事记](./open-source-milestones.md)
 - English
   - [Preface](./en/preface.md)
-  - [Questionnaire](./en/questionnaire.md)
-  - [Data](./en/data.md)
-  - [Commercialization](./en/commercialization.md)
-  - [Open Source Milestones](./en/open-source-milestones.md)
+  - [OSS Questionnaire](./en/questionnaire.md)
+  - [OSS Data Analytics](./en/data.md)
+  - [OSS Commercialization](./en/commercialization.md)
+  - [OSS Chronicle](./en/open-source-milestones.md)
 
 ## 许可证
 
