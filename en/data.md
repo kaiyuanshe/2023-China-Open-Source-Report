@@ -64,8 +64,7 @@ However, it must be emphasized that data on the first 30,000 active projects alo
 
 Further to the analysis of disaggregated data on underlying events, the results are shown in the figure below.
 
-
-[1-3](/image/data/chapter_1/1-3.png)
+![1-3](/image/data/chapter_1/1-3.png)
 
 <center>Figure 1.3 GitHub vs. Gitee Active Repository Event Types </center>
 <br> 

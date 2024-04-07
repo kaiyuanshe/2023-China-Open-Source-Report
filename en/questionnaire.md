@@ -58,7 +58,7 @@ First, we conduct surveys from the point of view of age, gender, academic qualif
 
 |                                Age                                |                                Gender                                |
 |:----------------------------------------------------------------:|:----------------------------------------------------------------:|
-| <img src="https://raw.githubusercontent.com//kaiyuanshe/2023-China-Open-Source-Report/main//public/image/questionnaire/3.1-1.png" width="700"> | <img src="https://raw.githubusercontent.com//kaiyuanshe/2023-China-Open-Source-Report/main//public/image/questionnaire/3.1-2.png" width="700"> |
+| <img src="/image/questionnaire/3.1-1.png" width="700"> | <img src="/image/questionnaire/3.1-2.png" width="700"> |
 
 
 The age distribution of respondents to this questionnaire is similar to that of previous years, mainly in the 21-50 age group, with a more balanced age distribution.It is worth noting that the proportion of respondents under 21 years of age is 25.71%, a significant increase from 8.42% last year.The participation of young respondents in the table has increased considerably.
@@ -67,7 +67,7 @@ In terms of gender, male respiondents account for a higher proportion, reaching 
 
 |                                Educational background                                |                                Region                                |
 |:----------------------------------------------------------------:|:----------------------------------------------------------------:|
-| <img src="https://raw.githubusercontent.com//kaiyuanshe/2023-China-Open-Source-Report/main//public/image/questionnaire/3.1-3.png" width="700"> | <img src="https://raw.githubusercontent.com//kaiyuanshe/2023-China-Open-Source-Report/main//public/image/questionnaire/3.1-4.png" width="700"> |
+| <img src="/image/questionnaire/3.1-3.png" width="700"> | <img src="/image/questionnaire/3.1-4.png" width="700"> |
 
 Respondents generaly have an educational background of at least a bachelor's degree; in urban distribution, the majority of the respondents are from Jiangsu, Sichuan and Shanghai, partly because our online sources of questionnaire collection are in those cities.There are also more interviewees in Beijing and Guangdong provinces, and there is a more consistent distribution of developers in the overall distribution and data sets.
 
@@ -75,7 +75,7 @@ Respondents generaly have an educational background of at least a bachelor's deg
 
 |                  Industry                  |                      Career status                     |
 | :----------------------------------------: | :----------------------------------------------------: |
-| <img src="https://raw.githubusercontent.com//kaiyuanshe/2023-China-Open-Source-Report/main//public/image/questionnaire/3.1-5.png"> | <img src="https://raw.githubusercontent.com//kaiyuanshe/2023-China-Open-Source-Report/main//public/image/questionnaire/3.1-6.png" width="700">  |
+| <img src="/image/questionnaire/3.1-5.png"> | <img src="/image/questionnaire/3.1-6.png" width="700">  |
 
 The majority of the respondents are in the Internet/IT / electronic/ communications industry, accounting for 72.23%, indicating that the survey primarily covers the field of science and technology.
 
@@ -87,7 +87,7 @@ In terms of professional status, 43.20% of students are in school, followed by b
 
 |       Role of open source communities      |               Time to contact open source              |
 | :----------------------------------------: | :----------------------------------------------------: |
-| <img src="https://raw.githubusercontent.com//kaiyuanshe/2023-China-Open-Source-Report/main//public/image/questionnaire/3.1-7.png"> | <img src="https://raw.githubusercontent.com//kaiyuanshe/2023-China-Open-Source-Report/main//public/image/questionnaire/3.1-8.png" width="700"> |
+| <img src="/image/questionnaire/3.1-7.png"> | <img src="/image/questionnaire/3.1-8.png" width="700"> |
 
 The survey shows that the vast majority of members of open source communities are users (73.37%), while close to half of the participants (49.03%) and some contributors (26.51%).
 
@@ -97,7 +97,7 @@ We have cross-analyze the question "To what extent do you think you are a member
 
 | Extend of Considering Oneself a Part of the Open Source Community |
 | :------------------------------------------------------: |
-|  <img src="https://raw.githubusercontent.com//kaiyuanshe/2023-China-Open-Source-Report/main//public/image/questionnaire/3.1-9.png" width="700">  |
+|  <img src="/image/questionnaire/3.1-9.png" width="700">  |
 
 It can be seen that there is a greater sense of belonging among the maintainers, contributors, ecosystem operators than participants and users in the open source community.
 
@@ -107,7 +107,7 @@ The following questions were addressed to respondents who had a role in the open
 
 |        Reason for Selecting Open Source Products       |               Factors Influencing Choice               |
 | :----------------------------------------------------: | :---------------------------------------------------: |
-| <img src="https://raw.githubusercontent.com//kaiyuanshe/2023-China-Open-Source-Report/main//public/image/questionnaire/3.2-1.png" width="700"> | <img src="https://raw.githubusercontent.com//kaiyuanshe/2023-China-Open-Source-Report/main//public/image/questionnaire/3.2-2.png" width="700"> |
+| <img src="/image/questionnaire/3.2-1.png" width="700"> | <img src="/image/questionnaire/3.2-2.png" width="700"> |
 
 The main reason that users chose to use open source software is free of charge for their products, followed by further development and a favourable community environment.
 
@@ -115,7 +115,7 @@ In selecting open source products, participants are more focused on the level of
 
 |         Issues Encounterred When Using Open Source Products        |    Factors Prompting Open Source Contributions   |
 | :----------------------------------------------------: | :----------------------------------------------------: |
-| <img src="https://raw.githubusercontent.com//kaiyuanshe/2023-China-Open-Source-Report/main//public/image/questionnaire/3.2-3.png" width="700"> | <img src="https://raw.githubusercontent.com//kaiyuanshe/2023-China-Open-Source-Report/main//public/image/questionnaire/3.2-4.png" width="700"> |
+| <img src="/image/questionnaire/3.2-3.png" width="700"> | <img src="/image/questionnaire/3.2-4.png" width="700"> |
 
 Among the problems encountered, the most common is the lack of documentation for the project, followed by an unstable update.
 
@@ -125,7 +125,7 @@ Factors such as personal interest, community atmosphere and technological upgrad
 
 |             Interested Technical Directions            |                Known Open Source License               |
 | :----------------------------------------------------: | :----------------------------------------------------: |
-| <img src="https://raw.githubusercontent.com//kaiyuanshe/2023-China-Open-Source-Report/main//public/image/questionnaire/3.2-5.png" width="700"> |  <img src="https://raw.githubusercontent.com//kaiyuanshe/2023-China-Open-Source-Report/main//public/image/questionnaire/3.2-6.png" width="700"> |
+| <img src="/image/questionnaire/3.2-5.png" width="700"> |  <img src="/image/questionnaire/3.2-6.png" width="700"> |
 
 The interviewees show strong interest in artificial intelligence, accounting for 67.43%, followed by development tools, containerization and cloud computing.
 
@@ -135,7 +135,7 @@ For open source licenses, Apache is the most popular option, followed by MIT and
 
 |      Ways to Retrieve Open Source Products             |     Communication Methods with the Community            |
 | :----------------------------------------------------: | :----------------------------------------------------: |
-| <img src="https://raw.githubusercontent.com//kaiyuanshe/2023-China-Open-Source-Report/main//public/image/questionnaire/3.2-7.png" width="700"> | <img src="https://raw.githubusercontent.com//kaiyuanshe/2023-China-Open-Source-Report/main//public/image/questionnaire/3.2-8.png" width="700"> |
+| <img src="/image/questionnaire/3.2-7.png" width="700"> | <img src="/image/questionnaire/3.2-8.png" width="700"> |
 
 When searching for open source products, most people search through code-hosting platforms, technical communities or media recommendations, and search engines.
 
@@ -143,7 +143,7 @@ Communication with open source communities is mainly in the form of domestic com
 
 |     Frequently Used Products / Technology Community    |           Media to Get Open Source Information          |
 | :----------------------------------------------------: | :-----------------------------------------------------: |
-| <img src="https://raw.githubusercontent.com//kaiyuanshe/2023-China-Open-Source-Report/main//public/image/questionnaire/3.2-9.png" width="700"> | <img src="https://raw.githubusercontent.com//kaiyuanshe/2023-China-Open-Source-Report/main//public/image/questionnaire/3.2-10.png" width="700"> |
+| <img src="/image/questionnaire/3.2-9.png" width="700"> | <img src="/image/questionnaire/3.2-10.png" width="700"> |
 
 Interviewees are mainly engaged through a code hosting platform and open source community participation. In addition, a large number of respondents participate in open source communities through domestic technical forums.
 
@@ -157,7 +157,7 @@ This section's questions are aimed at respondents whose roles in the open source
 
 |      Participation in Open Source Project Activity     |        Time of Weekly Open Source Participation        |
 | :----------------------------------------------------: | :----------------------------------------------------: |
-| <img src="https://raw.githubusercontent.com//kaiyuanshe/2023-China-Open-Source-Report/main//public/image/questionnaire/3.3-1.png" width="700"> | <img src="https://raw.githubusercontent.com//kaiyuanshe/2023-China-Open-Source-Report/main//public/image/questionnaire/3.3-2.png" width="800"> |
+| <img src="/image/questionnaire/3.3-1.png" width="700"> | <img src="/image/questionnaire/3.3-2.png" width="800"> |
 
 One third of student developers have been involved in open-source activities such as Google Summer (GSoC) and Open Source Lighting Scheme (OSPP); more than half of contributors have been involved in open source activities for more than 5 hours a week, and more than 10% of contributors have participated in open source activities for 35 hours a week, nearly reaching the standard of full-time developers.
 
@@ -165,7 +165,7 @@ One third of student developers have been involved in open-source activities suc
 
 |         Main Open Source Contribution Platforms         | Commonly Used Development Laungauges for Open Source Contributions|
 | :----------------------------------------------------: | :-------------------------------------------------------: |
-| <img src="https://raw.githubusercontent.com//kaiyuanshe/2023-China-Open-Source-Report/main//public/image/questionnaire/3.3-3.png" width="270"> | <img src="https://raw.githubusercontent.com//kaiyuanshe/2023-China-Open-Source-Report/main//public/image/questionnaire/3.3-4.png" width="700">  |
+| <img src="/image/questionnaire/3.3-3.png" width="270"> | <img src="/image/questionnaire/3.3-4.png" width="700">  |
 
 GitHub remains the preferred platform for the most respondents, occupying a dominant position, followed by Gitee and GitLab. This indicates that among Chinese developers, GitHub still holds significant influence, although domestic platforms are gradually emerging. The main development languages used include Python, Java, C, JavaScript, Go. In addition, HTML/CSS, TypeScript and others are given a high number of choices.
 
@@ -173,7 +173,7 @@ GitHub remains the preferred platform for the most respondents, occupying a domi
 
 |            Main Types of Contributions                 |            Types of Contributed Projects                |
 | :----------------------------------------------------: | :----------------------------------------------------: |
-| <img src="https://raw.githubusercontent.com//kaiyuanshe/2023-China-Open-Source-Report/main//public/image/questionnaire/3.3-5.png" width="700"> | <img src="https://raw.githubusercontent.com//kaiyuanshe/2023-China-Open-Source-Report/main//public/image/questionnaire/3.3-6.png" width="600"> |
+| <img src="/image/questionnaire/3.3-5.png" width="700"> | <img src="/image/questionnaire/3.3-6.png" width="600"> |
 
 Interviewees contribute to open source projects mainly by writing codes and documents. In addition, open source advocacy, open source community operations and facilitating community activities are also common contribution methods.
 
@@ -183,7 +183,7 @@ The types of open-source project that contributed are mainly concentrated in lib
 
 |                       Incentives                       |               Sources of Financial Return              |
 | :----------------------------------------------------: | :----------------------------------------------------: |
-| <img src="https://raw.githubusercontent.com//kaiyuanshe/2023-China-Open-Source-Report/main//public/image/questionnaire/3.3-7.png" width="700"> | <img src="https://raw.githubusercontent.com//kaiyuanshe/2023-China-Open-Source-Report/main//public/image/questionnaire/3.3-8.png" width="400"> |
+| <img src="/image/questionnaire/3.3-7.png" width="700"> | <img src="/image/questionnaire/3.3-8.png" width="400"> |
 
 Various incentives have been positively evaluated, indicating that the diversity of incentives has had a positive impact on open source participation by developers. In particular, respondents believe that incentives for honour and social interaction have a more significant positive impact on contributions.
 
@@ -197,7 +197,7 @@ This section of the question is addressed to interviewees who are â€œoperatorsâ€
 
 |                Number of Community Users               |                    Active Developers                   |
 | :----------------------------------------------------: | :----------------------------------------------------: |
-| <img src="https://raw.githubusercontent.com//kaiyuanshe/2023-China-Open-Source-Report/main//public/image/questionnaire/3.4-1.png" width="300"> | <img src="https://raw.githubusercontent.com//kaiyuanshe/2023-China-Open-Source-Report/main//public/image/questionnaire/3.4-2.png" width="250"> |
+| <img src="/image/questionnaire/3.4-1.png" width="300"> | <img src="/image/questionnaire/3.4-2.png" width="250"> |
 
 Nearly 60% of operators belong to open source communities with fewer than 200 users, while almost 30% belong to communities with over 500 users. More than half of the operators belong to the communities with  fewer than 20 active developers.
 
@@ -205,7 +205,7 @@ Nearly 60% of operators belong to open source communities with fewer than 200 us
 
 |               Community Management                      |             Community Commercial Support               |
 | :-------------------------------------------------------------: | :-------------------------------------------------------------: |
-| <img src="https://raw.githubusercontent.com//kaiyuanshe/2023-China-Open-Source-Report/main//public/image/questionnaire/3.4-3.png" style="width:500px;"> | <img src="https://raw.githubusercontent.com//kaiyuanshe/2023-China-Open-Source-Report/main//public/image/questionnaire/3.4-4.png" style="width:300px;"> |
+| <img src="/image/questionnaire/3.4-3.png" style="width:500px;"> | <img src="/image/questionnaire/3.4-4.png" style="width:300px;"> |
 
 About half of the communities have clear governance structures and professionals responsible for day-to-day operations. At the same time, communities have generally developed clear norms and provided updated documentation to support member inclusion.
 
@@ -215,7 +215,7 @@ Most open source communities have commercial support and are mainly in the form 
 
 |      Usage of Open Source Software in Enterprise       |    Agreement with commercialization of Open Source Projects   |
 | :----------------------------------------------------: | :----------------------------------------------------: |
-| <img src="https://raw.githubusercontent.com//kaiyuanshe/2023-China-Open-Source-Report/main//public/image/questionnaire/3.4-5.png" width="600"> | <img src="https://raw.githubusercontent.com//kaiyuanshe/2023-China-Open-Source-Report/main//public/image/questionnaire/3.4-6.png" width="350"> |
+| <img src="/image/questionnaire/3.4-5.png" width="600"> | <img src="/image/questionnaire/3.4-6.png" width="350"> |
 
 The vast majority of businesses use open-source software, with a clear ratio of 5:6 between samples with clear usage requirements and regulatory norms and those lacking corresponding management standards. This indicates that while some companies emphasize standards and management when using open source software, a large proportion of enterprises are still more loosely regulated, which may be influenced by factors such as company size, industry differences, and understanding of open source software.
 
@@ -227,13 +227,13 @@ The level of acceptance for the use of open source projects for commercializatio
 
 |         Development of Open Source Communities         |
 | :----------------------------------------------------: |
-| <img src="https://raw.githubusercontent.com//kaiyuanshe/2023-China-Open-Source-Report/main//public/image/questionnaire/3.5-1.png" width="500"> |
+| <img src="/image/questionnaire/3.5-1.png" width="500"> |
 
 Overall, the respondents generally view the future development of open sources in the country as positive in all its aspects.
 
 | Characteristics of the Continuous Development of Open Source Projects |  Evaluation Indicators of Open Source Projects |
 | :-------------------------------------------------------------------: | :----------------------------------------------------: |
-|         <img src="https://raw.githubusercontent.com//kaiyuanshe/2023-China-Open-Source-Report/main//public/image/questionnaire/3.5-2.png" width="700"> | <img src="https://raw.githubusercontent.com//kaiyuanshe/2023-China-Open-Source-Report/main//public/image/questionnaire/3.5-3.png" width="700"> |
+|         <img src="/image/questionnaire/3.5-2.png" width="700"> | <img src="/image/questionnaire/3.5-3.png" width="700"> |
 
 The respondents believe that the most important characteristic that affects the health and sustainability of an open source community is the speed of a rapid community response, and that new and emerging contributors with a continuing influx can be transformed into long-term contributors. Demonstrating long-term sustainability is critical to successful community development.
 
@@ -243,13 +243,13 @@ When evaluating open source projects, respondents mainly focus on project influe
 
 |                 AI Impact on Developers                |        AI Future Role in Open Source Communities       |
 | :----------------------------------------------------: | :----------------------------------------------------: |
-| <img src="https://raw.githubusercontent.com//kaiyuanshe/2023-China-Open-Source-Report/main//public/image/questionnaire/3.5-4.png" width="700"> | <img src="https://raw.githubusercontent.com//kaiyuanshe/2023-China-Open-Source-Report/main//public/image/questionnaire/3.5-5.png" width="700"> |
+| <img src="/image/questionnaire/3.5-4.png" width="700"> | <img src="/image/questionnaire/3.5-5.png" width="700"> |
 
 The survey results show that developers are more optimistic about the impact of artificial intelligence technologies on open source projects, especially in terms of greater application prospects for efficiency, automated testing, data analysis and project safety.
 
 | Challenges for Artificial Intelligence in Open Source Ecosystem |
 | :-----------------------------------------------------------: |
-|     <img src="https://raw.githubusercontent.com//kaiyuanshe/2023-China-Open-Source-Report/main//public/image/questionnaire/3.5-6.png" width="400">    |
+|     <img src="/image/questionnaire/3.5-6.png" width="400">    |
 
 In addition, issues of privacy and data security, transparency and ethics are seen as major challenges facing artificial intelligence technologies in open source ecosystem, indicating the need to balance technological challenges and social considerations in AI technology applications.
 
