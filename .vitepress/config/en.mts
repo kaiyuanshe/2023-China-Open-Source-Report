@@ -8,7 +8,7 @@ export const en = defineConfig({
 
   themeConfig: {
     nav: [
-      { text: 'Home', link: '/' },
+      { text: 'Home', link: '/en' },
       { text: 'Annual report of previous years', link: 'https://kaiyuanshe.feishu.cn/wiki/wikcnUDeVll6PNzw900yPV71Sxd', target: '_blank' }
     ],
 
@@ -16,10 +16,10 @@ export const en = defineConfig({
       {
         items: [
           { text: 'Preface', link: '/en/preface' },
-          { text: 'Questionnaire', link: '/en/questionnaire' },
-          { text: 'Data', link: '/en/data' },
-          { text: 'Commercialization', link: '/en/commercialization' },
-          { text: 'Open Source Milestones', link: '/en/open-source-milestones' },
+          { text: 'OSS Questionnaire', link: '/en/questionnaire' },
+          { text: 'OSS Data Analytics', link: '/en/data' },
+          { text: 'OSS Commercialization', link: '/en/commercialization' },
+          { text: 'OSS Chronicle', link: '/en/open-source-milestones' },
         ]
       }
     ],
