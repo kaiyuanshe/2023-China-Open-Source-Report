@@ -70,22 +70,22 @@ onMounted(() => {
   <ec-legend top="center" right="0" />
   <ec-tooltip trigger="item"/>
   <ec-pie-chart
-    :radius="['40%', '70%']"
-    :avoidLabelOverlap="false"
-    :label="{ show: false, position: 'center' }"
-    :emphasis="{
-      label: {
-        show: true,
-        fontSize: 40,
-        fontWeight: 'bold'
+    radius='["40%", "70%"]'
+    avoidLabelOverlap="false"
+    label='{ "show": false, "position": "center" }'
+    emphasis='{
+      "label": {
+        "show": true,
+        "fontSize": 40,
+        "fontWeight": "bold"
       }
-    }"
-    :labelLine="{ show: false }"
-    :data="[
-      { value: 0.7337, name: '男' },
-      { value: 0.2583, name: '女' },
-      { value: 0.008, name: '其他' }
-    ]"
+    }'
+    labelLine='{ "show": false }'
+    data='[
+      { "value": 0.7337, "name": "男" },
+      { "value": 0.2583, "name": "女" },
+      { "value": 0.008, "name": "其他" }
+    ]'
   />
 </ec-svg-renderer>
 
