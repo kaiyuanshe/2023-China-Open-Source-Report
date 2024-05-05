@@ -2,7 +2,25 @@
 outline: deep
 ---
 
+<script setup>
+import { ref } from 'vue'
+import QuestionnaireTable from './components/QuestionnaireTable.vue'
+
+const count = ref(0)
+</script>
+
 # 问卷篇
+
+The count is: {{ count }}
+
+<button :class="$style.button" @click="count++">Increment</button>
+
+<style module>
+.button {
+  color: red;
+  font-weight: bold;
+}
+</style>
 
 ## 一. 报告背景
 
@@ -56,6 +74,10 @@ outline: deep
 首先，我们从年龄、性别、学历、常驻城市、所处行业、职业身份，角度进行调查，通过这些问题可以了解参与者的基本信息，从而分析开源社区的受众群体特征。
 
 #### 3.1.1 年龄、性别、学历、城市
+
+<QuestionnaireTable :titles="['年龄', '性别']" />
+
+
 
 |                                年龄                                |                                性别                                |
 |:----------------------------------------------------------------:|:----------------------------------------------------------------:|
