@@ -6,7 +6,7 @@
     "preview": "vitepress preview"
   },
   "dependencies": {
-    "echarts-jsx": "^1.2.0-rc.1"
+    "echarts-jsx": "^1.2.0-rc.2"
   },
   "devDependencies": {
     "@types/node": "^20.12.7",

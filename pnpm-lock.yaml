@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       echarts-jsx:
-        specifier: ^1.2.0-rc.1
-        version: 1.2.0-rc.1
+        specifier: ^1.2.0-rc.2
+        version: 1.2.0-rc.2
     devDependencies:
       '@types/node':
         specifier: ^20.12.7
@@ -480,8 +480,8 @@ packages:
   dom-renderer@2.1.4:
     resolution: {integrity: sha512-Aw/apnVyQonjHrKz1EiypOcyTQmWzXWSpNOjGEi9lZqrwEZ4YsxHe+xqyA0n3sKb7tCr8MP8efC+xsviVTP48g==}
 
-  echarts-jsx@1.2.0-rc.1:
-    resolution: {integrity: sha512-tDilmfDfEWWX75k9z1E6I800p4kEor2A3FAw/4KRFBamvF9SZA2X3d0144s3peVd1HkSDiFEGKDLhyCq5422yw==}
+  echarts-jsx@1.2.0-rc.2:
+    resolution: {integrity: sha512-w8RmaT78TWa7HwScahg4EHts3hpKtFPbTX9NfULV0rH42MDmEK8KSfQ9qpQGPWpD02nZj7NBoU/HTzKjXAurKw==}
     peerDependencies:
       '@webcomponents/webcomponentsjs': ^2.8
 
@@ -1080,7 +1080,7 @@ snapshots:
     transitivePeerDependencies:
       - typescript
 
-  echarts-jsx@1.2.0-rc.1:
+  echarts-jsx@1.2.0-rc.2:
     dependencies:
       dom-renderer: 2.1.4
       echarts: 5.5.0

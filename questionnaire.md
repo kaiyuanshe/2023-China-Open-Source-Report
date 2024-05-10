@@ -71,7 +71,7 @@ onMounted(() => {
   <ec-tooltip trigger="item"/>
   <ec-pie-chart
     radius='["40%", "70%"]'
-    avoidLabelOverlap="false"
+    avoid-label-overlap="false"
     label='{ "show": false, "position": "center" }'
     emphasis='{
       "label": {
@@ -80,7 +80,7 @@ onMounted(() => {
         "fontWeight": "bold"
       }
     }'
-    labelLine='{ "show": false }'
+    label-line='{ "show": false }'
     data='[
       { "value": 0.7337, "name": "男" },
       { "value": 0.2583, "name": "女" },
