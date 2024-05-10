@@ -5,8 +5,11 @@
     "build": "vitepress build",
     "preview": "vitepress preview"
   },
+  "dependencies": {
+    "echarts-jsx": "^1.2.0-rc.2"
+  },
   "devDependencies": {
-    "@types/node": "^20.11.20",
-    "vitepress": "1.0.0-rc.36"
+    "@types/node": "^20.12.7",
+    "vitepress": "^1.1.4"
   }
 }

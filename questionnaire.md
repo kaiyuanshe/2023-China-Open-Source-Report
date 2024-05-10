@@ -2,6 +2,14 @@
 outline: deep
 ---
 
+<script setup>
+import { onMounted } from 'vue';
+
+onMounted(() => {
+  import('echarts-jsx');
+});
+</script>
+
 # 问卷篇
 
 ## 一. 报告背景
@@ -56,6 +64,30 @@ outline: deep
 首先，我们从年龄、性别、学历、常驻城市、所处行业、职业身份，角度进行调查，通过这些问题可以了解参与者的基本信息，从而分析开源社区的受众群体特征。
 
 #### 3.1.1 年龄、性别、学历、城市
+
+<ec-svg-renderer style="height: 50vh">
+  <ec-title text="性别" />
+  <ec-legend top="center" right="0" />
+  <ec-tooltip trigger="item"/>
+  <ec-pie-chart
+    radius='["40%", "70%"]'
+    avoid-label-overlap="false"
+    label='{ "show": false, "position": "center" }'
+    emphasis='{
+      "label": {
+        "show": true,
+        "fontSize": 40,
+        "fontWeight": "bold"
+      }
+    }'
+    label-line='{ "show": false }'
+    data='[
+      { "value": 0.7337, "name": "男" },
+      { "value": 0.2583, "name": "女" },
+      { "value": 0.008, "name": "其他" }
+    ]'
+  />
+</ec-svg-renderer>
 
 |                                年龄                                |                                性别                                |
 |:----------------------------------------------------------------:|:----------------------------------------------------------------:|
